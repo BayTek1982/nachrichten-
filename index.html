@@ -192,6 +192,7 @@ async function ladeIndex(){
   catch{ hinweis('Die Übersicht konnte nicht geladen werden. Bitte später noch einmal „Neu laden“ tippen.'); return; }
   index.sort((a,b)=> b.datum.localeCompare(a.datum));
   const sel = $('auswahl'); sel.replaceChildren();
+  sel.hidden = !index.length;
   if (!index.length){ hinweis('Noch keine Ausgabe da – die erste kommt mit dem nächsten Morgen-Briefing.'); $('inhalt').hidden = true; return; }
   index.forEach((a,i)=> sel.append(el('option',{value:a.datum}, (i===0?'Neueste: ':'') + datumText(a.datum))));
   const wunsch = new URLSearchParams(location.search).get('tag');
