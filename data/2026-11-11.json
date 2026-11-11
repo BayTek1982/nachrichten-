@@ -1,0 +1,82 @@
+{
+  "datum": "2026-11-11",
+  "typ": "werktag",
+  "erstellt": "2026-11-11T19:55:00+01:00",
+  "schlagzeile": "DAX schließt auf Rekordhoch – KI- und Chipwerte erholen sich dank CoreWeave",
+  "kurz": [
+    "Erste Ausgabe, erstellt am Mittwochabend: Der DAX ist auf den höchsten Schlussstand seiner Geschichte gestiegen.",
+    "Auslöser war vor allem der KI-Cloud-Anbieter CoreWeave: Er hat starke Aussichten gemeldet, seine Aktie stieg um rund 25 %.",
+    "Das hat die Chipwerte nach dem Ausverkauf der letzten Tage wieder nach oben gezogen – in den USA steigt der Nasdaq um gut 2 %, Nvidia erholt sich um fast 5 %.",
+    "Im DAX glänzten Siemens Energy (Rekordzahlen, großer Aktienrückkauf) und Infineon, Rheinmetall fiel dagegen deutlich.",
+    "Sorgen machen weiter die Zinsen: Nach der zu hohen US-Inflation von gestern rechnen Anleger mit einer weiteren Zinserhöhung der Fed im Dezember. Die 10-jährige US-Rendite liegt bei knapp 5 %.",
+    "Bitcoin hält sich knapp über 74.000 Dollar, nachdem er auf den tiefsten Stand seit August gefallen war.",
+    "Morgen stehen in Deutschland viele Quartalszahlen an (Siemens, Allianz, Munich Re), am Abend Cisco und Applied Materials."
+  ],
+  "kennzahlen": [
+    { "gruppe": "Deutschland (Schluss heute)", "werte": [
+      { "name": "DAX", "wert": "26.662,77", "veraenderung": 1.20, "hinweis": "Rekord-Schlussstand" },
+      { "name": "MDAX", "wert": "31.074,69", "veraenderung": 0.13 },
+      { "name": "Siemens Energy", "wert": "132,92 €", "veraenderung": 9.42, "hinweis": "DAX-Spitze" },
+      { "name": "Rheinmetall", "wert": "797,10 €", "veraenderung": -6.84, "hinweis": "DAX-Schlusslicht" }
+    ]},
+    { "gruppe": "USA (Handel läuft noch, Stand ca. 19:15 Uhr)", "werte": [
+      { "name": "Dow Jones", "wert": "52.424", "veraenderung": 0.37 },
+      { "name": "S&P 500", "wert": "7.635,60", "veraenderung": 1.52 },
+      { "name": "Nasdaq", "wert": "25.602", "veraenderung": 2.14 },
+      { "name": "Nvidia", "wert": "176,66 $", "veraenderung": 4.66 }
+    ]},
+    { "gruppe": "Rohstoffe, Krypto & Zinsen", "werte": [
+      { "name": "Öl (WTI)", "wert": "87,18 $", "veraenderung": 1.32 },
+      { "name": "Gold", "wert": "4.001 $", "veraenderung": -0.73 },
+      { "name": "Bitcoin", "wert": "74.337 $", "veraenderung": 1.28, "hinweis": "tiefster Stand seit August war heute" },
+      { "name": "US-Rendite 10 J.", "wert": "4,998 %", "hinweis": "knapp unter 5 %", "umgekehrt": true },
+      { "name": "VIX", "wert": "17,54", "veraenderung": -9.87, "umgekehrt": true }
+    ]}
+  ],
+  "maerkte": [
+    { "titel": "Deutschland", "text": [
+      "Der DAX hat den dritten Tag in Folge zugelegt und mit 26.662,77 Punkten so hoch geschlossen wie noch nie. Bis zum Rekord im Tagesverlauf vom letzten Donnerstag fehlen nur noch rund 30 Punkte.",
+      "Siemens Energy sprang nach Rekordzahlen und einem Aktienrückkauf von bis zu 9 Milliarden Euro um rund 10 % nach oben. Infineon gewann über 6 %, weil die guten Nachrichten von CoreWeave Hoffnung auf mehr KI-Nachfrage machen.",
+      "Rheinmetall fiel um fast 7 %: Der tschechische Rüstungskonzern CSG hat seine Gewinnerwartung gesenkt, weil die Preise für Standard-Munition fallen – das trifft auch Rheinmetall, das viel mit Munition verdient."
+    ]},
+    { "titel": "USA", "text": [
+      "Nach den heftigen Verlusten der letzten Tage erholen sich Tech- und Chipwerte. CoreWeave hat seine Umsatzprognose erhöht und erwartet rund 9 Milliarden Dollar Vorauszahlungen von Kunden – das hat Zweifel am KI-Boom vorerst gedämpft.",
+      "Nvidia steigt um fast 5 %, ist im November aber immer noch rund 14 % im Minus.",
+      "Der Anleihemarkt ist heute wegen des Feiertags Veterans Day geschlossen, die Aktienbörsen handeln normal. Die Schlusskurse kommen erst gegen 22 Uhr deutscher Zeit."
+    ]},
+    { "titel": "Zinsen, Krypto, Rohstoffe", "text": [
+      "Die US-Inflation für Oktober war gestern zum dritten Mal in Folge höher als erwartet. Anleger rechnen deshalb jetzt mit einer weiteren Zinserhöhung der Fed, wahrscheinlich im Dezember. Steigende Zinsen sind schlecht für Tech-Aktien und Bitcoin.",
+      "Bitcoin ist heute unter 74.000 Dollar gefallen – der tiefste Stand seit August – und hält sich jetzt knapp darüber.",
+      "Öl erholt sich nach dem Rutsch auf ein Zwei-Monats-Tief leicht, Gold gibt etwas nach und liegt um 4.000 Dollar."
+    ]}
+  ],
+  "nachrichten": [
+    { "titel": "CoreWeave rettet die KI-Stimmung", "text": ["Der KI-Cloud-Anbieter hat seine Umsatzprognose angehoben und will bis 2027 keine teuren neuen Schulden aufnehmen. Die Aktie stieg um rund 25 % und zog Chipwerte weltweit mit nach oben."], "quellen": [ { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html" } ] },
+    { "titel": "Fed: Zinserhöhung im Dezember wird wahrscheinlicher", "text": ["Nach der dritten zu hohen Inflationszahl in Folge setzen Anleger auf eine weitere Zinserhöhung. Fed-Gouverneurin Bowman sagte, es gebe noch Arbeit, um die Inflation Richtung 2 % zu bringen. Die 10-jährige US-Rendite liegt knapp unter 5 %."], "quellen": [ { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html" } ] },
+    { "titel": "DAX auf Rekord-Schlussstand", "text": ["Mit 26.662,77 Punkten hat der DAX so hoch geschlossen wie noch nie. Getragen wurde er von Siemens Energy, Infineon, RWE und DHL."], "quellen": [ { "name": "aktiencheck.de", "url": "https://aktiencheck.de/artikel/dax-check-am-abend-rekordschluss-siemens-energy-und-infineon-katapultieren-den" }, { "name": "ARIVA / dpa-AFX", "url": "https://www.ariva.de/news/aktien-frankfurt-schluss-dax-weiter-erholt-und-knapp-unter-12203717" } ] },
+    { "titel": "Rüstungswerte unter Druck", "text": ["Weil der Rüstungskonzern CSG wegen fallender Munitionspreise weniger Gewinn erwartet, gerieten auch Rheinmetall und andere Rüstungsaktien unter Druck."], "quellen": [ { "name": "aktiencheck.de", "url": "https://aktiencheck.de/artikel/dax-check-am-abend-rekordschluss-siemens-energy-und-infineon-katapultieren-den" } ] },
+    { "titel": "Bitcoin auf tiefstem Stand seit August", "text": ["Bitcoin fiel unter 74.000 Dollar. Belastet haben die steigenden Zinserwartungen und Abflüsse aus Bitcoin-Fonds."], "quellen": [ { "name": "finanzen.net", "url": "https://finanzen.net/nachricht/devisen/kryptomarkt-bitcoin-verteidigt-200-tage-linie-us-anleiherendite-springt-auf-4-73-prozent-ether-knapp-ueber-2-000-dollar-00-16056098" }, { "name": "wallstreet-online", "url": "https://wallstreet-online.de/nachricht/21676395-nie-bitcoin-historischem-debakel" } ] }
+  ],
+  "termine": [
+    { "zeit": "22:00", "titel": "US-Börsenschluss", "art": "Börse", "warum": "Erst dann stehen die endgültigen Schlusskurse für Dow, S&P 500 und Nasdaq fest." }
+  ],
+  "ausblick": [
+    { "tag": "Do.", "zeit": "07:00", "titel": "Siemens, Allianz, Merck KGaA – Zahlen", "art": "Quartalszahlen", "wichtig": true, "warum": "Drei DAX-Schwergewichte – können den DAX-Start stark bewegen." },
+    { "tag": "Do.", "zeit": "07:30", "titel": "Munich Re, Hapag-Lloyd, Talanx, Sixt – Zahlen", "art": "Quartalszahlen" },
+    { "tag": "Do.", "zeit": "08:00", "titel": "Großbritannien: Wachstum (BIP) 3. Quartal", "art": "Wirtschaftsdaten" },
+    { "tag": "Do.", "zeit": "14:30", "titel": "USA: Erstanträge auf Arbeitslosenhilfe", "art": "Wirtschaftsdaten", "warum": "Zeigt, wie stabil der US-Arbeitsmarkt ist – wichtig für die Zinsentscheidung der Fed." },
+    { "tag": "Do.", "zeit": "16:00", "titel": "USA: Verkäufe bestehender Häuser", "art": "Wirtschaftsdaten" },
+    { "tag": "Do.", "zeit": "22:00", "titel": "Cisco und Applied Materials – Zahlen", "art": "Quartalszahlen", "wichtig": true, "warum": "Applied Materials liefert Maschinen für die Chipherstellung – wichtig für die Stimmung bei KI- und Chipwerten." },
+    { "tag": "Fr.", "zeit": "14:30", "titel": "USA: Erzeugerpreise (PPI)", "art": "Wirtschaftsdaten", "wichtig": true, "warum": "Nach der hohen Inflation entscheidend für die Zinserwartungen." }
+  ],
+  "quellen": [
+    { "name": "Yahoo Finance – Stock market today (11.11.)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html" },
+    { "name": "Benzinga – Nasdaq 100 jumps on CoreWeave", "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia" },
+    { "name": "aktiencheck.de – DAX Check am Abend", "url": "https://aktiencheck.de/artikel/dax-check-am-abend-rekordschluss-siemens-energy-und-infineon-katapultieren-den" },
+    { "name": "ARIVA / dpa-AFX – Aktien Frankfurt Schluss", "url": "https://www.ariva.de/news/aktien-frankfurt-schluss-dax-weiter-erholt-und-knapp-unter-12203717" },
+    { "name": "finanzen.net – Kryptomarkt 11.11.", "url": "https://finanzen.net/nachricht/devisen/kryptomarkt-bitcoin-verteidigt-200-tage-linie-us-anleiherendite-springt-auf-4-73-prozent-ether-knapp-ueber-2-000-dollar-00-16056098" },
+    { "name": "ARIVA – Ölpreise legen nach Kursrutsch zu", "url": "https://ariva.de/news/oelpreise-legen-nach-kursrutsch-zu-12203471" },
+    { "name": "finanzen.net – Termine am 12. November", "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-12-november-2026-16056939" },
+    { "name": "quartalszahlen.info – KW 46", "url": "https://quartalszahlen.info/" }
+  ]
+}
