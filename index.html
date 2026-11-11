@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Meine Nachrichten</title>
+<link rel="icon" type="image/svg+xml" href="icons/nachrichten.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/nachrichten-192.png">
+<meta name="theme-color" content="#151c27">
+<meta name="description" content="Mein tägliches Börsen-Briefing: Märkte über Tag und Nacht, wichtigste Nachrichten, Termine">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#f3f5f8;--panel:#fff;--line:#dde2ea;--fg:#141a24;--muted:#5d6878;
+  --accent:#c77a12;--accent-ink:#fff;--up:#0f8a4f;--down:#c8372d;--chip:#e8ecf2;--warn:#9a6a00;
+  --up-bg:#e3f4ea;--down-bg:#fbe5e3;--warn-bg:#fbf0d6;
+  --f-body:"Archivo",system-ui,sans-serif;--f-num:"JetBrains Mono",ui-monospace,Menlo,monospace;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0e131b;--panel:#151c27;--line:#253041;--fg:#e7ecf3;--muted:#8d99ab;
+  --accent:#f0a33a;--accent-ink:#1a1206;--up:#3ccf8a;--down:#ff6b5e;--chip:#1d2633;--warn:#f0c14a;
+  --up-bg:#13301f;--down-bg:#3a1a18;--warn-bg:#352a10;color-scheme:dark}}
+*{box-sizing:border-box}html,body{margin:0}[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:16px;line-height:1.5}
+.wrap{max-width:1100px;margin:0 auto;padding-block:max(18px,env(safe-area-inset-top)) 48px;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right));display:grid;gap:20px}
+header{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:end;justify-content:space-between}
+h1{font-weight:800;font-size:1.6rem;margin:0;letter-spacing:-.01em}
+h2{font-size:1.08rem;margin:0 0 10px}
+h3{font-size:1rem;margin:0 0 4px}
+.sub{font-size:.82rem;color:var(--muted)}
+.steuer{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+select,.btn{font:600 .88rem var(--f-body);border-radius:8px;padding:9px 12px}
+select{background:var(--panel);color:var(--fg);border:1px solid var(--line)}
+.btn{border:0;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
+.btn.zweit{background:var(--chip);color:var(--fg)}
+.notice{font-size:.88rem;color:var(--warn);background:var(--warn-bg);border-radius:8px;padding:10px 12px;margin:0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.datum{font-size:.82rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.schlagzeile{font-size:1.45rem;font-weight:800;line-height:1.25;margin:4px 0 0}
+.kurz p{margin:0 0 8px}.kurz p:last-child{margin:0}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+@media (max-width:860px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:560px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:2px;min-width:0}
+.tile .k{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tile .v{font-family:var(--f-num);font-size:1.15rem;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .c{font-family:var(--f-num);font-size:.85rem;font-weight:600}
+.tile .s{font-size:.76rem;color:var(--muted)}
+.tile.gruen{background:var(--up-bg);border-color:var(--up)}.tile.gruen .c{color:var(--up)}
+.tile.rot{background:var(--down-bg);border-color:var(--down)}.tile.rot .c{color:var(--down)}
+.gruppe{font-size:.78rem;color:var(--muted);font-weight:600;margin:6px 0 6px}
+.text p{margin:0 0 10px}.text p:last-child{margin:0}
+.text h3{margin-top:12px}
+.karten{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (max-width:760px){.karten{grid-template-columns:1fr}}
+.karte{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+.karte p{margin:0 0 6px}
+.q{font-size:.8rem;color:var(--muted)}
+.q a{color:var(--muted)}
+a{color:inherit}
+.termine{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.termine li{display:grid;grid-template-columns:5.2rem 1fr;gap:4px 12px;padding:10px 0;border-top:1px solid var(--line)}
+.termine li:first-child{border-top:0;padding-top:0}
+.zeit{font-family:var(--f-num);font-weight:600;font-size:.9rem}
+.zeit small{display:block;font-family:var(--f-body);font-weight:500;color:var(--muted);font-size:.74rem}
+.chip{display:inline-block;font-size:.7rem;font-weight:600;background:var(--chip);border-radius:20px;padding:1px 8px;margin-left:6px;vertical-align:2px;color:var(--muted)}
+.chip.wichtig{background:var(--warn-bg);color:var(--warn)}
+.warum{font-size:.88rem;color:var(--muted)}
+.quellen{margin:0;padding-left:18px;font-size:.85rem;columns:2;column-gap:28px}
+@media (max-width:640px){.quellen{columns:1}}
+.quellen a{color:var(--muted)}
+footer{font-size:.78rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>Meine Nachrichten</h1>
+    <div class="sub">Börsen-Briefing für jeden Morgen · Mo–Fr 6:38 Uhr, Sa/So 8:36 Uhr</div>
+  </div>
+  <div class="steuer">
+    <select id="auswahl" aria-label="Ausgabe wählen"></select>
+    <button class="btn zweit" id="neu" type="button">Neu laden</button>
+  </div>
+</header>
+<p class="notice" id="hinweis" hidden></p>
+
+<main id="inhalt" hidden>
+  <div style="display:grid;gap:20px">
+    <section class="box">
+      <div class="datum" id="datum"></div>
+      <p class="schlagzeile" id="schlagzeile"></p>
+    </section>
+
+    <section class="box kurz" id="kurz-box">
+      <h2>Kurz gesagt</h2>
+      <div id="kurz"></div>
+    </section>
+
+    <section id="zahlen-box">
+      <h2>Die wichtigsten Zahlen</h2>
+      <div id="zahlen"></div>
+    </section>
+
+    <section class="box text" id="maerkte-box">
+      <h2 id="maerkte-titel">Märkte über Tag und Nacht</h2>
+      <div id="maerkte"></div>
+    </section>
+
+    <section id="nachrichten-box">
+      <h2>Wichtigste Nachrichten</h2>
+      <div class="karten" id="nachrichten"></div>
+    </section>
+
+    <section class="box" id="termine-box">
+      <h2 id="termine-titel">Termine heute</h2>
+      <ul class="termine" id="termine"></ul>
+    </section>
+
+    <section class="box" id="ausblick-box">
+      <h2 id="ausblick-titel">Ausblick morgen</h2>
+      <ul class="termine" id="ausblick"></ul>
+    </section>
+
+    <section class="box" id="quellen-box">
+      <h2>Quellen</h2>
+      <ol class="quellen" id="quellen"></ol>
+    </section>
+
+    <footer>Nur zur Information, keine Kauf- oder Verkaufsempfehlung. Alle Uhrzeiten deutsche Zeit.</footer>
+  </div>
+</main>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const WOCHENTAG = ['So.','Mo.','Di.','Mi.','Do.','Fr.','Sa.'];
+
+function el(tag, attrs, ...kinder){
+  const e = document.createElement(tag);
+  if (attrs) for (const [k,v] of Object.entries(attrs)){
+    if (k === 'class') e.className = v; else e.setAttribute(k, v);
+  }
+  for (const k of kinder){ if (k == null) continue; e.append(k instanceof Node ? k : String(k)); }
+  return e;
+}
+function sicherUrl(u){ try{ const x = new URL(u); return x.protocol === 'https:' ? x.href : null; }catch{ return null; } }
+function link(text, url){ const u = sicherUrl(url); return u ? el('a',{href:u,target:'_blank',rel:'noopener'}, text) : document.createTextNode(text); }
+function datumText(iso){
+  const [j,m,t] = iso.split('-').map(Number);
+  const d = new Date(Date.UTC(j,m-1,t,12));
+  return `${WOCHENTAG[d.getUTCDay()]} ${String(t).padStart(2,'0')}.${String(m).padStart(2,'0')}.${j}`;
+}
+function zahl(n, stellen=2){ return n.toLocaleString('de-DE',{minimumFractionDigits:stellen,maximumFractionDigits:stellen}); }
+function hinweis(text){ $('hinweis').textContent = text; $('hinweis').hidden = !text; }
+function absaetze(ziel, liste){
+  ziel.replaceChildren();
+  for (const a of (liste||[])){
+    if (typeof a === 'string') ziel.append(el('p',null,a));
+    else { if (a.titel) ziel.append(el('h3',null,a.titel)); for (const p of (a.text||[])) ziel.append(el('p',null,p)); }
+  }
+}
+function quellenZeile(qs){
+  if (!qs || !qs.length) return null;
+  const z = el('div',{class:'q'},'Quelle: ');
+  qs.forEach((q,i)=>{ if(i) z.append(', '); z.append(link(q.name, q.url)); });
+  return z;
+}
+function terminListe(ziel, liste){
+  ziel.replaceChildren();
+  for (const t of (liste||[])){
+    const zeit = el('div',{class:'zeit'}, t.zeit || '–', t.tag ? el('small',null,t.tag) : null);
+    const titel = el('div',null, el('b',null,t.titel), t.art ? el('span',{class:'chip'+(t.wichtig?' wichtig':'')},t.art) : null);
+    const rechts = el('div',null, titel, t.warum ? el('div',{class:'warum'},t.warum) : null);
+    ziel.append(el('li',null,zeit,rechts));
+  }
+  return (liste||[]).length > 0;
+}
+
+let index = [];
+async function ladeJson(pfad){
+  const r = await fetch(`${pfad}?t=${Date.now()}`, {cache:'no-store'});
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+
+async function ladeIndex(){
+  hinweis('');
+  try{ index = (await ladeJson('data/index.json')).ausgaben || []; }
+  catch{ hinweis('Die Übersicht konnte nicht geladen werden. Bitte später noch einmal „Neu laden“ tippen.'); return; }
+  index.sort((a,b)=> b.datum.localeCompare(a.datum));
+  const sel = $('auswahl'); sel.replaceChildren();
+  if (!index.length){ hinweis('Noch keine Ausgabe da – die erste kommt mit dem nächsten Morgen-Briefing.'); $('inhalt').hidden = true; return; }
+  index.forEach((a,i)=> sel.append(el('option',{value:a.datum}, (i===0?'Neueste: ':'') + datumText(a.datum))));
+  const wunsch = new URLSearchParams(location.search).get('tag');
+  sel.value = index.some(a=>a.datum===wunsch) ? wunsch : index[0].datum;
+  await zeige(sel.value);
+}
+
+async function zeige(datum){
+  const eintrag = index.find(a=>a.datum===datum);
+  let d;
+  try{ d = await ladeJson('data/' + (eintrag?.datei || datum + '.json')); }
+  catch{ hinweis('Diese Ausgabe konnte nicht geladen werden.'); return; }
+  hinweis('');
+  const wochenende = d.typ === 'wochenende';
+
+  let stand = datumText(d.datum);
+  if (d.erstellt){ const e = new Date(d.erstellt); if (!isNaN(e)) stand += ' · erstellt ' + e.toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Berlin'}) + ' Uhr'; }
+  $('datum').textContent = stand;
+  $('schlagzeile').textContent = d.schlagzeile || '';
+
+  absaetze($('kurz'), d.kurz); $('kurz-box').hidden = !(d.kurz||[]).length;
+
+  const zb = $('zahlen'); zb.replaceChildren();
+  const gruppen = d.kennzahlen || [];
+  for (const g of gruppen){
+    if (g.gruppe) zb.append(el('div',{class:'gruppe'},g.gruppe));
+    const grid = el('div',{class:'grid'});
+    for (const k of (g.werte||[])){
+      const c = typeof k.veraenderung === 'number' ? k.veraenderung : null;
+      const r = c==null ? 0 : (k.umgekehrt ? -c : c);
+      const kl = 'tile' + (r > 0 ? ' gruen' : r < 0 ? ' rot' : '');
+      grid.append(el('div',{class:kl},
+        el('div',{class:'k',title:k.name},k.name),
+        el('div',{class:'v'},k.wert ?? '–'),
+        c==null ? null : el('div',{class:'c'},(c>0?'+':'') + zahl(c) + ' %'),
+        k.hinweis ? el('div',{class:'s'},k.hinweis) : null));
+    }
+    zb.append(grid);
+  }
+  $('zahlen-box').hidden = !gruppen.length;
+
+  $('maerkte-titel').textContent = wochenende ? 'Märkte – Rückblick' : 'Märkte über Tag und Nacht';
+  absaetze($('maerkte'), d.maerkte); $('maerkte-box').hidden = !(d.maerkte||[]).length;
+
+  const nb = $('nachrichten'); nb.replaceChildren();
+  for (const n of (d.nachrichten||[])){
+    nb.append(el('div',{class:'karte'}, el('h3',null,n.titel), ...(n.text||[]).map(p=>el('p',null,p)), quellenZeile(n.quellen)));
+  }
+  $('nachrichten-box').hidden = !(d.nachrichten||[]).length;
+
+  $('termine-titel').textContent = wochenende ? 'Termine der kommenden Woche' : 'Termine heute';
+  $('termine-box').hidden = !terminListe($('termine'), d.termine);
+  $('ausblick-titel').textContent = 'Ausblick morgen';
+  $('ausblick-box').hidden = !terminListe($('ausblick'), d.ausblick);
+
+  const ql = $('quellen'); ql.replaceChildren();
+  for (const q of (d.quellen||[])) ql.append(el('li',null,link(q.name,q.url)));
+  $('quellen-box').hidden = !(d.quellen||[]).length;
+
+  $('inhalt').hidden = false;
+  const url = new URL(location.href);
+  if (datum === index[0]?.datum) url.searchParams.delete('tag'); else url.searchParams.set('tag', datum);
+  history.replaceState(null,'',url);
+}
+
+$('auswahl').addEventListener('change', e=> zeige(e.target.value));
+$('neu').addEventListener('click', ladeIndex);
+ladeIndex();
+</script>
+</body>
+</html>
