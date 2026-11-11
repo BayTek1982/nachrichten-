@@ -71,14 +71,37 @@ a{color:inherit}
 @media (max-width:640px){.quellen{columns:1}}
 .quellen a{color:var(--muted)}
 footer{font-size:.78rem;color:var(--muted)}
+.marke{display:flex;gap:12px;align-items:center}
+.marke img{width:44px;height:44px;border-radius:11px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+main h2{display:flex;align-items:center;gap:8px}
+main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:var(--accent)}
+.held{border-left:5px solid var(--accent);background:linear-gradient(135deg,var(--panel) 60%,var(--warn-bg))}
+.kurzliste{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.kurzliste li{position:relative;padding-left:18px}
+.kurzliste li::before{content:"";position:absolute;left:2px;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.karte{border-left:4px solid var(--line)}
+.karte:hover{border-left-color:var(--accent)}
+.termine li.wichtig{background:var(--warn-bg);border-radius:8px;padding:10px;margin:2px 0;border-top-color:transparent}
+.termine li.wichtig + li{border-top-color:transparent}
+.archiv{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.archiv li{border-top:1px solid var(--line)}
+.archiv li:first-child{border-top:0}
+.archiv a{display:grid;grid-template-columns:7.5rem 1fr;gap:10px;padding:9px 2px;text-decoration:none}
+.archiv a:hover b{text-decoration:underline}
+.archiv .d{font-family:var(--f-num);font-size:.85rem;color:var(--muted)}
+.archiv li.aktiv .d{color:var(--accent);font-weight:600}
+.oben{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));border:0;border-radius:50%;width:44px;height:44px;background:var(--accent);color:var(--accent-ink);font-size:1.2rem;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.25)}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
-  <div>
+  <div class="marke">
+    <img src="icons/nachrichten-192.png" alt="">
+    <div>
     <h1>Meine Nachrichten</h1>
     <div class="sub">Börsen-Briefing für jeden Morgen · Mo–Fr 6:38 Uhr, Sa/So 8:36 Uhr</div>
+    </div>
   </div>
   <div class="steuer">
     <select id="auswahl" aria-label="Ausgabe wählen"></select>
@@ -89,7 +112,7 @@ footer{font-size:.78rem;color:var(--muted)}
 
 <main id="inhalt" hidden>
   <div style="display:grid;gap:20px">
-    <section class="box">
+    <section class="box held">
       <div class="datum" id="datum"></div>
       <p class="schlagzeile" id="schlagzeile"></p>
     </section>
@@ -129,10 +152,16 @@ footer{font-size:.78rem;color:var(--muted)}
       <ol class="quellen" id="quellen"></ol>
     </section>
 
+    <section class="box" id="archiv-box">
+      <h2>Frühere Ausgaben</h2>
+      <ul class="archiv" id="archiv"></ul>
+    </section>
+
     <footer>Nur zur Information, keine Kauf- oder Verkaufsempfehlung. Alle Uhrzeiten deutsche Zeit.</footer>
   </div>
 </main>
 </div>
+<button class="oben" id="oben" type="button" aria-label="Nach oben" hidden>↑</button>
 
 <script>
 const $ = id => document.getElementById(id);
@@ -174,7 +203,7 @@ function terminListe(ziel, liste){
     const zeit = el('div',{class:'zeit'}, t.zeit || '–', t.tag ? el('small',null,t.tag) : null);
     const titel = el('div',null, el('b',null,t.titel), t.art ? el('span',{class:'chip'+(t.wichtig?' wichtig':'')},t.art) : null);
     const rechts = el('div',null, titel, t.warum ? el('div',{class:'warum'},t.warum) : null);
-    ziel.append(el('li',null,zeit,rechts));
+    ziel.append(el('li',t.wichtig?{class:'wichtig'}:null,zeit,rechts));
   }
   return (liste||[]).length > 0;
 }
@@ -213,7 +242,7 @@ async function zeige(datum){
   $('datum').textContent = stand;
   $('schlagzeile').textContent = d.schlagzeile || '';
 
-  absaetze($('kurz'), d.kurz); $('kurz-box').hidden = !(d.kurz||[]).length;
+  { const ul = el('ul',{class:'kurzliste'}); for (const k of (d.kurz||[])) ul.append(el('li',null,k)); $('kurz').replaceChildren(ul); } $('kurz-box').hidden = !(d.kurz||[]).length;
 
   const zb = $('zahlen'); zb.replaceChildren();
   const gruppen = d.kennzahlen || [];
@@ -227,7 +256,7 @@ async function zeige(datum){
       grid.append(el('div',{class:kl},
         el('div',{class:'k',title:k.name},k.name),
         el('div',{class:'v'},k.wert ?? '–'),
-        c==null ? null : el('div',{class:'c'},(c>0?'+':'') + zahl(c) + ' %'),
+        c==null ? null : el('div',{class:'c'},(c>0?'▲ +':c<0?'▼ ':'') + zahl(c) + ' %'),
         k.hinweis ? el('div',{class:'s'},k.hinweis) : null));
     }
     zb.append(grid);
@@ -252,6 +281,13 @@ async function zeige(datum){
   for (const q of (d.quellen||[])) ql.append(el('li',null,link(q.name,q.url)));
   $('quellen-box').hidden = !(d.quellen||[]).length;
 
+  const ar = $('archiv'); ar.replaceChildren();
+  for (const a of index){
+    const li = el('li', a.datum===datum ? {class:'aktiv'} : null,
+      el('a',{href:'?tag='+a.datum}, el('span',{class:'d'},datumText(a.datum)), el('b',null,a.schlagzeile||'Ausgabe')));
+    li.firstChild.addEventListener('click', ev=>{ ev.preventDefault(); $('auswahl').value = a.datum; zeige(a.datum); scrollTo({top:0,behavior:'smooth'}); });
+    ar.append(li);
+  }
   $('inhalt').hidden = false;
   const url = new URL(location.href);
   if (datum === index[0]?.datum) url.searchParams.delete('tag'); else url.searchParams.set('tag', datum);
@@ -261,6 +297,8 @@ async function zeige(datum){
 $('auswahl').addEventListener('change', e=> zeige(e.target.value));
 $('neu').addEventListener('click', ladeIndex);
 ladeIndex();
+addEventListener('scroll', ()=>{ $('oben').hidden = scrollY < 600; }, {passive:true});
+$('oben').addEventListener('click', ()=> scrollTo({top:0,behavior:'smooth'}));
 </script>
 </body>
 </html>
