@@ -1,80 +1,319 @@
 {
-  "datum": "2026-11-12",
-  "typ": "werktag",
-  "erstellt": "2026-11-12T08:15:00+01:00",
-  "schlagzeile": "Wall Street feiert CoreWeave – doch Nvidia rutscht nachbörslich wegen Skandal um Chef Huang ab",
-  "kurz": [
-    "Die US-Börsen haben gestern kräftig zugelegt: Der S&P 500 stieg um 1,3 %, der Nasdaq um 1,6 %.",
-    "Grund war der KI-Cloud-Anbieter CoreWeave, dessen starke Zahlen die Sorgen um den KI-Boom gedämpft haben.",
-    "Nach Börsenschluss fiel Nvidia dann um rund 7 %: Berichte über einen Skandal um Firmenchef Jensen Huang und mögliche Folgen für seinen Posten verunsichern Anleger.",
-    "In Asien ging es trotzdem überwiegend nach oben, der Nikkei in Tokio stieg weiter, Hongkong gab nach.",
-    "Der DAX dürfte nach seinem Rekordschluss von gestern etwas höher starten. Die Allianz meldet einen Rekordgewinn und hebt ihre Prognose an.",
-    "Gold ist unter 4.000 Dollar gefallen, weil der Dollar so stark ist wie seit Mai 2025 nicht mehr. Bitcoin pendelt um 74.000 Dollar.",
-    "Heute ist ein Großkampftag bei Quartalszahlen (Siemens, Allianz, Munich Re, Merck), am Abend kommen Cisco und Applied Materials."
-  ],
-  "kennzahlen": [
-    { "gruppe": "US-Börsen (Schluss gestern)", "werte": [
-      { "name": "Dow Jones", "wert": "52.486,49", "veraenderung": 0.49 },
-      { "name": "S&P 500", "wert": "7.619,38", "veraenderung": 1.31 },
-      { "name": "Nasdaq", "wert": "25.466,19", "veraenderung": 1.60 },
-      { "name": "Nvidia nachbörslich", "wert": "ca. −7 %", "hinweis": "Skandal um Chef Huang" }
-    ]},
-    { "gruppe": "Deutschland & Asien", "werte": [
-      { "name": "DAX (Schluss gestern)", "wert": "26.662,77", "veraenderung": 1.20, "hinweis": "Rekord-Schlussstand" },
-      { "name": "DAX vorbörslich", "wert": "ca. 26.890", "veraenderung": 0.47, "hinweis": "Indikation am Morgen" },
-      { "name": "Nikkei 225", "wert": "61.714", "veraenderung": 0.8, "hinweis": "Stand Mittagspause" },
-      { "name": "Hang Seng", "wert": "24.044", "veraenderung": -1.1 }
-    ]},
-    { "gruppe": "Rohstoffe & Krypto", "werte": [
-      { "name": "Öl (Brent)", "wert": "91,32 $", "veraenderung": -1.55 },
-      { "name": "Öl (WTI)", "wert": "85,31 $", "veraenderung": -1.41 },
-      { "name": "Gold", "wert": "3.980 $", "veraenderung": -0.51, "hinweis": "unter 4.000 $" },
-      { "name": "Bitcoin", "wert": "ca. 73.700 $", "hinweis": "pendelt um 74.000 $" },
-      { "name": "Ethereum", "wert": "ca. 2.100 $" }
-    ]}
-  ],
-  "maerkte": [
-    { "titel": "USA", "text": [
-      "Die starken Zahlen von CoreWeave haben die KI-Aktien gestern wiederbelebt: Chipwerte legten breit zu, der Nasdaq gewann 1,6 % und der S&P 500 1,3 %. Der S&P 500 liegt damit nur noch knapp unter seinem Rekord.",
-      "Nach Börsenschluss kam der Rückschlag: Nvidia fiel um rund 7 %. Die New York Times berichtet über einen weiteren Beziehungsskandal um Chef Jensen Huang; es gibt Berichte über eine mögliche Ablösung. Für die ganze KI-Branche ist Nvidia der wichtigste Wert, deshalb wird das heute genau beobachtet."
-    ]},
-    { "titel": "Asien und Deutschland", "text": [
-      "In Asien hielten sich die Chipwerte besser als befürchtet: Der Nikkei stieg bis zur Mittagspause um 0,8 %, der koreanische Kospi um 1,2 %. Hongkong gab dagegen um 1,1 % nach.",
-      "Der DAX wird vorbörslich rund 0,5 % höher erwartet und könnte damit sein Rekordhoch angreifen. Die Allianz meldet für die ersten neun Monate einen Rekord-Betriebsgewinn von 14,1 Milliarden Euro und hebt ihren Ausblick an."
-    ]},
-    { "titel": "Dollar, Gold, Öl, Krypto", "text": [
-      "Der US-Dollar ist so stark wie seit Mai 2025 nicht mehr – Folge der hohen US-Inflation und der Erwartung, dass die Fed die Zinsen weiter erhöht. Das drückt Gold unter die Marke von 4.000 Dollar.",
-      "Öl gibt leicht nach, Brent kostet gut 91 Dollar. Bitcoin hält sich um 74.000 Dollar und steigt bisher nicht mit den Aktien mit; Ethereum liegt bei rund 2.100 Dollar."
-    ]}
-  ],
-  "nachrichten": [
-    { "titel": "CoreWeave belebt den KI-Handel", "text": ["Die Aktie von CoreWeave stieg um fast 25 %. Die starken Zahlen haben Zweifel daran gedämpft, ob der KI-Boom anhält, und alle Chipwerte mitgezogen."], "quellen": [ { "name": "CappNotes", "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-11" }, { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html" } ] },
-    { "titel": "Nvidia-Chef Huang unter Druck", "text": ["Gegen Jensen Huang wird wegen einer Affäre mit einer Frau ermittelt, der Spionage für China vorgeworfen wird. Nach einem weiteren Bericht fiel die Nvidia-Aktie nachbörslich deutlich."], "quellen": [ { "name": "France 24 / AFP", "url": "https://www.france24.com/en/live-news/20261112-asian-stocks-extend-gains-but-traders-keep-eye-on-nvidia-crisis" }, { "name": "investingLive", "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-nvidia-slides-on-huang-ouster-reports/" } ] },
-    { "titel": "Allianz mit Rekordgewinn", "text": ["Der Versicherer hat in den ersten neun Monaten 14,1 Milliarden Euro operativen Gewinn erzielt – ein Rekord – und hebt den Ausblick für 2026 an."], "quellen": [ { "name": "wallstreet-online", "url": "https://www.wallstreet-online.de/nachricht/21679563-allianz-knackt-rekord-14-1-mrd-euro-ausblick" } ] },
-    { "titel": "Starker Dollar drückt Gold unter 4.000 $", "text": ["Nach der hohen US-Inflation rechnen Anleger mit weiteren Zinserhöhungen. Der Dollar steigt, Gold fällt unter 4.000 Dollar."], "quellen": [ { "name": "Saxo", "url": "https://www.home.saxo/en-mena/content/articles/macro/asia-market-quick-take--12-november-2026-12112026" }, { "name": "Amillex", "url": "https://www.amillex.com/2026/11/12/amillex-daily-market-commentary-strong-dollar-pushes-gold-below-4000-irans-nuclear-stance-supports-oil/" } ] }
-  ],
-  "termine": [
-    { "zeit": "07:00", "titel": "Siemens (Jahreszahlen), Allianz, Merck KGaA", "art": "Quartalszahlen", "wichtig": true, "warum": "Schwergewichte im DAX – bewegen den Index direkt zum Start." },
-    { "zeit": "07:30", "titel": "Munich Re, Hapag-Lloyd, Talanx, Sixt", "art": "Quartalszahlen" },
-    { "zeit": "08:00", "titel": "Großbritannien: Wachstum (BIP) 3. Quartal", "art": "Wirtschaftsdaten" },
-    { "zeit": "14:30", "titel": "USA: Erstanträge auf Arbeitslosenhilfe", "art": "Wirtschaftsdaten", "wichtig": true, "warum": "Zeigt, wie stabil der US-Arbeitsmarkt ist – wichtig für die nächste Zinsentscheidung der Fed." },
-    { "zeit": "16:00", "titel": "USA: Verkäufe bestehender Häuser", "art": "Wirtschaftsdaten" },
-    { "zeit": "22:00", "titel": "Cisco und Applied Materials", "art": "Quartalszahlen", "wichtig": true, "warum": "Applied Materials baut Maschinen für die Chipherstellung – wichtig für die Stimmung bei Chipwerten." }
-  ],
-  "ausblick": [
-    { "tag": "Fr.", "zeit": "14:30", "titel": "USA: Erzeugerpreise (PPI)", "art": "Wirtschaftsdaten", "wichtig": true, "warum": "Nach der hohen Verbraucher-Inflation entscheidend dafür, ob die Fed im Dezember die Zinsen erhöht." }
-  ],
-  "quellen": [
-    { "name": "CNBC – Nasdaq gains as CoreWeave revitalizes AI trade", "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html" },
-    { "name": "CappNotes – Closing Look 11.11.", "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-11" },
-    { "name": "France 24 – Asian stocks extend gains", "url": "https://www.france24.com/en/live-news/20261112-asian-stocks-extend-gains-but-traders-keep-eye-on-nvidia-crisis" },
-    { "name": "investingLive – Asia-Pacific market news", "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-nvidia-slides-on-huang-ouster-reports/" },
-    { "name": "Saxo – Asia Market Quick Take", "url": "https://www.home.saxo/en-mena/content/articles/macro/asia-market-quick-take--12-november-2026-12112026" },
-    { "name": "wallstreet-online – Allianz knackt Rekord", "url": "https://www.wallstreet-online.de/nachricht/21679563-allianz-knackt-rekord-14-1-mrd-euro-ausblick" },
-    { "name": "IT BOLTWISE – DAX-Fokus auf Rekordhoch", "url": "https://www.it-boltwise.de/dax-fokus-auf-rekordhoch-finale-der-berichtssaison-mit-allianz-siemens.html" },
-    { "name": "Report.az – Marktindikatoren 12.11.", "url": "https://report.az/en/finance/key-indicators-of-world-commodity-stock-and-currency-markets-12-11-2026" },
-    { "name": "KuCoin – Crypto Market Report 12.11.", "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026" },
-    { "name": "cryptoticker – Bitcoin Kurs", "url": "https://cryptoticker.io/de/bitcoin-kurs-erzeugerpreise-etf-abfluesse/" },
-    { "name": "finanzen.net – Termine am 12. November", "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-12-november-2026-16056939" }
-  ]
+ "datum": "2026-11-12",
+ "typ": "werktag",
+ "erstellt": "2026-11-12T08:15:00+01:00",
+ "schlagzeile": "Wall Street feiert CoreWeave – doch Nvidia rutscht nachbörslich wegen Skandal um Chef Huang ab",
+ "kurz": [
+  "Die US-Börsen haben gestern kräftig zugelegt: Der S&P 500 stieg um 1,3 %, der Nasdaq um 1,6 %.",
+  "Grund war der KI-Cloud-Anbieter CoreWeave, dessen starke Zahlen die Sorgen um den KI-Boom gedämpft haben.",
+  "Nach Börsenschluss fiel Nvidia dann um rund 7 %: Berichte über einen Skandal um Firmenchef Jensen Huang und mögliche Folgen für seinen Posten verunsichern Anleger.",
+  "Wichtig für Krypto: MSCI wirft Strategy (früher MicroStrategy) zum 30. November aus seinen Indizes – Indexfonds müssen Aktien im Wert von rund 2,8 Milliarden Dollar verkaufen.",
+  "In Asien ging es trotzdem überwiegend nach oben, der Nikkei in Tokio stieg weiter, Hongkong gab nach.",
+  "Der DAX dürfte nach seinem Rekordschluss von gestern etwas höher starten. Die Allianz meldet einen Rekordgewinn und hebt ihre Prognose an.",
+  "Gold ist unter 4.000 Dollar gefallen, weil der Dollar so stark ist wie seit Mai 2025 nicht mehr. Bitcoin pendelt um 74.000 Dollar.",
+  "Heute ist ein Großkampftag bei Quartalszahlen (Siemens, Allianz, Munich Re, Merck), am Abend kommen Cisco und Applied Materials."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "US-Börsen (Schluss gestern)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "52.486,49",
+     "veraenderung": 0.49
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.619,38",
+     "veraenderung": 1.31
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "25.466,19",
+     "veraenderung": 1.6
+    },
+    {
+     "name": "Nvidia nachbörslich",
+     "wert": "ca. −7 %",
+     "hinweis": "Skandal um Chef Huang"
+    }
+   ]
+  },
+  {
+   "gruppe": "Deutschland & Asien",
+   "werte": [
+    {
+     "name": "DAX (Schluss gestern)",
+     "wert": "26.662,77",
+     "veraenderung": 1.2,
+     "hinweis": "Rekord-Schlussstand"
+    },
+    {
+     "name": "DAX vorbörslich",
+     "wert": "ca. 26.890",
+     "veraenderung": 0.47,
+     "hinweis": "Indikation am Morgen"
+    },
+    {
+     "name": "Nikkei 225",
+     "wert": "61.714",
+     "veraenderung": 0.8,
+     "hinweis": "Stand Mittagspause"
+    },
+    {
+     "name": "Hang Seng",
+     "wert": "24.044",
+     "veraenderung": -1.1
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Krypto",
+   "werte": [
+    {
+     "name": "Öl (Brent)",
+     "wert": "91,32 $",
+     "veraenderung": -1.55
+    },
+    {
+     "name": "Öl (WTI)",
+     "wert": "85,31 $",
+     "veraenderung": -1.41
+    },
+    {
+     "name": "Gold",
+     "wert": "3.980 $",
+     "veraenderung": -0.51,
+     "hinweis": "unter 4.000 $"
+    },
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 73.700 $",
+     "hinweis": "pendelt um 74.000 $"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 2.100 $"
+    },
+    {
+     "name": "Strategy (MSTR) nachbörslich",
+     "wert": "ca. 119 $",
+     "veraenderung": -2.6,
+     "hinweis": "MSCI-Ausschluss zum 30.11."
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA",
+   "text": [
+    "Die starken Zahlen von CoreWeave haben die KI-Aktien gestern wiederbelebt: Chipwerte legten breit zu, der Nasdaq gewann 1,6 % und der S&P 500 1,3 %. Der S&P 500 liegt damit nur noch knapp unter seinem Rekord.",
+    "Nach Börsenschluss kam der Rückschlag: Nvidia fiel um rund 7 %. Die New York Times berichtet über einen weiteren Beziehungsskandal um Chef Jensen Huang; es gibt Berichte über eine mögliche Ablösung. Für die ganze KI-Branche ist Nvidia der wichtigste Wert, deshalb wird das heute genau beobachtet."
+   ]
+  },
+  {
+   "titel": "Asien und Deutschland",
+   "text": [
+    "In Asien hielten sich die Chipwerte besser als befürchtet: Der Nikkei stieg bis zur Mittagspause um 0,8 %, der koreanische Kospi um 1,2 %. Hongkong gab dagegen um 1,1 % nach.",
+    "Der DAX wird vorbörslich rund 0,5 % höher erwartet und könnte damit sein Rekordhoch angreifen. Die Allianz meldet für die ersten neun Monate einen Rekord-Betriebsgewinn von 14,1 Milliarden Euro und hebt ihren Ausblick an."
+   ]
+  },
+  {
+   "titel": "Dollar, Gold, Öl, Krypto",
+   "text": [
+    "Der US-Dollar ist so stark wie seit Mai 2025 nicht mehr – Folge der hohen US-Inflation und der Erwartung, dass die Fed die Zinsen weiter erhöht. Das drückt Gold unter die Marke von 4.000 Dollar.",
+    "Öl gibt leicht nach, Brent kostet gut 91 Dollar. Bitcoin hält sich um 74.000 Dollar und steigt bisher nicht mit den Aktien mit; Ethereum liegt bei rund 2.100 Dollar."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "CoreWeave belebt den KI-Handel",
+   "text": [
+    "Die Aktie von CoreWeave stieg um fast 25 %. Die starken Zahlen haben Zweifel daran gedämpft, ob der KI-Boom anhält, und alle Chipwerte mitgezogen."
+   ],
+   "quellen": [
+    {
+     "name": "CappNotes",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-11"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "titel": "MSCI wirft Strategy (MicroStrategy) aus seinen Indizes",
+   "text": [
+    "Der Indexanbieter MSCI nimmt Strategy, den größten Bitcoin-Besitzer unter den Firmen, zum Börsenschluss am 30. November aus dem MSCI USA und dem MSCI World. Grund ist eine neue Regel: Firmen, die vor allem Bitcoin halten statt ein echtes Geschäft zu betreiben, gelten als „nicht operativ“.",
+    "Indexfonds müssen ihre Strategy-Aktien deshalb bis zum 30. November verkaufen – JPMorgan schätzt das auf rund 2,8 Milliarden Dollar. Die Aktie fiel nachbörslich um gut 2 % unter 120 Dollar. Auch die japanische Bitcoin-Firma Metaplanet fliegt aus einem MSCI-Index."
+   ],
+   "quellen": [
+    {
+     "name": "Yahoo Finance / Investing.com",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-shares-fall-msci-confirms-233218131.html"
+    },
+    {
+     "name": "bitcoinbasis.de",
+     "url": "https://bitcoinbasis.de/jetzt-ist-es-offiziell-strategy-fliegt-aus-msci-indizes-milliarden-stehen-auf-dem-spiel/"
+    },
+    {
+     "name": "bitbase",
+     "url": "https://www.bitbase.com/de-DE/news/strategys-msci-exclusion-could-trigger-billions-in-mstr-selling"
+    }
+   ]
+  },
+  {
+   "titel": "Nvidia-Chef Huang unter Druck",
+   "text": [
+    "Gegen Jensen Huang wird wegen einer Affäre mit einer Frau ermittelt, der Spionage für China vorgeworfen wird. Nach einem weiteren Bericht fiel die Nvidia-Aktie nachbörslich deutlich."
+   ],
+   "quellen": [
+    {
+     "name": "France 24 / AFP",
+     "url": "https://www.france24.com/en/live-news/20261112-asian-stocks-extend-gains-but-traders-keep-eye-on-nvidia-crisis"
+    },
+    {
+     "name": "investingLive",
+     "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-nvidia-slides-on-huang-ouster-reports/"
+    }
+   ]
+  },
+  {
+   "titel": "Allianz mit Rekordgewinn",
+   "text": [
+    "Der Versicherer hat in den ersten neun Monaten 14,1 Milliarden Euro operativen Gewinn erzielt – ein Rekord – und hebt den Ausblick für 2026 an."
+   ],
+   "quellen": [
+    {
+     "name": "wallstreet-online",
+     "url": "https://www.wallstreet-online.de/nachricht/21679563-allianz-knackt-rekord-14-1-mrd-euro-ausblick"
+    }
+   ]
+  },
+  {
+   "titel": "Starker Dollar drückt Gold unter 4.000 $",
+   "text": [
+    "Nach der hohen US-Inflation rechnen Anleger mit weiteren Zinserhöhungen. Der Dollar steigt, Gold fällt unter 4.000 Dollar."
+   ],
+   "quellen": [
+    {
+     "name": "Saxo",
+     "url": "https://www.home.saxo/en-mena/content/articles/macro/asia-market-quick-take--12-november-2026-12112026"
+    },
+    {
+     "name": "Amillex",
+     "url": "https://www.amillex.com/2026/11/12/amillex-daily-market-commentary-strong-dollar-pushes-gold-below-4000-irans-nuclear-stance-supports-oil/"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "zeit": "07:00",
+   "titel": "Siemens (Jahreszahlen), Allianz, Merck KGaA",
+   "art": "Quartalszahlen",
+   "wichtig": true,
+   "warum": "Schwergewichte im DAX – bewegen den Index direkt zum Start."
+  },
+  {
+   "zeit": "07:30",
+   "titel": "Munich Re, Hapag-Lloyd, Talanx, Sixt",
+   "art": "Quartalszahlen"
+  },
+  {
+   "zeit": "08:00",
+   "titel": "Großbritannien: Wachstum (BIP) 3. Quartal",
+   "art": "Wirtschaftsdaten"
+  },
+  {
+   "zeit": "14:30",
+   "titel": "USA: Erstanträge auf Arbeitslosenhilfe",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Zeigt, wie stabil der US-Arbeitsmarkt ist – wichtig für die nächste Zinsentscheidung der Fed."
+  },
+  {
+   "zeit": "16:00",
+   "titel": "USA: Verkäufe bestehender Häuser",
+   "art": "Wirtschaftsdaten"
+  },
+  {
+   "zeit": "22:00",
+   "titel": "Cisco und Applied Materials",
+   "art": "Quartalszahlen",
+   "wichtig": true,
+   "warum": "Applied Materials baut Maschinen für die Chipherstellung – wichtig für die Stimmung bei Chipwerten."
+  }
+ ],
+ "ausblick": [
+  {
+   "tag": "Fr.",
+   "zeit": "14:30",
+   "titel": "USA: Erzeugerpreise (PPI)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Nach der hohen Verbraucher-Inflation entscheidend dafür, ob die Fed im Dezember die Zinsen erhöht."
+  },
+  {
+   "tag": "30.11.",
+   "zeit": "22:00",
+   "titel": "Strategy fliegt aus MSCI USA / MSCI World",
+   "art": "Index",
+   "wichtig": true,
+   "warum": "Bis dahin müssen Indexfonds ihre Strategy-Aktien verkaufen – kann Strategy und Bitcoin belasten."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "CNBC – Nasdaq gains as CoreWeave revitalizes AI trade",
+   "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
+  },
+  {
+   "name": "CappNotes – Closing Look 11.11.",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-11"
+  },
+  {
+   "name": "France 24 – Asian stocks extend gains",
+   "url": "https://www.france24.com/en/live-news/20261112-asian-stocks-extend-gains-but-traders-keep-eye-on-nvidia-crisis"
+  },
+  {
+   "name": "investingLive – Asia-Pacific market news",
+   "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-nvidia-slides-on-huang-ouster-reports/"
+  },
+  {
+   "name": "Saxo – Asia Market Quick Take",
+   "url": "https://www.home.saxo/en-mena/content/articles/macro/asia-market-quick-take--12-november-2026-12112026"
+  },
+  {
+   "name": "wallstreet-online – Allianz knackt Rekord",
+   "url": "https://www.wallstreet-online.de/nachricht/21679563-allianz-knackt-rekord-14-1-mrd-euro-ausblick"
+  },
+  {
+   "name": "IT BOLTWISE – DAX-Fokus auf Rekordhoch",
+   "url": "https://www.it-boltwise.de/dax-fokus-auf-rekordhoch-finale-der-berichtssaison-mit-allianz-siemens.html"
+  },
+  {
+   "name": "Report.az – Marktindikatoren 12.11.",
+   "url": "https://report.az/en/finance/key-indicators-of-world-commodity-stock-and-currency-markets-12-11-2026"
+  },
+  {
+   "name": "KuCoin – Crypto Market Report 12.11.",
+   "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026"
+  },
+  {
+   "name": "cryptoticker – Bitcoin Kurs",
+   "url": "https://cryptoticker.io/de/bitcoin-kurs-erzeugerpreise-etf-abfluesse/"
+  },
+  {
+   "name": "finanzen.net – Termine am 12. November",
+   "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-12-november-2026-16056939"
+  },
+  {
+   "name": "Yahoo Finance – Strategy shares fall after MSCI confirms deletion",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-shares-fall-msci-confirms-233218131.html"
+  }
+ ]
 }
