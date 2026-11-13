@@ -1,0 +1,85 @@
+{
+ "datum": "2026-11-13", "typ": "werktag", "erstellt": "2026-11-13T07:51:00+01:00",
+ "schlagzeile": "Nvidia-Chef Huang tritt zurück – heute wartet alles auf die US-Erzeugerpreise um 14:30 Uhr",
+ "kurz": [
+  "Nvidia-Chef Jensen Huang ist mit sofortiger Wirkung zurückgetreten; die Aktie fiel zeitweise um 14 % und schloss 4,3 % tiefer.",
+  "Die US-Börsen erholten sich im Tagesverlauf und schlossen nur rund 0,4 % im Minus. AMD und Broadcom stiegen sogar um fast 6 %.",
+  "Der DAX stieg erstmals über 27.000 Punkte und schloss mit +0,41 % bei 26.771,88 – der vierte Gewinntag in Folge.",
+  "Die Zinsen steigen weiter: Die 10-jährige US-Rendite liegt bei 5,10 %, die Märkte rechnen fest mit einer Fed-Zinserhöhung im Dezember.",
+  "Bitcoin fiel auf rund 71.400 Dollar, den tiefsten Stand seit August – auch wegen des MSCI-Ausschlusses von Strategy und ETF-Abflüssen.",
+  "Öl wurde wegen Angriffen im Nahen Osten deutlich teurer, Gold fiel auf 3.885 Dollar.",
+  "Heute wichtig: US-Erzeugerpreise um 14:30 Uhr und danach Reden mehrerer Fed-Mitglieder. Nvidia legt am Dienstagabend Zahlen vor."
+ ],
+ "kennzahlen": [
+  {"gruppe":"US-Börsen (Schluss gestern)","werte":[
+   {"name":"Dow Jones","wert":"52.297,09","veraenderung":-0.36},
+   {"name":"S&P 500","wert":"7.592,40","veraenderung":-0.35},
+   {"name":"Nasdaq","wert":"25.366,09","veraenderung":-0.39},
+   {"name":"Nvidia","wert":"Aktie","veraenderung":-4.34,"hinweis":"Chef Huang zurückgetreten"},
+   {"name":"AMD","wert":"Aktie","veraenderung":5.86},
+   {"name":"Broadcom","wert":"Aktie","veraenderung":5.54}]},
+  {"gruppe":"Deutschland & Asien","werte":[
+   {"name":"DAX (Schluss gestern)","wert":"26.771,88","veraenderung":0.41,"hinweis":"zeitweise erstmals über 27.000"},
+   {"name":"MDAX (Schluss gestern)","wert":"30.858,13","veraenderung":-0.70},
+   {"name":"Nikkei 225","wert":"61.816,72","veraenderung":1.60,"hinweis":"Stand am Morgen"},
+   {"name":"Kospi","wert":"5.410,58","veraenderung":1.30,"hinweis":"Stand am Morgen"},
+   {"name":"Hang Seng","wert":"23.874,05","veraenderung":-0.60,"hinweis":"Stand am Morgen"}]},
+  {"gruppe":"Rohstoffe & Krypto","werte":[
+   {"name":"Öl (Brent)","wert":"95,82 $","veraenderung":3.30},
+   {"name":"Öl (WTI)","wert":"88,74 $","veraenderung":2.55},
+   {"name":"Gold","wert":"3.885 $","veraenderung":-2.88,"hinweis":"tiefster Stand seit Okt. 2025"},
+   {"name":"Bitcoin","wert":"ca. 71.400 $","veraenderung":-4.00,"hinweis":"tiefster Stand seit August"},
+   {"name":"Ethereum","wert":"ca. 2.014 $","veraenderung":-3.00},
+   {"name":"Euro/Dollar","wert":"1,1054","veraenderung":-0.32}]},
+  {"gruppe":"Zinsen & VIX","werte":[
+   {"name":"US-Rendite 10 J.","wert":"5,10 %","veraenderung":2.41,"hinweis":"+0,12 Prozentpunkte","umgekehrt":true},
+   {"name":"VIX","wert":"18,70","veraenderung":6.92,"umgekehrt":true}]}
+ ],
+ "maerkte": [
+  {"titel":"USA","text":[
+   "Der Rücktritt von Nvidia-Chef Jensen Huang hat die Wall Street gestern früh erschreckt: Der Nasdaq fiel zeitweise um 1,6 %, die Nvidia-Aktie sogar um 14 %. Im Laufe des Tages beruhigte sich die Lage. Am Ende schlossen alle drei großen Indizes nur rund 0,4 % tiefer, Nvidia verlor 4,3 %.",
+   "Viele Anleger schichteten in andere Chipwerte um: AMD und Broadcom stiegen um fast 6 %. Micron, Intel und Marvell gaben dagegen rund 2 % nach. Kleinere Firmen litten stärker, der Russell 2000 fiel um 1,7 %.",
+   "Zusätzlich belasteten steigende Zinsen: Die Rendite 10-jähriger US-Anleihen stieg um rund 0,12 Prozentpunkte auf 5,10 %. Die Märkte rechnen fest mit einer Zinserhöhung der Fed im Dezember."]},
+  {"titel":"Deutschland und Asien","text":[
+   "Der DAX stieg gestern erstmals über 27.000 Punkte, konnte die Marke aber nicht halten. Am Ende stand ein Plus von 0,41 % auf 26.771,88 Punkte – der vierte Gewinntag in Folge. Gute Zahlen von Siemens, Allianz, Munich Re und Merck halfen. Der MDAX fiel dagegen um 0,7 %.",
+   "In Asien ging es heute früh vor allem mit Chipwerten nach oben: Der Nikkei stieg um 1,6 %, der Kospi in Seoul zeitweise um bis zu 3 % (Samsung, SK Hynix). Hongkong lag 0,6 % im Minus."]},
+  {"titel":"Öl, Gold, Dollar, Krypto","text":[
+   "Öl wurde deutlich teurer: Brent stieg um 3,3 % auf knapp 96 Dollar. Grund sind Angriffe der Huthi auf saudische Energieanlagen und Explosionen an Tankern in der Straße von Hormus. Heute früh gibt Öl leicht nach.",
+   "Der Dollar ist stark wie seit April 2025 nicht mehr, der Euro fiel auf rund 1,105 Dollar. Das drückt Gold auf 3.885 Dollar.",
+   "Bitcoin fiel um rund 4 % auf etwa 71.400 Dollar, Ethereum auf rund 2.014 Dollar. Gründe: der Nvidia-Schock, steigende Zinsen, der MSCI-Ausschluss von Strategy und weitere Abflüsse aus Bitcoin-ETFs."]}
+ ],
+ "nachrichten": [
+  {"titel":"Nvidia-Chef Jensen Huang tritt zurück","text":["Nach Berichten über sein Privatleben ist Jensen Huang als Chef von Nvidia mit sofortiger Wirkung zurückgetreten. Finanzchefin Colette Kress führt die Firma übergangsweise, ein dauerhafter Nachfolger wird gesucht. Laut Semafor prüft das US-Justizministerium außerdem kartellrechtliche Schritte gegen Nvidia. Die Quartalszahlen kommen am Dienstagabend."],"quellen":[{"name":"Yahoo Finance","url":"https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-131805045.html"},{"name":"CappNotes","url":"https://cappnotes.substack.com/p/closing-look-thursday-november-12"}]},
+  {"titel":"Zinsen steigen weiter – Fed-Zinserhöhung im Dezember erwartet","text":["Die Rendite 10-jähriger US-Anleihen stieg auf 5,10 %. Die Erstanträge auf Arbeitslosenhilfe stiegen auf 200.000, die Verkäufe bestehender Häuser fielen auf den tiefsten Stand seit August 2010."],"quellen":[{"name":"CappNotes","url":"https://cappnotes.substack.com/p/closing-look-thursday-november-12"}]},
+  {"titel":"Bitcoin auf tiefstem Stand seit August – Strategy unter Druck","text":["Bitcoin fiel unter 72.000 Dollar. Die Aktie von Strategy (früher MicroStrategy) fiel zum Handelsstart um rund 7 %, nachdem MSCI den Ausschluss aus seinen Indizes zum 30. November bestätigt hatte. Die US-Bitcoin-ETFs hatten den fünften Tag in Folge Abflüsse, in fünf Tagen etwa 1,44 Milliarden Dollar."],"quellen":[{"name":"Bitcoin Magazine","url":"https://bitcoinmagazine.com/markets/bitcoin-price-falls-below-72000"},{"name":"Crypto.com","url":"https://crypto.com/en/market-updates/bitcoin-71k-nvidia-ceo-friday-13th-year-end-outlook"}]},
+  {"titel":"Öl steigt wegen Angriffen im Nahen Osten","text":["Huthi-Rebellen haben saudische Energieanlagen angegriffen, der Iran meldet Explosionen an vier Tankern in der Straße von Hormus. Brent stieg auf knapp 96 Dollar."],"quellen":[{"name":"CappNotes","url":"https://cappnotes.substack.com/p/closing-look-thursday-november-12"},{"name":"Kuwait Times / AFP","url":"https://kuwaittimes.com/article/53553/business/tech-firms-extend-asian-rally-as-traders-look-past-huangs-exit/"}]},
+  {"titel":"Cisco und Applied Materials nach Börsenschluss","text":["Cisco meldete einen Rekordumsatz von 18,5 Milliarden Dollar (+24 %) und hob den Ausblick an – die Aktie stieg nachbörslich um rund 3 %. Applied Materials übertraf mit 10,4 Milliarden Dollar Umsatz die Erwartungen."],"quellen":[{"name":"Analysis Official","url":"https://analysisofficial.substack.com/p/after-hours-technology-earnings-thursday"},{"name":"SiliconANGLE","url":"https://siliconangle.com/2026/11/12/cisco-beats-expectations-lifts-its-guidance-and-forecasts-ai-infrastructure-revenue-to-double-in-fiscal-2027/"}]}
+ ],
+ "termine": [
+  {"zeit":"07:00","titel":"Richemont, Generali, AMS-Osram","art":"Quartalszahlen"},
+  {"zeit":"07:30","titel":"Bechtle","art":"Quartalszahlen","warum":"IT-Dienstleister aus dem MDAX."},
+  {"zeit":"08:00","titel":"Deutschland: Großhandelspreise Oktober","art":"Wirtschaftsdaten"},
+  {"zeit":"10:00","titel":"IEA-Monatsbericht zum Ölmarkt","art":"Rohstoffe","warum":"Wichtig für den Ölpreis nach den Angriffen im Nahen Osten."},
+  {"zeit":"11:00","titel":"Eurozone: Wachstum (BIP) 3. Quartal, 2. Schätzung","art":"Wirtschaftsdaten","warum":"Erwartet: +0,4 % zum Vorquartal."},
+  {"zeit":"14:30","titel":"USA: Erzeugerpreise (PPI) Oktober","art":"Wirtschaftsdaten","wichtig":true,"warum":"Erwartet: +0,4 % zum Vormonat. Entscheidend für die Fed-Zinserhöhung im Dezember."},
+  {"zeit":"15:10","titel":"Reden mehrerer Fed-Mitglieder (Collins, Logan, Bowman, Daly)","art":"Notenbank","wichtig":true,"warum":"Hinweise darauf, wie stark die Zinsen noch steigen (bis ca. 18 Uhr)."}
+ ],
+ "ausblick": [
+  {"tag":"Sa./So.","zeit":"–","titel":"Wochenende – Börsen geschlossen","art":"Hinweis","warum":"Krypto wird weiter gehandelt."},
+  {"tag":"Mo.","zeit":"00:50","titel":"Japan: Wachstum (BIP) 3. Quartal","art":"Wirtschaftsdaten"},
+  {"tag":"Mo.","zeit":"03:00","titel":"China: Einzelhandel und Industrieproduktion Oktober","art":"Wirtschaftsdaten"},
+  {"tag":"Mo.","zeit":"14:30","titel":"USA: Empire-State-Index November","art":"Wirtschaftsdaten"},
+  {"tag":"Di.","zeit":"22:20","titel":"Nvidia: Quartalszahlen","art":"Quartalszahlen","wichtig":true,"warum":"Erste Zahlen nach dem Rücktritt von Jensen Huang – wichtigster Termin der Woche für KI- und Chipwerte."},
+  {"tag":"30.11.","zeit":"22:00","titel":"Strategy fliegt aus MSCI USA / MSCI World","art":"Index","wichtig":true}
+ ],
+ "quellen": [
+  {"name":"CappNotes – Closing Look 12.11.","url":"https://cappnotes.substack.com/p/closing-look-thursday-november-12"},
+  {"name":"Yahoo Finance – Markets News 12.11.","url":"https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-131805045.html"},
+  {"name":"finanznachrichten.de – Aktien Frankfurt Schluss","url":"https://www.finanznachrichten.de/nachrichten-2026-11/70116025-aktien-frankfurt-schluss-dax-voruebergehend-erstmals-ueber-27-000-punkten-016.htm"},
+  {"name":"Kuwait Times / AFP – Asien am Freitag","url":"https://kuwaittimes.com/article/53553/business/tech-firms-extend-asian-rally-as-traders-look-past-huangs-exit/"},
+  {"name":"Bitcoin Magazine – Bitcoin unter 72.000 $","url":"https://bitcoinmagazine.com/markets/bitcoin-price-falls-below-72000"},
+  {"name":"Crypto.com – Bitcoin bei 71.000 $","url":"https://crypto.com/en/market-updates/bitcoin-71k-nvidia-ceo-friday-13th-year-end-outlook"},
+  {"name":"Analysis Official – Cisco und Applied Materials","url":"https://analysisofficial.substack.com/p/after-hours-technology-earnings-thursday"},
+  {"name":"finanzen.net – Tagesvorschau 13. November","url":"https://www.finanzen.net/nachricht/aktien/tagesvorschau-freitag-13-november-16061316"}
+ ]
+}
