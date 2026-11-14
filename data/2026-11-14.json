@@ -1,0 +1,399 @@
+{
+ "datum": "2026-11-14",
+ "typ": "wochenende",
+ "erstellt": "2026-11-14T08:50:00+01:00",
+ "schlagzeile": "Gute Börsenwoche trotz Nvidia-Schock – Bitcoin fällt unter 67.000 Dollar, nächste Woche kommen Nvidia-Zahlen und der Anthropic-Börsengang",
+ "kurz": [
+  "Die US-Börsen hatten die erste Gewinnwoche seit Anfang Oktober: S&P 500 +2,5 %, Dow Jones +2,1 %, Nasdaq +2,3 %.",
+  "Am Freitag gaben aber die Technologiewerte nach. Der Nasdaq verlor 0,9 %, Nvidia fiel nach dem Rücktritt von Chef Jensen Huang weiter.",
+  "Der DAX schloss am Freitag fast unverändert bei 26.749,95 Punkten. Die Woche brachte ein Plus von 3,6 % – am Donnerstag lag er erstmals über 27.000 Punkten.",
+  "Die Zinsen steigen: Die 10-jährige US-Rendite liegt bei 5,15 %, so stark wie seit April 2025 nicht mehr in einer Woche gestiegen. Die Märkte rechnen mit einer Fed-Zinserhöhung im Dezember.",
+  "Bitcoin fiel auf rund 67.000 Dollar, den tiefsten Stand seit August – in einer Woche fast 12 % weniger. Die Bitcoin-ETFs verlieren seit sieben Tagen Geld.",
+  "MSCI wirft Strategy (MicroStrategy) und Metaplanet zum 30. November aus seinen Indizes.",
+  "Nächste Woche wichtig: Nvidia-Zahlen am Dienstagabend, das Fed-Protokoll am Mittwoch und der Börsenstart von Anthropic am Donnerstag."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "Schluss Freitag (13.11.)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "52.347,55",
+     "veraenderung": 0.1,
+     "hinweis": "Woche: +2,1 %"
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.561,67",
+     "veraenderung": -0.4,
+     "hinweis": "Woche: +2,5 %"
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "25.136,27",
+     "veraenderung": -0.91,
+     "hinweis": "Woche: +2,3 %"
+    },
+    {
+     "name": "DAX",
+     "wert": "26.749,95",
+     "veraenderung": -0.08,
+     "hinweis": "Woche: +3,6 %"
+    },
+    {
+     "name": "MDAX",
+     "wert": "30.699,96",
+     "veraenderung": -0.51
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Devisen (Freitag)",
+   "werte": [
+    {
+     "name": "Öl (Brent)",
+     "wert": "95,84 $",
+     "veraenderung": 0.02,
+     "hinweis": "zweites Wochenminus in Folge"
+    },
+    {
+     "name": "Öl (WTI)",
+     "wert": "88,56 $",
+     "veraenderung": -0.2
+    },
+    {
+     "name": "Gold",
+     "wert": "3.886 $",
+     "veraenderung": 0.03,
+     "hinweis": "Woche: rund −4 %"
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "1,1022",
+     "veraenderung": -0.25,
+     "hinweis": "Woche: −0,8 %, tiefster Stand seit April 2025"
+    }
+   ]
+  },
+  {
+   "gruppe": "Krypto aktuell (Samstagmorgen)",
+   "werte": [
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 67.300 $",
+     "veraenderung": -2.0,
+     "hinweis": "Woche: fast −12 %, tiefster Stand seit August"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.900 $",
+     "veraenderung": -1.5,
+     "hinweis": "unter 2.000 $"
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    {
+     "name": "US-Rendite 10 J.",
+     "wert": "5,15 %",
+     "veraenderung": 1.0,
+     "hinweis": "Woche: +0,29 Prozentpunkte",
+     "umgekehrt": true
+    },
+    {
+     "name": "VIX",
+     "wert": "19,39",
+     "veraenderung": 3.7,
+     "umgekehrt": true
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA: Gewinnwoche, aber schwacher Freitag",
+   "text": [
+    "Die Wall Street hat die erste Gewinnwoche seit Anfang Oktober geschafft. Alle elf Branchen im S&P 500 legten in der Woche zu, am stärksten Energie, Kommunikation und Industrie.",
+    "Am Freitag zogen die Technologiewerte die Indizes nach unten: Der S&P 500 verlor 0,4 %, der Nasdaq 0,9 %. Der Dow Jones schloss leicht im Plus. Belastend waren die hohe Inflation, steigende Zinsen und Zweifel an den KI-Aktien.",
+    "Die US-Erzeugerpreise stiegen im Oktober um 0,3 % zum Vormonat – etwas weniger als erwartet. Zum Vorjahr sind es aber 6,5 %, der höchste Wert seit November 2022."
+   ]
+  },
+  {
+   "titel": "Tech und Chips",
+   "text": [
+    "Nvidia war der große Verlierer: Nach dem Rücktritt von Jensen Huang fiel die Aktie am Freitag erneut (rund −2 %) und erreichte ein neues 52-Wochen-Tief. In der Woche verlor sie fast 13 %. Mehrere Analysten senkten ihre Kursziele.",
+    "Andere Chipwerte hatten dagegen eine starke Woche: AMD stieg laut Eurasia Business News um fast 19 %, Broadcom um gut 18 %. Am Freitag gaben aber auch viele Chip- und Rechenzentrumswerte nach.",
+    "In Deutschland fiel Infineon am Freitag um 4,3 %, nachdem Jefferies das Kursziel deutlich gesenkt hatte."
+   ]
+  },
+  {
+   "titel": "Deutschland: Rekordwoche für den DAX",
+   "text": [
+    "Der DAX schloss am Freitag mit −0,08 % bei 26.749,95 Punkten. Nach dem Sprung über 27.000 Punkte am Donnerstag nahmen Anleger Gewinne mit. Die Woche brachte trotzdem ein Plus von 3,6 %.",
+    "Gewinner waren Eon (+1,7 %) und RWE (+0,6 %): Laut Medienberichten will der Bund deren Anteil am Urananreicherer Urenco kaufen. Auch Fresenius Medical Care legte zu."
+   ]
+  },
+  {
+   "titel": "Rohstoffe, Devisen und Krypto",
+   "text": [
+    "Der Dollar ist so stark wie seit April 2025 nicht mehr. Der Euro fiel auf 1,1022 Dollar. Gold verlor in der Woche rund 4 % und liegt bei 3.886 Dollar. Öl blieb am Freitag fast unverändert, Brent kostet knapp 96 Dollar.",
+    "Bitcoin fiel bis Samstagmorgen auf rund 67.000 Dollar, den tiefsten Stand seit August. Am Freitag wurden Krypto-Wetten im Wert von rund 1,3 bis 1,6 Milliarden Dollar zwangsweise aufgelöst. Der Angst-und-Gier-Index steht bei 13 – \"extreme Angst\"."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Nvidia ohne Jensen Huang – Zahlen am Dienstag",
+   "text": [
+    "Jensen Huang ist als Chef, Präsident und Aufsichtsratsmitglied von Nvidia zurückgetreten. Finanzchefin Colette Kress führt die Firma übergangsweise. Am Dienstag um 22:20 Uhr legt Nvidia die ersten Zahlen ohne Huang vor. Erwartet werden rund 108,8 Milliarden Dollar Umsatz. Die Zahlen gelten als wichtiger Test für alle KI-Aktien."
+   ],
+   "quellen": [
+    {
+     "name": "AP/KRMG – US-Indizes 13.11.",
+     "url": "https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/"
+    },
+    {
+     "name": "Vista Partners – Wochenrückblick",
+     "url": "https://vistapglobal.com/weekly-stock-market-summary-november-13-2026-nasdaq-slides-as-inflation-and-ai-risks-shape-wall-street-ant-eprx-googl-gs-modd-msft-nvda-ser-spcx/"
+    },
+    {
+     "name": "Investing.com – Die Wochentermine",
+     "url": "https://de.investing.com/news/stock-market-news/nvidiazahlen-am-dienstag-1088-mrd-dollar-erwartet--die-wochentermine-3766426"
+    }
+   ]
+  },
+  {
+   "titel": "MSCI wirft Strategy und Metaplanet aus den Indizes",
+   "text": [
+    "MSCI hat am 11. November bestätigt: Strategy (MicroStrategy) fliegt aus dem MSCI-USA-Index, Metaplanet aus dem MSCI-Japan-Small-Cap-Index, dazu Upexi. Grund ist eine neue Regel für Firmen, die vor allem Krypto besitzen. Die Änderung gilt nach Börsenschluss am 30. November. Indexfonds halten Strategy-Aktien im Wert von fast 3 Milliarden Dollar, die verkauft werden könnten. Strategy nennt die Regel unfair. Die Strategy-Aktie verlor in der Woche rund 13 %."
+   ],
+   "quellen": [
+    {
+     "name": "Cryptometer – MSCI streicht Strategy und Metaplanet",
+     "url": "https://www.cryptometer.io/news/msci-confirms-strategy-metaplanet-and-upexi-index-removals-effective-november-30/"
+    },
+    {
+     "name": "Cryptopolitan – MSCI und Strategy",
+     "url": "https://www.cryptopolitan.com/msci-drops-strategy-and-metaplanet/"
+    },
+    {
+     "name": "Eurasia Business News – Börse 13.11.",
+     "url": "https://eurasiabusinessnews.com/2026/11/14/stock-market-today-november-13-2026-tech-stocks-fall-as-nvidia-earnings-and-anthropic-ipo-loom/"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin-ETFs: Sieben Tage in Folge Abflüsse",
+   "text": [
+    "Aus den US-Bitcoin-ETFs zogen Anleger am Freitag weitere 185 Millionen Dollar ab – der siebte Tag mit Abflüssen in Folge, zusammen rund 1,9 Milliarden Dollar. Strategy besitzt 850.364 Bitcoin zu einem Durchschnittspreis von 75.456 Dollar und liegt damit derzeit im Minus."
+   ],
+   "quellen": [
+    {
+     "name": "KuCoin – Bitcoin-ETF-Abflüsse",
+     "url": "https://www.kucoin.com/news/flash/us-spot-bitcoin-etfs-see-185m-outflows-on-7th-consecutive-day"
+    },
+    {
+     "name": "cryptoticker – Bitcoin unter 67.000 $",
+     "url": "https://cryptoticker.io/en/bitcoin-price-below-67000-lowest-since-august/"
+    },
+    {
+     "name": "Gokhshtein – Strategy-Bestand",
+     "url": "https://gokhshtein.com/news/2026-11-14--rekt-with-btc-dipping-under-67k-strategys-850364-btc-stack"
+    }
+   ]
+  },
+  {
+   "titel": "Zinsen steigen – Fed-Erhöhung im Dezember erwartet",
+   "text": [
+    "Nach hohen Inflationszahlen rechnen die Märkte zu rund 88 % mit einer Zinserhöhung der US-Notenbank Fed am 9. Dezember. Die 10-jährige US-Rendite stieg in der Woche um fast 0,3 Prozentpunkte auf 5,15 %. Auch die EZB dürfte im Dezember die Zinsen erhöhen."
+   ],
+   "quellen": [
+    {
+     "name": "Investrade – Marktbericht 13.11.",
+     "url": "https://investrade.com/market-review-november-13-2026/"
+    },
+    {
+     "name": "onvista/dpa-AFX – Aktien Frankfurt Schluss",
+     "url": "https://www.onvista.de/news/2026/11-13-roundup-aktien-frankfurt-schluss-dax-trotzt-nasdaq-schwaeche-pause-nach-rekord-0-10-26576248"
+    }
+   ]
+  },
+  {
+   "titel": "Anthropic-Börsengang nächste Woche",
+   "text": [
+    "Die KI-Firma Anthropic will am Mittwoch den Ausgabepreis bekannt geben und am Donnerstag an der Nasdaq starten (Kürzel ANT). Berichten zufolge wird eine Bewertung von rund 1,3 Billionen Dollar angestrebt. Es wäre einer der größten Börsengänge überhaupt."
+   ],
+   "quellen": [
+    {
+     "name": "Eurasia Business News – Börse 13.11.",
+     "url": "https://eurasiabusinessnews.com/2026/11/14/stock-market-today-november-13-2026-tech-stocks-fall-as-nvidia-earnings-and-anthropic-ipo-loom/"
+    },
+    {
+     "name": "finanzen.net/Dow Jones – Wochenvorschau 47. KW",
+     "url": "https://www.finanzen.net/nachricht/aktien/wochenvorschau-16-bis-22-november-47-kw-16062929"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "tag": "Mo.",
+   "zeit": "03:00",
+   "titel": "China: Industrieproduktion und Einzelhandel (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, wie stark Chinas Wirtschaft läuft."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "14:30",
+   "titel": "USA: Empire-State-Index",
+   "art": "Wirtschaftsdaten",
+   "warum": "Erste Stimmung der Industrie im November."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "11:00",
+   "titel": "ZEW-Konjunkturerwartungen",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Stimmung der Finanzexperten für Deutschland."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "12:00",
+   "titel": "Home Depot",
+   "art": "Quartalszahlen",
+   "warum": "Zeigt, wie viel US-Verbraucher ausgeben."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "14:30",
+   "titel": "USA: Einzelhandelsumsatz (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Wichtig für die Zinsentscheidung der Fed."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "22:20",
+   "titel": "Nvidia",
+   "art": "Quartalszahlen",
+   "wichtig": true,
+   "warum": "Erste Zahlen ohne Jensen Huang – Test für alle KI- und Chipaktien."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "11:00",
+   "titel": "Eurozone: Inflation (Oktober, endgültig)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Erwartet 4,0 % – wichtig für die EZB."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "20:00",
+   "titel": "Fed-Protokoll der Oktober-Sitzung",
+   "art": "Notenbank",
+   "wichtig": true,
+   "warum": "Hinweise, wie viele Notenbanker im Dezember die Zinsen erhöhen wollen."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "",
+   "titel": "Anthropic: Ausgabepreis",
+   "art": "Börsengang",
+   "warum": "Zeigt, wie hoch der Börsengang bewertet wird."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "13:00",
+   "titel": "Walmart",
+   "art": "Quartalszahlen",
+   "warum": "Größter US-Händler – Blick auf den Konsum."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "14:30",
+   "titel": "USA: Arbeitslosenanträge und Philly-Fed-Index",
+   "art": "Wirtschaftsdaten",
+   "warum": "Arbeitsmarkt und Industriestimmung."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "",
+   "titel": "Anthropic: Erster Handelstag an der Nasdaq",
+   "art": "Börsengang",
+   "wichtig": true,
+   "warum": "Einer der größten Börsengänge – kann die Stimmung für KI-Aktien bewegen."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "09:30",
+   "titel": "EZB-Präsidentin Lagarde, Rede",
+   "art": "Notenbank",
+   "warum": "Hinweise auf die EZB-Zinsen im Dezember."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "16:00",
+   "titel": "USA: Verbraucherstimmung Uni Michigan",
+   "art": "Wirtschaftsdaten",
+   "warum": "Stimmung der Verbraucher und Inflationserwartungen."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "AP/KRMG – US-Indizes 13.11.",
+   "url": "https://krmg.com/2026/11/13/how-major-us-stock-indexes-fared-friday-11-13-2026/"
+  },
+  {
+   "name": "Investrade – Marktbericht 13.11.",
+   "url": "https://investrade.com/market-review-november-13-2026/"
+  },
+  {
+   "name": "Eurasia Business News – Börse 13.11.",
+   "url": "https://eurasiabusinessnews.com/2026/11/14/stock-market-today-november-13-2026-tech-stocks-fall-as-nvidia-earnings-and-anthropic-ipo-loom/"
+  },
+  {
+   "name": "Vista Partners – Wochenrückblick",
+   "url": "https://vistapglobal.com/weekly-stock-market-summary-november-13-2026-nasdaq-slides-as-inflation-and-ai-risks-shape-wall-street-ant-eprx-googl-gs-modd-msft-nvda-ser-spcx/"
+  },
+  {
+   "name": "onvista/dpa-AFX – Aktien Frankfurt Schluss",
+   "url": "https://www.onvista.de/news/2026/11-13-roundup-aktien-frankfurt-schluss-dax-trotzt-nasdaq-schwaeche-pause-nach-rekord-0-10-26576248"
+  },
+  {
+   "name": "aktiencheck – DAX am Abend",
+   "url": "https://aktiencheck.de/artikel/dax-check-am-abend-rekordwoche-perfekt-eon-und-fmc-jubeln-infineon-stuerzt-ab"
+  },
+  {
+   "name": "cryptoticker – Bitcoin unter 67.000 $",
+   "url": "https://cryptoticker.io/en/bitcoin-price-below-67000-lowest-since-august/"
+  },
+  {
+   "name": "KuCoin – Bitcoin-ETF-Abflüsse",
+   "url": "https://www.kucoin.com/news/flash/us-spot-bitcoin-etfs-see-185m-outflows-on-7th-consecutive-day"
+  },
+  {
+   "name": "Gokhshtein – Strategy-Bestand",
+   "url": "https://gokhshtein.com/news/2026-11-14--rekt-with-btc-dipping-under-67k-strategys-850364-btc-stack"
+  },
+  {
+   "name": "Cryptometer – MSCI streicht Strategy und Metaplanet",
+   "url": "https://www.cryptometer.io/news/msci-confirms-strategy-metaplanet-and-upexi-index-removals-effective-november-30/"
+  },
+  {
+   "name": "Cryptopolitan – MSCI und Strategy",
+   "url": "https://www.cryptopolitan.com/msci-drops-strategy-and-metaplanet/"
+  },
+  {
+   "name": "finanzen.net/Dow Jones – Wochenvorschau 47. KW",
+   "url": "https://www.finanzen.net/nachricht/aktien/wochenvorschau-16-bis-22-november-47-kw-16062929"
+  },
+  {
+   "name": "Investing.com – Die Wochentermine",
+   "url": "https://de.investing.com/news/stock-market-news/nvidiazahlen-am-dienstag-1088-mrd-dollar-erwartet--die-wochentermine-3766426"
+  }
+ ]
+}
