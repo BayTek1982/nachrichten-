@@ -30,6 +30,23 @@ h2{font-size:1.08rem;margin:0 0 10px}
 h3{font-size:1rem;margin:0 0 4px}
 .sub{font-size:.82rem;color:var(--muted)}
 .steuer{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.tagwahl{position:relative;display:flex;gap:6px;align-items:center}
+.pfeil{min-width:40px;font-size:1.1rem;line-height:1;padding:8px 10px}
+.btn:disabled{opacity:.35;cursor:default}
+.datumknopf{font-family:var(--f-num)}
+.kal{position:absolute;top:calc(100% + 8px);left:0;z-index:20;width:min(330px,calc(100vw - 32px));background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.kalkopf{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.kalgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.kalgrid .wt{font-size:.72rem;color:var(--muted);font-weight:600;padding:4px 0}
+.kalgrid button{font:600 .9rem var(--f-num);aspect-ratio:1;border-radius:8px;border:1px solid transparent;background:var(--chip);color:var(--fg);cursor:pointer;position:relative;padding:0}
+.kalgrid button::after{content:"";position:absolute;left:50%;bottom:5px;width:5px;height:5px;margin-left:-2.5px;border-radius:50%;background:var(--accent)}
+.kalgrid button.gewaehlt{background:var(--accent);color:var(--accent-ink)}
+.kalgrid button.gewaehlt::after{background:var(--accent-ink)}
+.kalgrid span.leer{aspect-ratio:1;display:flex;align-items:center;justify-content:center;font:.85rem var(--f-num);color:var(--muted);opacity:.45}
+.kalgrid .heute{border-color:var(--accent)!important}
+.kalfuss{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:.78rem;color:var(--muted)}
+.punkt{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-right:4px}
+.mehr{font-size:.82rem;color:var(--muted);margin:10px 0 0}
 select,.btn{font:600 .88rem var(--f-body);border-radius:8px;padding:9px 12px}
 select{background:var(--panel);color:var(--fg);border:1px solid var(--line)}
 .btn{border:0;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
@@ -104,7 +121,20 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
     </div>
   </div>
   <div class="steuer">
-    <select id="auswahl" aria-label="Ausgabe wählen"></select>
+    <div class="tagwahl" id="tagwahl" hidden>
+      <button class="btn zweit pfeil" id="aelter" type="button" aria-label="Ältere Ausgabe">‹</button>
+      <button class="btn zweit datumknopf" id="kalknopf" type="button" aria-haspopup="dialog" aria-expanded="false"><span aria-hidden="true">📅</span> <span id="kaltext">–</span> <span aria-hidden="true">▾</span></button>
+      <button class="btn zweit pfeil" id="neuer" type="button" aria-label="Neuere Ausgabe">›</button>
+      <div class="kal" id="kal" role="dialog" aria-label="Ausgabe im Kalender wählen" hidden>
+        <div class="kalkopf">
+          <button class="btn zweit pfeil" id="kalvor" type="button" aria-label="Vorheriger Monat">‹</button>
+          <b id="kalmonat"></b>
+          <button class="btn zweit pfeil" id="kalnach" type="button" aria-label="Nächster Monat">›</button>
+        </div>
+        <div class="kalgrid" id="kalgrid"></div>
+        <div class="kalfuss"><span><i class="punkt"></i> Ausgabe vorhanden</span><button class="btn" id="kalneu" type="button">Neueste</button></div>
+      </div>
+    </div>
     <button class="btn zweit" id="neu" type="button">Neu laden</button>
   </div>
 </header>
@@ -153,8 +183,9 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
     </section>
 
     <section class="box" id="archiv-box">
-      <h2>Frühere Ausgaben</h2>
+      <h2>Letzte Ausgaben</h2>
       <ul class="archiv" id="archiv"></ul>
+      <p class="mehr" id="archiv-mehr" hidden>Ältere Ausgaben findest du oben über den 📅 Kalender.</p>
     </section>
 
     <footer>Nur zur Information, keine Kauf- oder Verkaufsempfehlung. Alle Uhrzeiten deutsche Zeit.</footer>
@@ -220,13 +251,10 @@ async function ladeIndex(){
   try{ index = (await ladeJson('data/index.json')).ausgaben || []; }
   catch{ hinweis('Die Übersicht konnte nicht geladen werden. Bitte später noch einmal „Neu laden“ tippen.'); return; }
   index.sort((a,b)=> b.datum.localeCompare(a.datum));
-  const sel = $('auswahl'); sel.replaceChildren();
-  sel.hidden = !index.length;
+  $('tagwahl').hidden = !index.length;
   if (!index.length){ hinweis('Noch keine Ausgabe da – die erste kommt mit dem nächsten Morgen-Briefing.'); $('inhalt').hidden = true; return; }
-  index.forEach((a,i)=> sel.append(el('option',{value:a.datum}, (i===0?'Neueste: ':'') + datumText(a.datum))));
   const wunsch = new URLSearchParams(location.search).get('tag');
-  sel.value = index.some(a=>a.datum===wunsch) ? wunsch : index[0].datum;
-  await zeige(sel.value);
+  await zeige(index.some(a=>a.datum===wunsch) ? wunsch : index[0].datum);
 }
 
 async function zeige(datum){
@@ -235,6 +263,11 @@ async function zeige(datum){
   try{ d = await ladeJson('data/' + (eintrag?.datei || datum + '.json')); }
   catch{ hinweis('Diese Ausgabe konnte nicht geladen werden.'); return; }
   hinweis('');
+  aktuell = datum; kalZu();
+  const pos = index.findIndex(a=>a.datum===datum);
+  $('kaltext').textContent = (pos===0 ? 'Neueste · ' : '') + datumText(datum);
+  $('neuer').disabled = pos <= 0;
+  $('aelter').disabled = pos < 0 || pos >= index.length-1;
   const wochenende = d.typ === 'wochenende';
 
   let stand = datumText(d.datum);
@@ -282,19 +315,56 @@ async function zeige(datum){
   $('quellen-box').hidden = !(d.quellen||[]).length;
 
   const ar = $('archiv'); ar.replaceChildren();
-  for (const a of index){
+  for (const a of index.slice(0,7)){
     const li = el('li', a.datum===datum ? {class:'aktiv'} : null,
       el('a',{href:'?tag='+a.datum}, el('span',{class:'d'},datumText(a.datum)), el('b',null,a.schlagzeile||'Ausgabe')));
-    li.firstChild.addEventListener('click', ev=>{ ev.preventDefault(); $('auswahl').value = a.datum; zeige(a.datum); scrollTo({top:0,behavior:'smooth'}); });
+    li.firstChild.addEventListener('click', ev=>{ ev.preventDefault(); zeige(a.datum); scrollTo({top:0,behavior:'smooth'}); });
     ar.append(li);
   }
+  $('archiv-mehr').hidden = index.length <= 7;
   $('inhalt').hidden = false;
   const url = new URL(location.href);
   if (datum === index[0]?.datum) url.searchParams.delete('tag'); else url.searchParams.set('tag', datum);
   history.replaceState(null,'',url);
 }
 
-$('auswahl').addEventListener('change', e=> zeige(e.target.value));
+const MONATE=['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+let aktuell = null, kalMonat = null;
+function heuteIso(){ return new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Berlin'}).format(new Date()); }
+function kalZeichnen(){
+  const [j,m] = kalMonat;
+  $('kalmonat').textContent = MONATE[m] + ' ' + j;
+  const g = $('kalgrid'); g.replaceChildren();
+  for (const w of ['Mo','Di','Mi','Do','Fr','Sa','So']) g.append(el('div',{class:'wt'},w));
+  const erster = new Date(Date.UTC(j,m,1)).getUTCDay();
+  for (let i=0;i<(erster+6)%7;i++) g.append(el('span'));
+  const tage = new Date(Date.UTC(j,m+1,0)).getUTCDate();
+  const vorhanden = new Set(index.map(a=>a.datum)), heute = heuteIso();
+  for (let t=1;t<=tage;t++){
+    const iso = `${j}-${String(m+1).padStart(2,'0')}-${String(t).padStart(2,'0')}`;
+    if (vorhanden.has(iso)){
+      const b = el('button',{type:'button',class:(iso===aktuell?'gewaehlt':'')+(iso===heute?' heute':''),'aria-label':datumText(iso)},t);
+      b.addEventListener('click',()=>{ zeige(iso); scrollTo({top:0,behavior:'smooth'}); });
+      g.append(b);
+    } else g.append(el('span',{class:'leer'+(iso===heute?' heute':'')},t));
+  }
+  const ersteA = index[index.length-1]?.datum, letzteA = index[0]?.datum;
+  const mk = (jj,mm)=> jj*12+mm;
+  $('kalvor').disabled = !ersteA || mk(j,m) <= mk(+ersteA.slice(0,4), +ersteA.slice(5,7)-1);
+  $('kalnach').disabled = !letzteA || mk(j,m) >= mk(+letzteA.slice(0,4), +letzteA.slice(5,7)-1);
+}
+function kalAuf(){ const d = aktuell || index[0].datum; kalMonat = [+d.slice(0,4), +d.slice(5,7)-1]; kalZeichnen(); $('kal').hidden = false; $('kalknopf').setAttribute('aria-expanded','true'); }
+function kalZu(){ $('kal').hidden = true; $('kalknopf').setAttribute('aria-expanded','false'); }
+function kalSchritt(n){ let [j,m] = kalMonat; m += n; if (m<0){m=11;j--;} if (m>11){m=0;j++;} kalMonat=[j,m]; kalZeichnen(); }
+$('kalknopf').addEventListener('click', e=>{ e.stopPropagation(); $('kal').hidden ? kalAuf() : kalZu(); });
+$('kalvor').addEventListener('click', ()=> kalSchritt(-1));
+$('kalnach').addEventListener('click', ()=> kalSchritt(1));
+$('kalneu').addEventListener('click', ()=> zeige(index[0].datum));
+$('kal').addEventListener('click', e=> e.stopPropagation());
+document.addEventListener('click', kalZu);
+document.addEventListener('keydown', e=>{ if (e.key==='Escape') kalZu(); });
+$('aelter').addEventListener('click', ()=>{ const p = index.findIndex(a=>a.datum===aktuell); if (p < index.length-1) zeige(index[p+1].datum); });
+$('neuer').addEventListener('click', ()=>{ const p = index.findIndex(a=>a.datum===aktuell); if (p > 0) zeige(index[p-1].datum); });
 $('neu').addEventListener('click', ladeIndex);
 ladeIndex();
 addEventListener('scroll', ()=>{ $('oben').hidden = scrollY < 600; }, {passive:true});
