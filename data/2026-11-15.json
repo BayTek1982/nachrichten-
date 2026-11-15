@@ -68,6 +68,12 @@
      "hinweis": "Woche: rund −4 %"
     },
     {
+     "name": "Silber",
+     "wert": "48,77 $",
+     "veraenderung": -2.58,
+     "hinweis": "Woche: −6,1 %, tiefster Stand seit Nov. 2025"
+    },
+    {
      "name": "Euro/Dollar",
      "wert": "1,1022",
      "veraenderung": -0.25,
@@ -386,6 +392,10 @@
   {
    "name": "onvista/dpa-AFX – Aktien Frankfurt Schluss",
    "url": "https://www.onvista.de/news/2026/11-13-roundup-aktien-frankfurt-schluss-dax-trotzt-nasdaq-schwaeche-pause-nach-rekord-0-10-26576248"
+  },
+  {
+   "name": "Ausecure – Gold & Silber Schluss 13.11.",
+   "url": "https://www.ausecure.com/gold-market-close-nov-13-2026/"
   }
  ]
 }
