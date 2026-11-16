@@ -1,0 +1,91 @@
+{
+ "datum": "2026-11-16", "typ": "werktag", "erstellt": "2026-11-16T06:45:00+01:00",
+ "schlagzeile": "Chipwerte in Asien unter Druck, Bitcoin bei 64.500 Dollar – die Woche mit Nvidia-Zahlen und Anthropic-Börsengang beginnt nervös",
+ "kurz": [
+  "Die Sorgen um Nvidia und den KI-Boom gehen in die neue Woche: In Asien fielen Chipwerte heute früh deutlich, Taiwan verlor über 4 %, der Kospi 2,8 %, der Nikkei 1,6 %.",
+  "Die US-Börsen hatten am Freitag gemischt geschlossen: Dow +0,1 %, S&P 500 −0,4 %, Nasdaq −0,9 %. AMD fiel um 8,8 %, Broadcom um 4,8 %, Nvidia um 2 %.",
+  "Die US-Terminkontrakte liegen heute früh kaum verändert bis leicht im Minus. Der DAX dürfte knapp unter dem Freitagsschluss von 26.749,95 Punkten starten.",
+  "Bitcoin kostet rund 64.500 Dollar (−4 % in 24 Stunden), nachdem er am Wochenende kurz auf etwa 62.000 Dollar gefallen war – den tiefsten Stand seit Juli.",
+  "Strategy-Chef Michael Saylor deutete am Sonntag neue Bitcoin-Käufe an; die Strategy-Aktie fiel nachbörslich trotzdem um über 7 %.",
+  "Japans Wirtschaft ist im dritten Quartal geschrumpft, Chinas Daten zu Einzelhandel und Industrie enttäuschten.",
+  "Heute wichtig: US-Industriedaten aus New York um 14:30 Uhr und eine Rede von Fed-Chef Kevin Warsh um 18:00 Uhr. Nvidia legt am Dienstagabend Zahlen vor."
+ ],
+ "kennzahlen": [
+  {"gruppe":"US-Börsen (Schluss Freitag)","werte":[
+   {"name":"Dow Jones","wert":"52.347,55","veraenderung":0.10,"hinweis":"Woche: +2,1 %"},
+   {"name":"S&P 500","wert":"7.561,67","veraenderung":-0.40,"hinweis":"Woche: +2,5 %"},
+   {"name":"Nasdaq","wert":"25.136,27","veraenderung":-0.91,"hinweis":"Woche: +2,3 %"},
+   {"name":"Nvidia","wert":"Aktie","veraenderung":-2.0,"hinweis":"Woche: fast −13 %"},
+   {"name":"AMD","wert":"Aktie","veraenderung":-8.8},
+   {"name":"Broadcom","wert":"Aktie","veraenderung":-4.8}]},
+  {"gruppe":"Deutschland & Asien","werte":[
+   {"name":"DAX (Schluss Freitag)","wert":"26.749,95","veraenderung":-0.08,"hinweis":"Woche: +3,6 %"},
+   {"name":"DAX (vorbörslich)","wert":"ca. 26.750","veraenderung":-0.1,"hinweis":"Indikation am Morgen"},
+   {"name":"Nikkei 225","wert":"60.182,50","veraenderung":-1.6,"hinweis":"Stand am Morgen"},
+   {"name":"Kospi","wert":"5.142,84","veraenderung":-2.8,"hinweis":"SK Hynix −5,5 %"},
+   {"name":"Taiwan (Taiex)","wert":"Index","veraenderung":-4.1,"hinweis":"TSMC −3,4 %"},
+   {"name":"Hang Seng","wert":"23.852,96","veraenderung":0.9}]},
+  {"gruppe":"Rohstoffe & Krypto","werte":[
+   {"name":"Öl (Brent)","wert":"94,91 $","veraenderung":-1.0,"hinweis":"Stand am Morgen"},
+   {"name":"Öl (WTI)","wert":"88,26 $","veraenderung":-0.34},
+   {"name":"Gold","wert":"3.886 $","veraenderung":0.03},
+   {"name":"Silber","wert":"48,77 $","veraenderung":-2.58,"hinweis":"Schluss Freitag"},
+   {"name":"Euro/Dollar","wert":"1,1017","veraenderung":-0.11,"hinweis":"tiefster Stand seit April 2025"},
+   {"name":"Bitcoin","wert":"ca. 64.500 $","veraenderung":-4.3,"hinweis":"Wochenend-Tief ca. 62.000 $"},
+   {"name":"Ethereum","wert":"ca. 1.790 $","veraenderung":-5.9}]},
+  {"gruppe":"Zinsen & VIX","werte":[
+   {"name":"US-Rendite 10 J.","wert":"5,14 %","veraenderung":-0.2,"hinweis":"Sonntagabend","umgekehrt":true},
+   {"name":"VIX","wert":"19,39","veraenderung":3.7,"hinweis":"Schluss Freitag","umgekehrt":true}]}
+ ],
+ "maerkte": [
+  {"titel":"USA","text":[
+   "Am Freitag schlossen die US-Börsen gemischt: Der Dow Jones stieg leicht um 0,1 %, der S&P 500 fiel um 0,4 % und der Nasdaq um 0,9 %. Trotzdem war es für alle drei die erste Gewinnwoche seit Anfang Oktober (S&P 500 +2,5 %).",
+   "Chipwerte standen weiter unter Druck: AMD verlor 8,8 %, Broadcom 4,8 % und Nvidia 2 %. Nvidia hat damit in einer Woche fast 13 % verloren – nach dem Rücktritt von Chef Jensen Huang.",
+   "In der Nacht lagen die US-Terminkontrakte kaum verändert bis leicht im Minus, die Nasdaq-Futures zeitweise rund 0,6 % tiefer. Die 10-jährige US-Rendite gab leicht auf rund 5,14 % nach."]},
+  {"titel":"Deutschland und Asien","text":[
+   "Der DAX hatte am Freitag fast unverändert bei 26.749,95 Punkten geschlossen (−0,08 %), die Woche brachte aber ein Plus von 3,6 %. Für heute wird ein Start knapp unter dem Freitagsschluss erwartet.",
+   "In Asien fielen heute früh vor allem Chip- und KI-Werte: Taiwan −4,1 % (TSMC −3,4 %), Kospi −2,8 % (SK Hynix −5,5 %, Samsung −3,2 %), Nikkei −1,6 % (SoftBank −4,2 %, Tokyo Electron −5,2 %). Hongkong stieg dagegen um 0,9 %.",
+   "Zusätzlich belasteten schwache Daten: Japans Wirtschaft schrumpfte im dritten Quartal, in China enttäuschten Einzelhandel und Industrieproduktion."]},
+  {"titel":"Öl, Gold, Dollar, Krypto","text":[
+   "Öl wird etwas billiger: Brent fiel um 1 % auf 94,91 Dollar. Die Ölexporte aus der Golfregion erholen sich schneller als erwartet. Gold ist mit rund 3.886 Dollar kaum verändert, Silber war am Freitag um 2,6 % gefallen.",
+   "Der Euro bleibt schwach bei rund 1,10 Dollar – so tief wie seit April 2025 nicht mehr.",
+   "Bitcoin fiel in der Nacht zum Sonntag kurz auf etwa 62.000 Dollar und kostet jetzt rund 64.500 Dollar. In 24 Stunden wurden Krypto-Wetten für rund 2 Milliarden Dollar zwangsweise aufgelöst. Der Angst-und-Gier-Index steht bei 10 – „extreme Angst“."]}
+ ],
+ "nachrichten": [
+  {"titel":"Nvidia-Sorgen belasten weltweit – Zahlen am Dienstagabend","text":["Nach dem Rücktritt von Nvidia-Chef Jensen Huang fielen Chipwerte am Freitag in den USA und heute früh in Asien deutlich. Übergangschefin ist Finanzchefin Colette Kress. Am Wochenende forderten Elon Musk und eine Online-Petition mit über 150.000 Unterschriften Huangs Rückkehr. Nvidia legt am Dienstag nach US-Börsenschluss Quartalszahlen vor; erwartet werden rund 108,8 Milliarden Dollar Umsatz."],"quellen":[{"name":"AP (WSLS)","url":"https://www.wsls.com/business/2026/11/16/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/"},{"name":"Yahoo Finance","url":"https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-little-changed-020537465.html"}]},
+  {"titel":"Bitcoin am Wochenende auf tiefstem Stand seit Juli","text":["Bitcoin fiel kurz auf rund 62.000 Dollar und kostet jetzt etwa 64.500 Dollar, in einer Woche rund 15 % weniger. Aus den US-Bitcoin-ETFs flossen am Freitag weitere 185 Millionen Dollar ab – der siebte Abfluss-Tag in Folge, zusammen rund 1,9 Milliarden Dollar."],"quellen":[{"name":"crypto.news","url":"https://crypto.news/bitcoin-price-falls-62000-etf-outflows-liquidations/"},{"name":"KuCoin","url":"https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026"}]},
+  {"titel":"Strategy: Saylor deutet neue Käufe an – Aktie fällt nachbörslich","text":["Michael Saylor veröffentlichte am Sonntag einen Hinweis, der meist einen neuen Bitcoin-Kauf ankündigt. Strategy besitzt 850.364 Bitcoin zu einem Durchschnittspreis von rund 75.450 Dollar und liegt damit rund 8,5 Milliarden Dollar im Minus. Die Aktie fiel nachbörslich um mehr als 7 %. Der Ausschluss aus den MSCI-Indizes wird nach Börsenschluss am 30. November wirksam."],"quellen":[{"name":"Bloomingbit","url":"https://en.bloomingbit.io/feed/news/124489"},{"name":"Stocktwits","url":"https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-as-markets-brace-for-nvidia-earnings-anthropic-ipo-fed-minutes-smmt-nbis-help-mstr-in-focus/cNb7ePKR9Xb"}]},
+  {"titel":"Anthropic-Börsengang am Donnerstag","text":["Der KI-Entwickler Anthropic soll am Mittwoch seinen Ausgabepreis festlegen und ab Donnerstag an der Nasdaq gehandelt werden. Geplant sind 825 Millionen Aktien zu 70 bis 78 Dollar; die Bewertung liegt bei rund 1,4 Billionen Dollar. Die Nachfrage ist laut Berichten etwa sechsmal so groß wie das Angebot."],"quellen":[{"name":"Yahoo Finance","url":"https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-little-changed-020537465.html"},{"name":"KuCoin","url":"https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026"}]},
+  {"titel":"Schwache Konjunkturdaten aus Japan und China","text":["Japans Wirtschaft ist im dritten Quartal geschrumpft. In China blieben Einzelhandelsumsätze und Industrieproduktion im Oktober hinter den Erwartungen zurück. Am Donnerstag treffen sich Trump, Xi und Putin beim APEC-Gipfel in Shenzhen."],"quellen":[{"name":"AP (WSLS)","url":"https://www.wsls.com/business/2026/11/16/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/"}]}
+ ],
+ "termine": [
+  {"zeit":"09:00","titel":"Euro Finance Week in Frankfurt (Rede EZB-Vize Vujčić)","art":"Rede","warum":"Hinweise auf eine mögliche EZB-Zinserhöhung im Dezember."},
+  {"zeit":"10:00","titel":"Uniper – Kapitalmarkttag","art":"Unternehmen"},
+  {"zeit":"11:00","titel":"Eurozone: Industrieproduktion (Sept.)","art":"Wirtschaftsdaten"},
+  {"zeit":"vor US-Start","titel":"Tyson Foods, Baidu, Aramark","art":"Quartalszahlen","warum":"Baidu zeigt, wie es um KI und Konsum in China steht."},
+  {"zeit":"14:30","titel":"USA: Empire-State-Index (Industrie New York, Nov.)","art":"Wirtschaftsdaten","wichtig":true,"warum":"Erster Blick auf die US-Industrie im November; erwartet 17,6 nach 25,5."},
+  {"zeit":"15:05","titel":"Rede von New-York-Fed-Chef John Williams","art":"Notenbank","warum":"Wichtige Stimme für die Zinsentscheidung im Dezember."},
+  {"zeit":"18:00","titel":"Rede von Fed-Chef Kevin Warsh","art":"Notenbank","wichtig":true,"warum":"Die Märkte erwarten eine Zinserhöhung im Dezember – jedes Wort von Warsh zählt."},
+  {"zeit":"nach US-Schluss","titel":"AECOM, Powell Industries, Red Cat","art":"Quartalszahlen"}
+ ],
+ "ausblick": [
+  {"tag":"Di.","zeit":"13:30","titel":"Rede von St.-Louis-Fed-Chef Musalem","art":"Notenbank","warum":"Weitere Hinweise zum Zinskurs der Fed."},
+  {"tag":"Di.","zeit":"vor US-Start","titel":"Home Depot, Walt Disney, JD.com, Klarna","art":"Quartalszahlen","warum":"Zeigen, wie gut US-Verbraucher noch Geld ausgeben."},
+  {"tag":"Di.","zeit":"14:30","titel":"USA: Einzelhandelsumsätze (Okt.)","art":"Wirtschaftsdaten","warum":"Wichtig für die Konjunktur; erwartet +0,2 % nach +0,8 %."},
+  {"tag":"Di.","zeit":"15:15","titel":"USA: Industrieproduktion (Okt.)","art":"Wirtschaftsdaten"},
+  {"tag":"Di.","zeit":"nach US-Schluss","titel":"Nvidia – Quartalszahlen","art":"Quartalszahlen","warum":"Wichtigster Termin der Woche: erste Zahlen nach Huangs Rücktritt, entscheidend für alle KI-Aktien."},
+  {"tag":"Di.","zeit":"","titel":"Springer Nature, RTL","art":"Quartalszahlen"}
+ ],
+ "quellen": [
+  {"name":"AP (WSLS) – Asien-Börsen","url":"https://www.wsls.com/business/2026/11/16/stocks-decline-in-asia-as-investor-concerns-over-nvidia-fallout-extend-into-another-week/"},
+  {"name":"Yahoo Finance – US-Futures","url":"https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-little-changed-020537465.html"},
+  {"name":"Stocktwits – Futures und Einzelwerte","url":"https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-as-markets-brace-for-nvidia-earnings-anthropic-ipo-fed-minutes-smmt-nbis-help-mstr-in-focus/cNb7ePKR9Xb"},
+  {"name":"crypto.news – Bitcoin","url":"https://crypto.news/bitcoin-price-falls-62000-etf-outflows-liquidations/"},
+  {"name":"KuCoin – Krypto-Tagesbericht","url":"https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026"},
+  {"name":"Bloomingbit – Strategy","url":"https://en.bloomingbit.io/feed/news/124489"},
+  {"name":"finanzen.net – Tagesvorschau","url":"https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-16-november-2026-16067239"},
+  {"name":"Kapitalmarktexperten – DAX","url":"https://www.kapitalmarktexperten.de/dax-zwischen-ki-beben-und-gipfeltreffen/"},
+  {"name":"Kiplinger – Wirtschaftskalender","url":"https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"},
+  {"name":"FXEmpire – Wochenausblick","url":"https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"}
+ ]
+}
