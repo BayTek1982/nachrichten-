@@ -46,6 +46,11 @@ h3{font-size:1rem;margin:0 0 4px}
 .kalgrid .heute{border-color:var(--accent)!important}
 .kalfuss{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:.78rem;color:var(--muted)}
 .punkt{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-right:4px}
+.teilen{display:inline-flex;align-items:center;gap:6px}
+.teilen.klein{margin-top:12px;font-size:.82rem;padding:7px 12px}
+.teilmenue{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:30;display:flex;align-items:flex-end;justify-content:center;padding:16px}
+.teilbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;width:min(420px,100%);display:grid;gap:8px;text-align:center}
+.teilbox .btn{text-decoration:none;display:block}
 .mehr{font-size:.82rem;color:var(--muted);margin:10px 0 0}
 select,.btn{font:600 .88rem var(--f-body);border-radius:8px;padding:9px 12px}
 select{background:var(--panel);color:var(--fg);border:1px solid var(--line)}
@@ -135,6 +140,7 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
         <div class="kalfuss"><span><i class="punkt"></i> Ausgabe vorhanden</span><button class="btn" id="kalneu" type="button">Neueste</button></div>
       </div>
     </div>
+    <button class="btn teilen" id="teilen" type="button" hidden><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg> Teilen</button>
     <button class="btn zweit" id="neu" type="button">Neu laden</button>
   </div>
 </header>
@@ -145,6 +151,7 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
     <section class="box held">
       <div class="datum" id="datum"></div>
       <p class="schlagzeile" id="schlagzeile"></p>
+      <button class="btn teilen klein" id="teilen2" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg> Diese Ausgabe teilen</button>
     </section>
 
     <section class="box kurz" id="kurz-box">
@@ -191,6 +198,16 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
     <footer>Nur zur Information, keine Kauf- oder Verkaufsempfehlung. Alle Uhrzeiten deutsche Zeit.</footer>
   </div>
 </main>
+</div>
+<div class="teilmenue" id="teilmenue" hidden>
+  <div class="teilbox" role="dialog" aria-label="Ausgabe teilen">
+    <b>Ausgabe teilen</b>
+    <a class="btn" id="t-wa" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="btn zweit" id="t-tg" target="_blank" rel="noopener">Telegram</a>
+    <a class="btn zweit" id="t-mail">E-Mail</a>
+    <button class="btn zweit" id="t-kopie" type="button">Text kopieren</button>
+    <button class="btn zweit" id="t-zu" type="button">Schließen</button>
+  </div>
 </div>
 <button class="oben" id="oben" type="button" aria-label="Nach oben" hidden>↑</button>
 
@@ -263,7 +280,7 @@ async function zeige(datum){
   try{ d = await ladeJson('data/' + (eintrag?.datei || datum + '.json')); }
   catch{ hinweis('Diese Ausgabe konnte nicht geladen werden.'); return; }
   hinweis('');
-  aktuell = datum; kalZu();
+  aktuell = datum; aktuellDaten = d; kalZu(); $('teilen').hidden = false;
   const pos = index.findIndex(a=>a.datum===datum);
   $('kaltext').textContent = (pos===0 ? 'Neueste · ' : '') + datumText(datum);
   $('neuer').disabled = pos <= 0;
@@ -329,7 +346,37 @@ async function zeige(datum){
 }
 
 const MONATE=['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
-let aktuell = null, kalMonat = null;
+let aktuell = null, kalMonat = null, aktuellDaten = null;
+function teilText(){
+  const d = aktuellDaten; if (!d) return {titel:'',text:'',url:location.href};
+  const url = location.origin + location.pathname + '?tag=' + d.datum;
+  const titel = 'Meine Nachrichten – ' + datumText(d.datum);
+  let text = '📰 ' + titel + '\n\n' + (d.schlagzeile||'') + '\n';
+  for (const k of (d.kurz||[])) text += '\n• ' + k;
+  return {titel, text, url};
+}
+async function teilen(){
+  const t = teilText();
+  if (navigator.share){
+    try{ await navigator.share({title:t.titel, text:t.text, url:t.url}); return; }
+    catch(e){ if (e && e.name === 'AbortError') return; }
+  }
+  const voll = t.text + '\n\nGanze Ausgabe: ' + t.url;
+  $('t-wa').href = 'https://wa.me/?text=' + encodeURIComponent(voll);
+  $('t-tg').href = 'https://t.me/share/url?url=' + encodeURIComponent(t.url) + '&text=' + encodeURIComponent(t.text);
+  $('t-mail').href = 'mailto:?subject=' + encodeURIComponent(t.titel) + '&body=' + encodeURIComponent(voll);
+  $('t-kopie').textContent = 'Text kopieren';
+  $('teilmenue').hidden = false;
+}
+$('teilen').addEventListener('click', teilen);
+$('teilen2').addEventListener('click', teilen);
+$('t-zu').addEventListener('click', ()=> $('teilmenue').hidden = true);
+$('teilmenue').addEventListener('click', e=>{ if (e.target.id==='teilmenue') $('teilmenue').hidden = true; });
+$('t-kopie').addEventListener('click', async ()=>{
+  const t = teilText();
+  try{ await navigator.clipboard.writeText(t.text + '\n\nGanze Ausgabe: ' + t.url); $('t-kopie').textContent = 'Kopiert ✓'; }
+  catch{ $('t-kopie').textContent = 'Kopieren nicht möglich'; }
+});
 function heuteIso(){ return new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Berlin'}).format(new Date()); }
 function kalZeichnen(){
   const [j,m] = kalMonat;
