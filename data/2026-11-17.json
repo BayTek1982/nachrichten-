@@ -1,0 +1,460 @@
+{
+ "datum": "2026-11-17",
+ "typ": "werktag",
+ "erstellt": "2026-11-17T06:50:00+01:00",
+ "schlagzeile": "Ausverkauf bei Chipwerten: Nasdaq −2,5 %, Asien im Minus – heute Abend kommen die Nvidia-Zahlen",
+ "kurz": [
+  "Die US-Börsen sind am Montag deutlich gefallen: Dow Jones −1,4 %, S&P 500 −1,9 %, Nasdaq −2,5 %. Der Nasdaq liegt jetzt rund 11 % unter seinem Hoch vom Oktober.",
+  "Grund waren vor allem Chipwerte: Micron verlor 7,6 %, AMD 5,6 %, Nvidia 4,1 %, Broadcom 3,9 %. Die US-Regierung hat neue Regeln erlassen, die den Fernzugriff auf moderne KI-Chips aus dem Ausland (vor allem China) einschränken.",
+  "In Asien ging es heute früh weiter nach unten: Nikkei −1,2 %, Kospi −1,0 %, Hang Seng −1,2 %.",
+  "Der DAX schloss gestern 0,6 % tiefer bei 26.598,64 Punkten. Der DAX-Future steht heute früh bei rund 26.560 Punkten – ein etwas schwächerer Start ist zu erwarten.",
+  "Bitcoin hält sich knapp unter 65.000 Dollar. Die Stimmung bei Krypto ist sehr ängstlich, aus Bitcoin-ETFs fließt weiter Geld ab.",
+  "Die Strategy-Aktie fiel um 7,7 %: MSCI nimmt Strategy und Metaplanet Ende November aus seinen Indizes.",
+  "Heute wichtig: ZEW-Konjunkturerwartungen (11:00 Uhr), US-Einzelhandelsumsätze (14:30 Uhr), Rede von Fed-Mitglied Waller (15:10 Uhr) und die Nvidia-Zahlen um 22:20 Uhr."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "US-Börsen (Schluss Montag)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "51.608,17",
+     "veraenderung": -1.41
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.416,59",
+     "veraenderung": -1.92,
+     "hinweis": "dritter Verlusttag in Folge"
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "24.509,76",
+     "veraenderung": -2.49,
+     "hinweis": "ca. 11 % unter dem Oktober-Hoch"
+    },
+    {
+     "name": "Nvidia",
+     "wert": "156,14 $",
+     "veraenderung": -4.12,
+     "hinweis": "Zahlen heute 22:20 Uhr"
+    },
+    {
+     "name": "AMD",
+     "wert": "504,28 $",
+     "veraenderung": -5.58
+    },
+    {
+     "name": "Micron",
+     "wert": "719,02 $",
+     "veraenderung": -7.62
+    },
+    {
+     "name": "Broadcom",
+     "wert": "333,40 $",
+     "veraenderung": -3.92
+    },
+    {
+     "name": "Strategy",
+     "wert": "Aktie",
+     "veraenderung": -7.7,
+     "hinweis": "Streichung aus MSCI-Indizes"
+    }
+   ]
+  },
+  {
+   "gruppe": "Deutschland & Asien",
+   "werte": [
+    {
+     "name": "DAX (Schluss Montag)",
+     "wert": "26.598,64",
+     "veraenderung": -0.57,
+     "hinweis": "Schluss auf Tagestief"
+    },
+    {
+     "name": "DAX-Future (vorbörslich)",
+     "wert": "ca. 26.560",
+     "veraenderung": -0.55,
+     "hinweis": "Stand 6 Uhr"
+    },
+    {
+     "name": "Nikkei 225",
+     "wert": "58.956,67",
+     "veraenderung": -1.2,
+     "hinweis": "SoftBank −6,2 %"
+    },
+    {
+     "name": "Kospi",
+     "wert": "5.051,93",
+     "veraenderung": -1.0,
+     "hinweis": "Samsung −2,4 %"
+    },
+    {
+     "name": "Taiwan (Taiex)",
+     "wert": "Index",
+     "veraenderung": -0.9
+    },
+    {
+     "name": "Hang Seng",
+     "wert": "23.458,87",
+     "veraenderung": -1.2
+    },
+    {
+     "name": "ASX 200 (Australien)",
+     "wert": "8.907,50",
+     "veraenderung": -1.5
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Krypto",
+   "werte": [
+    {
+     "name": "Öl (Brent)",
+     "wert": "91,66 $",
+     "veraenderung": -0.8,
+     "hinweis": "Stand am Morgen; Montag −3,6 %"
+    },
+    {
+     "name": "Öl (WTI)",
+     "wert": "85,01 $",
+     "veraenderung": -0.8,
+     "hinweis": "Stand am Morgen; Montag −3,2 %"
+    },
+    {
+     "name": "Gold",
+     "wert": "3.851,80 $",
+     "veraenderung": -0.89,
+     "hinweis": "Schluss Montag (Future)"
+    },
+    {
+     "name": "Silber",
+     "wert": "46,86 $",
+     "veraenderung": -4.6,
+     "hinweis": "Schluss Montag (Future)"
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "1,1003",
+     "veraenderung": 0.02
+    },
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 64.960 $",
+     "veraenderung": 0.1,
+     "hinweis": "Woche: ca. −13 %"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.820 $",
+     "veraenderung": 0.7,
+     "hinweis": "ungefährer Wert"
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    {
+     "name": "US-Rendite 10 J.",
+     "wert": "5,13 %",
+     "veraenderung": -0.4,
+     "hinweis": "Stand am Morgen",
+     "umgekehrt": true
+    },
+    {
+     "name": "VIX",
+     "wert": "23,72",
+     "veraenderung": 22.9,
+     "hinweis": "Schluss Montag – Angst nimmt zu",
+     "umgekehrt": true
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA",
+   "text": [
+    "Die US-Börsen hatten am Montag einen schwachen Tag: Der Dow Jones fiel um 1,4 % auf 51.608 Punkte, der S&P 500 um 1,9 % auf 7.417 Punkte und der Nasdaq um 2,5 % auf 24.510 Punkte. Nur 145 der 500 Werte im S&P 500 stiegen.",
+    "Am stärksten fielen Technologiewerte (−3,2 %). Chipwerte verloren über 5 %: Micron −7,6 %, Intel −7,0 %, AMD −5,6 %, Nvidia −4,1 %, Broadcom −3,9 %, Oracle −5,0 %.",
+    "Gründe: Die US-Regierung schränkt den Fernzugriff auf moderne KI-Chips über Rechenzentren im Ausland ein. Dazu kommt Unsicherheit bei Nvidia nach dem Rücktritt von Chef Jensen Huang – heute Abend kommen die ersten Zahlen seitdem. Außerdem war ein Industrie-Index aus New York schwach.",
+    "Das Angstbarometer VIX stieg um fast 23 % auf 23,72. Die US-Terminkontrakte liegen heute früh gemischt."
+   ]
+  },
+  {
+   "titel": "Deutschland",
+   "text": [
+    "Der DAX schloss am Montag 0,6 % tiefer bei 26.598,64 Punkten, genau auf dem Tagestief. Siemens, Siemens Energy und Infineon gehörten mit Verlusten zwischen 1,3 % und 2,5 % zu den schwächsten Werten. Rheinmetall stieg um 0,6 %.",
+    "Heute früh steht der DAX-Future bei rund 26.560 Punkten. Der DAX dürfte also etwas schwächer starten. Um 11:00 Uhr kommen die ZEW-Konjunkturerwartungen."
+   ]
+  },
+  {
+   "titel": "Asien",
+   "text": [
+    "Die Börsen in Asien folgten der Wall Street nach unten: Nikkei −1,2 % (SoftBank −6,2 %, Advantest −4,3 %), Kospi −1,0 % (Samsung −2,4 %), Hang Seng −1,2 %, Taiwan −0,9 %, Australien −1,5 %. Der Kospi rutschte zeitweise unter 5.000 Punkte."
+   ]
+  },
+  {
+   "titel": "Rohstoffe, Zinsen & Krypto",
+   "text": [
+    "Öl wurde billiger: Brent kostet rund 91,66 Dollar, WTI 85,01 Dollar – beide fielen schon am Montag um über 3 %. Gold gab um knapp 0,9 % nach, Silber verlor 4,6 %.",
+    "Die Rendite der 10-jährigen US-Anleihe liegt bei 5,13 %. Für die Fed-Sitzung im Dezember rechnen die Märkte fast sicher mit einer Zinserhöhung um 0,25 Prozentpunkte.",
+    "Bitcoin kostet rund 64.960 Dollar und hat in einer Woche etwa 13 % verloren. Der Angst-Gier-Index für Krypto steht bei 12 (extreme Angst). Aus den Bitcoin-ETFs sind im November bisher rund 2,1 Milliarden Dollar abgeflossen."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Neue US-Regeln für KI-Chips belasten Chipwerte weltweit",
+   "text": [
+    "Das US-Handelsministerium hat am Montag neue Regeln erlassen: Firmen aus China sollen moderne KI-Chips nicht mehr über Rechenzentren im Ausland mieten können. Chipwerte fielen daraufhin in den USA um über 5 % und heute früh auch in Asien."
+   ],
+   "quellen": [
+    {
+     "name": "StockTitan",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026"
+    },
+    {
+     "name": "AP (Asien)",
+     "url": "https://www.clickondetroit.com/business/2026/11/17/asian-shares-decline-following-stocks-tumbled-on-wall-street/"
+    }
+   ]
+  },
+  {
+   "titel": "Nvidia legt heute Abend Zahlen vor – erste seit Huangs Rücktritt",
+   "text": [
+    "Nvidia meldet um 22:20 Uhr deutscher Zeit Zahlen. Nvidia selbst hatte rund 108 Milliarden Dollar Umsatz angekündigt. Seit dem Rücktritt von Jensen Huang am 12. November führt Finanzchefin Colette Kress das Unternehmen. Laut einem Bericht spricht der Vorstand nicht über eine Rückkehr Huangs. Die Zahlen gelten als Test für den ganzen KI-Boom."
+   ],
+   "quellen": [
+    {
+     "name": "TradingKey (Wochenvorschau)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262305825-week-ahead-nvidia-q3-earnings-us-october-retail-sales-fomc-minutes-walmart-tradingkey"
+    },
+    {
+     "name": "The Weekend Spread (Börsenschluss 16.11.)",
+     "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+    }
+   ]
+  },
+  {
+   "titel": "MSCI wirft Strategy und Metaplanet aus seinen Indizes",
+   "text": [
+    "MSCI streicht Strategy (früher MicroStrategy) und Metaplanet nach Börsenschluss am 30. November aus seinen Indizes. Indexfonds müssen die Aktien dann verkaufen; JPMorgan schätzte die Verkäufe auf rund 2,8 Milliarden Dollar. Die Strategy-Aktie fiel am Montag um 7,7 %."
+   ],
+   "quellen": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november"
+    },
+    {
+     "name": "The Block",
+     "url": "https://theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437"
+    },
+    {
+     "name": "CappNotes (Börsenschluss 16.11.)",
+     "url": "https://cappnotes.substack.com/p/closing-look-monday-november-16-2026"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin unter Druck – Geld fließt aus ETFs ab",
+   "text": [
+    "Bitcoin liegt knapp unter 65.000 Dollar, am Sonntag fiel er kurz auf rund 61.950 Dollar. Aus den Bitcoin-ETFs fließt seit Tagen Geld ab, vor allem aus dem großen ETF von BlackRock (IBIT). Belastend sind die Sorge vor höheren Zinsen und der Börsengang von Anthropic, der Geld von Anlegern bindet."
+   ],
+   "quellen": [
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/bitcoin-price-waller-rate-hike-november-17-2026/"
+    },
+    {
+     "name": "KuCoin News",
+     "url": "https://www.kucoin.com/news/flash/bitcoin-falls-below-65-000-amid-macroeconomic-pressures-and-anthropic-ipo"
+    }
+   ]
+  },
+  {
+   "titel": "Anthropic-Börsengang diese Woche",
+   "text": [
+    "Anthropic will den Ausgabepreis am Mittwoch festlegen, geplant sind 70 bis 78 Dollar je Aktie. Der Börsenhandel an der Nasdaq soll am Donnerstag unter dem Kürzel „ANT“ starten. Das Unternehmen wäre damit rund 1,3 bis 1,45 Billionen Dollar wert."
+   ],
+   "quellen": [
+    {
+     "name": "CappNotes (Börsenschluss 16.11.)",
+     "url": "https://cappnotes.substack.com/p/closing-look-monday-november-16-2026"
+    },
+    {
+     "name": "TradingKey (Wochenvorschau)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262305825-week-ahead-nvidia-q3-earnings-us-october-retail-sales-fomc-minutes-walmart-tradingkey"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "zeit": "11:00",
+   "titel": "ZEW-Konjunkturerwartungen Deutschland (November)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Zeigt, wie Finanzexperten die deutsche Wirtschaft sehen – wichtig für den DAX."
+  },
+  {
+   "zeit": "12:00",
+   "titel": "Home Depot – Quartalszahlen (vor US-Börsenstart)",
+   "art": "Quartalszahlen",
+   "warum": "Zeigt, wie viel US-Verbraucher für Haus und Garten ausgeben."
+  },
+  {
+   "zeit": "12:45",
+   "titel": "Walt Disney – Quartalszahlen (vor US-Börsenstart)",
+   "art": "Quartalszahlen",
+   "warum": "Wichtig für Streaming, Freizeitparks und Werbung."
+  },
+  {
+   "zeit": "14:30",
+   "titel": "US-Einzelhandelsumsätze (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Zeigt, ob die US-Verbraucher weiter kaufen – wichtig für Zinsen und Börse."
+  },
+  {
+   "zeit": "14:30",
+   "titel": "US-Import- und Exportpreise (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Hinweis auf die Inflation."
+  },
+  {
+   "zeit": "15:10",
+   "titel": "Rede von Fed-Mitglied Christopher Waller",
+   "art": "Notenbank",
+   "wichtig": true,
+   "warum": "Waller hatte eine größere Zinserhöhung im Dezember ins Spiel gebracht."
+  },
+  {
+   "zeit": "15:15",
+   "titel": "US-Industrieproduktion (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, wie gut die US-Industrie läuft."
+  },
+  {
+   "zeit": "15:30",
+   "titel": "Rede von Fed-Mitglied Beth Hammack",
+   "art": "Notenbank",
+   "warum": "Weitere Hinweise zum Zinskurs der Fed."
+  },
+  {
+   "zeit": "16:00",
+   "titel": "US-Immobilienindex NAHB (November)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Stimmung der Hausbauer in den USA."
+  },
+  {
+   "zeit": "20:25",
+   "titel": "Rede von New-York-Fed-Chef John Williams",
+   "art": "Notenbank",
+   "warum": "Williams ist einer der wichtigsten Fed-Vertreter."
+  },
+  {
+   "zeit": "22:20",
+   "titel": "Nvidia – Quartalszahlen (nach US-Börsenschluss)",
+   "art": "Quartalszahlen",
+   "wichtig": true,
+   "warum": "Wichtigster Termin der Woche: entscheidet über die Stimmung bei KI- und Chipwerten weltweit."
+  }
+ ],
+ "ausblick": [
+  {
+   "tag": "Mi.",
+   "zeit": "vor US-Start",
+   "titel": "Target, Lowe's, TJX – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Zeigen, wie es dem US-Handel geht."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "14:30",
+   "titel": "US-Baubeginne",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt die Lage am US-Immobilienmarkt."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "20:00",
+   "titel": "Protokoll der letzten Fed-Sitzung",
+   "art": "Notenbank",
+   "warum": "Zwei Mitglieder waren für eine Zinserhöhung – Hinweise für Dezember."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "abends",
+   "titel": "Anthropic legt den Ausgabepreis fest",
+   "art": "Börsengang",
+   "warum": "Größter Börsengang des Jahres, Handelsstart am Donnerstag."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "nach US-Schluss",
+   "titel": "Palo Alto Networks – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Wichtig für Cybersicherheits- und Software-Aktien."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "CappNotes (Börsenschluss 16.11.)",
+   "url": "https://cappnotes.substack.com/p/closing-look-monday-november-16-2026"
+  },
+  {
+   "name": "The Weekend Spread (Börsenschluss 16.11.)",
+   "url": "https://theweekendspread.substack.com/p/the-close-monday-november-16-2026"
+  },
+  {
+   "name": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026"
+  },
+  {
+   "name": "24/7 Wall St.",
+   "url": "https://247wallst.com/cards/tech-took-the-worst-of-it-the-nasdaq-s-2-54-drop-nearly-do-gspc-market-bell-01m7k2rvdndtgg635thrxjgnck"
+  },
+  {
+   "name": "dpa-AFX / ARIVA (DAX-Schluss)",
+   "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-tech-schwaeche-macht-dax-zu-12209139"
+  },
+  {
+   "name": "finanzen.at (DAX-Future)",
+   "url": "https://www.finanzen.at/nachrichten/aktien/eurex-dax-futures-im-fruehhandel-leichter-1036771750"
+  },
+  {
+   "name": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262307942-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-tradingkey"
+  },
+  {
+   "name": "AP (Asien)",
+   "url": "https://www.clickondetroit.com/business/2026/11/17/asian-shares-decline-following-stocks-tumbled-on-wall-street/"
+  },
+  {
+   "name": "dpa-AFX Tagesvorschau 17.11.",
+   "url": "https://www.finanzen.at/nachrichten/aktien/tagesvorschau-termine-am-17-november-2026-1036769710"
+  },
+  {
+   "name": "TradingKey (Wochenvorschau)",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262305825-week-ahead-nvidia-q3-earnings-us-october-retail-sales-fomc-minutes-walmart-tradingkey"
+  },
+  {
+   "name": "CryptoTicker",
+   "url": "https://cryptoticker.io/en/bitcoin-price-waller-rate-hike-november-17-2026/"
+  },
+  {
+   "name": "KuCoin News",
+   "url": "https://www.kucoin.com/news/flash/bitcoin-falls-below-65-000-amid-macroeconomic-pressures-and-anthropic-ipo"
+  },
+  {
+   "name": "Cointelegraph",
+   "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november"
+  },
+  {
+   "name": "The Block",
+   "url": "https://theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437"
+  }
+ ]
+}
