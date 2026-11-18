@@ -1,0 +1,469 @@
+{
+ "datum": "2026-11-18",
+ "typ": "werktag",
+ "erstellt": "2026-11-18T06:50:00+01:00",
+ "schlagzeile": "Nvidia übertrifft die Erwartungen deutlich – nach einem schwachen Börsentag (Dow −1,6 %, DAX −2 %) erholen sich die US-Futures",
+ "kurz": [
+  "Die US-Börsen sind am Dienstag erneut gefallen: Dow Jones −1,6 %, S&P 500 −1,0 %, Nasdaq −0,7 %. Der S&P 500 schloss so tief wie seit Juli nicht mehr – der vierte Verlusttag in Folge.",
+  "Nach Börsenschluss hat Nvidia sehr gute Zahlen gemeldet: 115,8 Milliarden Dollar Umsatz (erwartet rund 109 Mrd.) und ein starker Ausblick von rund 130 Milliarden Dollar. Die Aktie stieg nachbörslich um etwa 4,5 %.",
+  "Die US-Terminkontrakte liegen heute früh im Plus: S&P 500 rund +0,8 %, Nasdaq 100 rund +1,4 %.",
+  "Der DAX fiel gestern um 2,0 % auf 26.075,73 Punkte. Deutsche Bank (−6,0 %) und SAP (−5,6 %) verloren am stärksten. Der DAX-Future steht heute früh bei rund 26.070 Punkten.",
+  "In Asien ist das Bild gemischt: Nikkei −0,6 %, Hang Seng −0,4 %, Kospi +0,2 %.",
+  "Bitcoin kostet rund 64.400 Dollar (−0,8 %). Aus den Bitcoin-ETFs flossen am Dienstag wieder rund 30 Millionen Dollar ab; die Strategy-Aktie fiel um fast 6 %.",
+  "Heute wichtig: das Protokoll der letzten Fed-Sitzung (20:00 Uhr) und die Festlegung des Ausgabepreises beim Anthropic-Börsengang."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "US-Börsen (Schluss Dienstag)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "50.759,42",
+     "veraenderung": -1.64,
+     "hinweis": "−849 Punkte"
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.340,53",
+     "veraenderung": -1.03,
+     "hinweis": "tiefster Schluss seit Juli"
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "24.328,38",
+     "veraenderung": -0.74,
+     "hinweis": "zeitweise −2,1 %"
+    },
+    {
+     "name": "Nvidia",
+     "wert": "155,39 $",
+     "veraenderung": -0.44,
+     "hinweis": "nachbörslich ca. +4,5 %"
+    },
+    {
+     "name": "Micron",
+     "wert": "712,42 $",
+     "veraenderung": -0.92,
+     "hinweis": "nachbörslich ca. +4,6 %"
+    },
+    {
+     "name": "Broadcom",
+     "wert": "341,60 $",
+     "veraenderung": 2.46,
+     "hinweis": "nachbörslich ca. +5 %"
+    },
+    {
+     "name": "Salesforce",
+     "wert": "194,52 $",
+     "veraenderung": -9.45
+    },
+    {
+     "name": "Strategy",
+     "wert": "Aktie",
+     "veraenderung": -6.0,
+     "hinweis": "ungefährer Wert"
+    },
+    {
+     "name": "Coinbase",
+     "wert": "Aktie",
+     "veraenderung": -4.02
+    }
+   ]
+  },
+  {
+   "gruppe": "Deutschland & Asien",
+   "werte": [
+    {
+     "name": "DAX (Schluss Dienstag)",
+     "wert": "26.075,73",
+     "veraenderung": -1.97,
+     "hinweis": "35 von 40 Werten im Minus"
+    },
+    {
+     "name": "DAX-Future (vorbörslich)",
+     "wert": "ca. 26.070",
+     "veraenderung": -0.3,
+     "hinweis": "Stand 6 Uhr, etwa auf Höhe des Xetra-Schlusses"
+    },
+    {
+     "name": "Nikkei 225",
+     "wert": "58.520,05",
+     "veraenderung": -0.6,
+     "hinweis": "Tokyo Electron −1,7 %"
+    },
+    {
+     "name": "Kospi",
+     "wert": "4.978,16",
+     "veraenderung": 0.2,
+     "hinweis": "Dienstag −2,6 %"
+    },
+    {
+     "name": "Hang Seng",
+     "wert": "23.407,87",
+     "veraenderung": -0.4
+    },
+    {
+     "name": "Shanghai",
+     "wert": "3.578,37",
+     "veraenderung": -0.2
+    },
+    {
+     "name": "Taiwan (Taiex)",
+     "wert": "Index",
+     "veraenderung": -1.1
+    },
+    {
+     "name": "ASX 200 (Australien)",
+     "wert": "8.849,50",
+     "veraenderung": -0.4
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Krypto",
+   "werte": [
+    {
+     "name": "Öl (Brent)",
+     "wert": "92,86 $",
+     "veraenderung": -0.3,
+     "hinweis": "Stand am Morgen"
+    },
+    {
+     "name": "Öl (WTI)",
+     "wert": "85,36 $",
+     "veraenderung": -0.8,
+     "hinweis": "Stand am Morgen"
+    },
+    {
+     "name": "Gold",
+     "wert": "ca. 3.825 $",
+     "veraenderung": -1.1,
+     "hinweis": "14-Monats-Tief am Morgen, ungefährer Wert"
+    },
+    {
+     "name": "Silber",
+     "wert": "ca. 47,40 $",
+     "veraenderung": 1.2,
+     "hinweis": "Dienstag, nahe 14-Monats-Tief"
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "1,0993",
+     "veraenderung": -0.01
+    },
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 64.400 $",
+     "veraenderung": -0.8,
+     "hinweis": "Woche: ca. −12 %"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.800 $",
+     "veraenderung": -1.2,
+     "hinweis": "ungefährer Wert"
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    {
+     "name": "US-Rendite 10 J.",
+     "wert": "5,10 %",
+     "veraenderung": -0.4,
+     "hinweis": "−2 Basispunkte",
+     "umgekehrt": true
+    },
+    {
+     "name": "VIX",
+     "wert": "26,06",
+     "veraenderung": 13.7,
+     "hinweis": "Schluss Dienstag – Angst steigt weiter",
+     "umgekehrt": true
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA",
+   "text": [
+    "Die US-Börsen hatten am Dienstag wieder einen schwachen Tag: Der Dow Jones fiel um 1,6 % auf 50.759 Punkte, zeitweise sogar um über 1.000 Punkte. Der S&P 500 verlor 1,0 % auf 7.341 Punkte, der Nasdaq 0,7 % auf 24.328 Punkte.",
+    "Besonders stark fielen Software-Aktien: Salesforce verlor 9,5 %, Microsoft 2,3 %. Anleger fürchten, dass KI klassische Software ersetzen könnte. UnitedHealth fiel um 5,4 % wegen geplanter neuer Regeln gegen Betrug bei Medicare und Medicaid. Nur der Energiesektor legte zu.",
+    "Wirtschaftsdaten: Die US-Einzelhandelsumsätze stiegen im Oktober um 0,2 % (wie erwartet). Die Industrieproduktion fiel um 0,4 %, und die Stimmung der Hausbauer ist so schlecht wie seit 14 Jahren nicht. Die Märkte rechnen zu rund 95 % mit einer Zinserhöhung der Fed im Dezember.",
+    "Nach Börsenschluss meldete Nvidia starke Zahlen. Die Aktie und andere Chipwerte wie Micron und Broadcom stiegen nachbörslich um 4 bis 5 %. Das Angstbarometer VIX stieg auf 26,06."
+   ]
+  },
+  {
+   "titel": "Deutschland",
+   "text": [
+    "Der DAX fiel am Dienstag um 2,0 % auf 26.075,73 Punkte. 35 der 40 Werte gaben nach. Am schwächsten waren Deutsche Bank (−6,0 %), SAP (−5,6 %), BASF (−2,8 %), RWE (−2,6 %) und Siemens Energy (−2,6 %). Gewinner waren Zalando (+1,1 %), Merck (+0,7 %) und Henkel (+0,6 %).",
+    "Gründe: Sorgen um hohe Bewertungen von KI-Firmen, Nervosität vor den Nvidia-Zahlen und die neuen US-Regeln für KI-Chips. Bei der Deutschen Bank belasteten Berichte über interne Dokumente, bei SAP der Rücktritt eines Vorstandsmitglieds.",
+    "Heute früh steht der DAX-Future bei rund 26.070 Punkten, also etwa auf dem Niveau des Vortagesschlusses. Die guten Nvidia-Zahlen könnten im Tagesverlauf helfen."
+   ]
+  },
+  {
+   "titel": "Asien",
+   "text": [
+    "Die Börsen in Asien liegen heute früh überwiegend leicht im Minus: Nikkei −0,6 %, Hang Seng −0,4 %, Shanghai −0,2 %, Taiwan −1,1 %, Australien −0,4 %. Der Kospi schwankt und liegt knapp im Plus (+0,2 %), nachdem er am Dienstag um 2,6 % gefallen war.",
+    "Japan meldete für Oktober ein Handelsdefizit von 476,5 Milliarden Yen. In Shenzhen beginnt heute der APEC-Gipfel, bei dem sich Trump und Xi treffen sollen."
+   ]
+  },
+  {
+   "titel": "Rohstoffe, Zinsen & Krypto",
+   "text": [
+    "Öl ist heute früh etwas billiger: Brent kostet rund 92,86 Dollar, WTI 85,36 Dollar. Gold fiel am Morgen auf rund 3.825 Dollar, den tiefsten Stand seit 14 Monaten. Silber liegt bei rund 47 Dollar.",
+    "Die Rendite der 10-jährigen US-Anleihe sank leicht auf 5,10 %. Der Euro kostet rund 1,099 Dollar.",
+    "Bitcoin kostet rund 64.400 Dollar und hat in einer Woche etwa 12 % verloren. Der Angst-Gier-Index für Krypto steht bei 12 (extreme Angst). Ethereum liegt bei rund 1.800 Dollar."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Nvidia übertrifft die Erwartungen – Aktie nachbörslich im Plus",
+   "text": [
+    "Nvidia hat im dritten Quartal 115,8 Milliarden Dollar umgesetzt, 103 % mehr als vor einem Jahr und deutlich mehr als erwartet. Für das laufende Quartal erwartet Nvidia rund 130 Milliarden Dollar (erwartet rund 125 Mrd.). Die Aktie stieg nachbörslich um etwa 4,5 %, die US-Futures drehten ins Plus. Es waren die ersten Zahlen seit dem Rücktritt von Chef Jensen Huang; laut Medienberichten untersucht die US-Börsenaufsicht SEC die Umstände."
+   ],
+   "quellen": [
+    {
+     "name": "StockTitan (17.11.)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
+    },
+    {
+     "name": "The Weekend Spread (Börsenschluss 17.11.)",
+     "url": "https://theweekendspread.substack.com/p/the-close-tuesday-november-17-2026"
+    },
+    {
+     "name": "Saxo Asia Quick Take",
+     "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
+    }
+   ]
+  },
+  {
+   "titel": "Wall Street: vierter Verlusttag, Software-Aktien unter Druck",
+   "text": [
+    "Der Dow Jones fiel um fast 850 Punkte, der S&P 500 schloss auf dem tiefsten Stand seit Juli. Salesforce brach um 9,5 % ein – Anleger fürchten, dass KI-Programme klassische Software verdrängen. Schwache Industriedaten und die Erwartung einer Zinserhöhung im Dezember belasteten zusätzlich."
+   ],
+   "quellen": [
+    {
+     "name": "Motley Fool (Börsentag 17.11.)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-stocks-slide-on-ai-chip-and-tech-pressures-salesforce-plummets-9/"
+    },
+    {
+     "name": "The Weekend Spread (Börsenschluss 17.11.)",
+     "url": "https://theweekendspread.substack.com/p/the-close-tuesday-november-17-2026"
+    }
+   ]
+  },
+  {
+   "titel": "DAX fällt um 2 % – Deutsche Bank und SAP brechen ein",
+   "text": [
+    "Der DAX hatte seinen schwächsten Tag seit Längerem. Deutsche Bank verlor 6 % nach Berichten über durchgesickerte interne Dokumente; die Bank erwartet keine größeren finanziellen Folgen. SAP fiel um 5,6 %, nachdem ein Vorstandsmitglied zurückgetreten ist."
+   ],
+   "quellen": [
+    {
+     "name": "ad-hoc-news (DAX-Schluss)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-schliesst-am-17-november-1-97-prozent-tiefer-bei-26-075-73-punkten/70528278"
+    },
+    {
+     "name": "aktiencheck (DAX-Gewinner/Verlierer)",
+     "url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-21-prozent-ab-deutsche-bank-und-sap-brechen-ein-zalando"
+    },
+    {
+     "name": "Saxo Asia Quick Take",
+     "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
+    }
+   ]
+  },
+  {
+   "titel": "Krypto: Bitcoin weiter schwach, Strategy und Coinbase fallen",
+   "text": [
+    "Bitcoin hält sich um 64.400 Dollar. Aus den Bitcoin-ETFs flossen am Dienstag rund 30 Millionen Dollar ab, nachdem am Montag kurz wieder Geld hineingeflossen war. Die Strategy-Aktie fiel um fast 6 %, Coinbase um 4 %. Ende November nimmt MSCI Strategy und Metaplanet aus seinen Indizes – Indexfonds müssen dann verkaufen."
+   ],
+   "quellen": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-price-stuck-below-65000-as-etf-outflows-and-bearish-signals-persist"
+    },
+    {
+     "name": "The Weekend Spread (Börsenschluss 17.11.)",
+     "url": "https://theweekendspread.substack.com/p/the-close-tuesday-november-17-2026"
+    },
+    {
+     "name": "Motley Fool (Börsentag 17.11.)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-stocks-slide-on-ai-chip-and-tech-pressures-salesforce-plummets-9/"
+    }
+   ]
+  },
+  {
+   "titel": "Anthropic-Börsengang: Ausgabepreis wird heute festgelegt",
+   "text": [
+    "Anthropic legt heute den Ausgabepreis fest, geplant sind 70 bis 78 Dollar je Aktie. Der Handel an der Nasdaq unter dem Kürzel „ANT“ soll am Donnerstag beginnen. Es wäre der größte Börsengang des Jahres."
+   ],
+   "quellen": [
+    {
+     "name": "dpa-AFX Tagesvorschau 18.11.",
+     "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-18-november-2026-16072048"
+    },
+    {
+     "name": "The Weekend Spread (Börsenschluss 17.11.)",
+     "url": "https://theweekendspread.substack.com/p/the-close-tuesday-november-17-2026"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "zeit": "08:00",
+   "titel": "Großbritannien: Verbraucherpreise (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt die Inflation in Großbritannien – wichtig für die Bank of England."
+  },
+  {
+   "zeit": "10:00",
+   "titel": "EZB: Bericht zur Finanzstabilität",
+   "art": "Notenbank",
+   "warum": "Die EZB sagt, welche Risiken sie für Banken und Märkte sieht."
+  },
+  {
+   "zeit": "11:00",
+   "titel": "Eurozone: Verbraucherpreise (Oktober, endgültig)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Bestätigt die Inflation in der Eurozone."
+  },
+  {
+   "zeit": "vor US-Start",
+   "titel": "Target, Lowe's, TJX – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Zeigen, wie viel US-Verbraucher ausgeben."
+  },
+  {
+   "zeit": "14:30",
+   "titel": "USA: Baubeginne und Baugenehmigungen (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt die Lage am US-Immobilienmarkt."
+  },
+  {
+   "zeit": "16:00",
+   "titel": "USA: Schwebende Hausverkäufe (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Weiterer Hinweis auf den US-Häusermarkt."
+  },
+  {
+   "zeit": "16:30",
+   "titel": "USA: Ölbericht der EIA",
+   "art": "Rohstoffe",
+   "warum": "Zeigt die US-Öllager – wichtig für den Ölpreis."
+  },
+  {
+   "zeit": "20:00",
+   "titel": "Protokoll der letzten Fed-Sitzung",
+   "art": "Notenbank",
+   "wichtig": true,
+   "warum": "Gibt Hinweise, ob und wie stark die Fed im Dezember die Zinsen erhöht."
+  },
+  {
+   "zeit": "abends",
+   "titel": "Anthropic legt den Ausgabepreis fest",
+   "art": "Börsengang",
+   "wichtig": true,
+   "warum": "Größter Börsengang des Jahres, Handelsstart am Donnerstag."
+  },
+  {
+   "zeit": "nach US-Schluss",
+   "titel": "Palo Alto Networks – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Wichtig für Cybersicherheits- und Software-Aktien."
+  }
+ ],
+ "ausblick": [
+  {
+   "tag": "Do.",
+   "zeit": "vor US-Start",
+   "titel": "Alibaba, PDD – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Zeigen, wie es dem chinesischen Konsum geht."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "13:00",
+   "titel": "Walmart – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "wichtig": true,
+   "warum": "Größter Einzelhändler der USA – zeigt die Lage der Verbraucher."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "14:30",
+   "titel": "USA: Erstanträge auf Arbeitslosenhilfe und Philly-Fed-Index",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigen, wie es dem Arbeitsmarkt und der Industrie geht."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "15:30",
+   "titel": "Anthropic: Erster Handelstag an der Nasdaq (erwartet)",
+   "art": "Börsengang",
+   "wichtig": true,
+   "warum": "Größter Börsengang des Jahres – wichtig für die Stimmung bei KI-Aktien."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "nach US-Schluss",
+   "titel": "Intuit – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Wichtig für Software-Aktien, die zuletzt stark gefallen sind."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "The Weekend Spread (Börsenschluss 17.11.)",
+   "url": "https://theweekendspread.substack.com/p/the-close-tuesday-november-17-2026"
+  },
+  {
+   "name": "Motley Fool (Börsentag 17.11.)",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-stocks-slide-on-ai-chip-and-tech-pressures-salesforce-plummets-9/"
+  },
+  {
+   "name": "StockTitan (17.11.)",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
+  },
+  {
+   "name": "ad-hoc-news (DAX-Schluss)",
+   "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-schliesst-am-17-november-1-97-prozent-tiefer-bei-26-075-73-punkten/70528278"
+  },
+  {
+   "name": "aktiencheck (DAX-Gewinner/Verlierer)",
+   "url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-21-prozent-ab-deutsche-bank-und-sap-brechen-ein-zalando"
+  },
+  {
+   "name": "finanzen.net (DAX-Future)",
+   "url": "https://www.finanzen.net/nachricht/aktien/eurex-dax-futures-im-fruehhandel-etwas-leichter-16072052"
+  },
+  {
+   "name": "AP (Asien)",
+   "url": "https://www.ksat.com/business/2026/11/18/asian-markets-mostly-decline-after-wall-street-losses-as-ai-stocks-swing/"
+  },
+  {
+   "name": "Saxo Asia Quick Take",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
+  },
+  {
+   "name": "crypto.news",
+   "url": "https://crypto.news/bitcoin-price-stuck-below-65000-as-etf-outflows-and-bearish-signals-persist"
+  },
+  {
+   "name": "Lapaas Voice (Silber)",
+   "url": "https://lapaasvoice.com/silver-prices-hover-near-14-month-low-at-47-as-strong-dollar-and-fed-rate-concerns-trigger-sell-off"
+  },
+  {
+   "name": "dpa-AFX Tagesvorschau 18.11.",
+   "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-18-november-2026-16072048"
+  },
+  {
+   "name": "dpa-AFX Wochenvorschau",
+   "url": "https://www.onvista.de/news/2026/11-18-wochenvorschau-termine-bis-1-dezember-2026-0-10-26577591"
+  }
+ ]
+}
