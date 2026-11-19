@@ -1,0 +1,487 @@
+{
+ "datum": "2026-11-19",
+ "typ": "werktag",
+ "erstellt": "2026-11-19T06:42:00+01:00",
+ "schlagzeile": "Heute startet Anthropic an der Börse (83 Dollar je Aktie) – nach einem gemischten Tag (Dow −1,1 %, DAX −1,2 %) liegen die US-Futures im Plus",
+ "kurz": [
+  "Die US-Börsen waren am Mittwoch gemischt: Dow Jones −1,1 %, S&P 500 −0,2 % (fünfter Verlusttag in Folge), Nasdaq +0,4 %.",
+  "Nvidia fiel trotz der starken Zahlen um 2,9 %. AMD (+5,3 %) und Broadcom (+3,6 %) stiegen dagegen deutlich.",
+  "Das Fed-Protokoll zeigt: Fast alle Notenbanker halten weitere Zinserhöhungen für wahrscheinlich. Die Märkte rechnen zu rund 90 % mit einer Erhöhung im Dezember.",
+  "Der DAX fiel um 1,2 % auf 25.736 Punkte und liegt damit wieder unter 26.000. Zalando war mit +2,8 % der größte Gewinner.",
+  "In Asien ging es überwiegend abwärts: Taiwan rund −3 bis −4 %, Hang Seng −1,9 %, Kospi −0,7 %. Nur der Nikkei lag leicht im Plus.",
+  "Bitcoin fiel auf rund 62.900 Dollar. Aus den Bitcoin-ETFs flossen zuletzt rund 240 Millionen Dollar ab, die Strategy-Aktie verlor 6,4 %.",
+  "Heute wichtig: der Börsenstart von Anthropic an der Nasdaq (Kürzel ANT), Zahlen von Walmart und Alibaba, US-Arbeitsmarktdaten um 14:30 Uhr und das Gipfeltreffen von Xi, Trump und Putin."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "US-Börsen (Schluss Mittwoch)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "50.198,17",
+     "veraenderung": -1.11,
+     "hinweis": "−561 Punkte"
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.323,63",
+     "veraenderung": -0.23,
+     "hinweis": "5. Verlusttag in Folge"
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "24.429,88",
+     "veraenderung": 0.42
+    },
+    {
+     "name": "Nvidia",
+     "wert": "150,96 $",
+     "veraenderung": -2.89,
+     "hinweis": "im November rund −26 %"
+    },
+    {
+     "name": "AMD",
+     "wert": "Aktie",
+     "veraenderung": 5.31
+    },
+    {
+     "name": "Broadcom",
+     "wert": "Aktie",
+     "veraenderung": 3.64,
+     "hinweis": "Partner von Anthropic"
+    },
+    {
+     "name": "Amazon",
+     "wert": "Aktie",
+     "veraenderung": 3.82,
+     "hinweis": "Anthropic-Beteiligung"
+    },
+    {
+     "name": "Strategy",
+     "wert": "Aktie",
+     "veraenderung": -6.4
+    },
+    {
+     "name": "Coinbase",
+     "wert": "Aktie",
+     "veraenderung": -3.92
+    }
+   ]
+  },
+  {
+   "gruppe": "Deutschland & Asien",
+   "werte": [
+    {
+     "name": "DAX (Schluss Mittwoch)",
+     "wert": "25.736,24",
+     "veraenderung": -1.19,
+     "hinweis": "wieder unter 26.000"
+    },
+    {
+     "name": "MDax",
+     "wert": "29.878,63",
+     "veraenderung": -0.89
+    },
+    {
+     "name": "Nikkei 225",
+     "wert": "ca. 59.100",
+     "veraenderung": 0.2,
+     "hinweis": "zwischen +0,1 und +0,3 %"
+    },
+    {
+     "name": "Kospi",
+     "wert": "5.033,27",
+     "veraenderung": -0.7
+    },
+    {
+     "name": "Hang Seng",
+     "wert": "22.854,15",
+     "veraenderung": -1.9,
+     "hinweis": "Tencent −6,4 %"
+    },
+    {
+     "name": "Shanghai",
+     "wert": "3.571,99",
+     "veraenderung": -0.4
+    },
+    {
+     "name": "Taiwan (Taiex)",
+     "wert": "Index",
+     "veraenderung": -3.5,
+     "hinweis": "Quellen: −3,1 bis −3,9 %"
+    },
+    {
+     "name": "ASX 200 (Australien)",
+     "wert": "8.728,10",
+     "veraenderung": -1.1
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Krypto",
+   "werte": [
+    {
+     "name": "Öl (Brent)",
+     "wert": "91,70 $",
+     "veraenderung": -0.2,
+     "hinweis": "Stand am Morgen"
+    },
+    {
+     "name": "Öl (WTI)",
+     "wert": "82,70 $",
+     "veraenderung": -0.7,
+     "hinweis": "Mittwoch −3,2 %, tiefster Stand seit August"
+    },
+    {
+     "name": "Gold",
+     "wert": "ca. 3.740 $",
+     "veraenderung": -3.5,
+     "hinweis": "Mittwoch, tiefster Stand seit Sept. 2025; heute früh stabil"
+    },
+    {
+     "name": "Silber",
+     "wert": "ca. 45,40 $",
+     "veraenderung": -4.8,
+     "hinweis": "Mittwoch; heute früh leicht erholt"
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "1,0961",
+     "veraenderung": -0.13
+    },
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 62.900 $",
+     "veraenderung": -2.5,
+     "hinweis": "ungefährer Wert, Woche ca. −12 %"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.780 $",
+     "veraenderung": -1.5,
+     "hinweis": "ungefährer Wert"
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    {
+     "name": "US-Rendite 10 J.",
+     "wert": "5,05 %",
+     "veraenderung": -0.8,
+     "hinweis": "rund −4 Basispunkte",
+     "umgekehrt": true
+    },
+    {
+     "name": "VIX",
+     "wert": "24,56",
+     "veraenderung": -3.53,
+     "hinweis": "Schluss Mittwoch – Angst etwas gesunken",
+     "umgekehrt": true
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA",
+   "text": [
+    "Die US-Börsen waren am Mittwoch gespalten: Der Dow Jones fiel um 1,1 % auf 50.198 Punkte, der S&P 500 um 0,2 % auf 7.324 Punkte. Der S&P 500 hat damit fünf Tage in Folge verloren – so lange wie seit Juni nicht. Der Nasdaq stieg dagegen um 0,4 % auf 24.430 Punkte.",
+    "Chipwerte: Nvidia fiel trotz sehr guter Zahlen um 2,9 % auf 150,96 Dollar. Belastend sind der Stopp von Verkäufen nach China und die Unsicherheit an der Spitze nach dem Rücktritt von Chef Jensen Huang. AMD stieg um 5,3 %, Broadcom um 3,6 %. Amazon legte um 3,8 % zu, weil das Unternehmen an Anthropic beteiligt ist.",
+    "Gesundheitswerte fielen stark: UnitedHealth −10,2 %, Humana −13,0 %. Grund ist eine geplante Regel der US-Behörde CMS, mit der zu viel gezahltes Geld von Krankenversicherern zurückgefordert werden soll. Händler wie Target (+4,0 %) und TJX (+8,1 %) stiegen nach guten Zahlen.",
+    "Das Protokoll der letzten Fed-Sitzung zeigt: Fast alle Notenbanker halten weitere Zinserhöhungen für richtig. Fed-Gouverneur Waller sprach sich sogar für eine Erhöhung um 0,5 Prozentpunkte im Dezember aus. Der VIX sank leicht auf 24,56. Nachbörslich und heute früh liegen die US-Futures im Plus (Nasdaq 100 rund +0,7 %, S&P 500 rund +0,4 %)."
+   ]
+  },
+  {
+   "titel": "Deutschland",
+   "text": [
+    "Der DAX fiel am Mittwoch um 1,2 % auf 25.736,24 Punkte und rutschte damit wieder unter die Marke von 26.000 Punkten. Der MDax verlor 0,9 %.",
+    "Größter Gewinner war Zalando (+2,8 %), nachdem Großaktionär Anders Holch Povlsen Aktien für gut 5 Millionen Euro gekauft hatte. Siemens Energy und Infineon erholten sich. Im MDax brach Deutz um fast 17 % ein – ein Leerverkäufer hatte Vorwürfe gegen das Unternehmen erhoben.",
+    "Gründe für die Verluste: Zinssorgen, Zweifel an der KI-Branche und Vorsicht vor dem Anthropic-Börsengang und dem Gipfel in China. Händler sprachen von einem „Käuferstreik“ bei eher geringen Umsätzen. Ein verlässlicher vorbörslicher DAX-Stand lag bei Redaktionsschluss noch nicht vor; die festeren US-Futures sprechen eher für einen ruhigeren Start."
+   ]
+  },
+  {
+   "titel": "Asien",
+   "text": [
+    "In Asien überwogen heute früh die Verluste. Besonders stark fiel Taiwan (rund −3 bis −4 %), weil Chip- und KI-Werte erneut verkauft wurden. Der Hang Seng verlor 1,9 % (Tencent −6,4 %, Alibaba −5,3 %), der Kospi 0,7 %, Shanghai 0,4 % und Australien 1,1 %.",
+    "Der Nikkei lag leicht im Plus (rund +0,1 bis +0,3 %). In Australien stieg die Arbeitslosigkeit im Oktober überraschend auf 4,9 %, den höchsten Stand seit 2021."
+   ]
+  },
+  {
+   "titel": "Rohstoffe, Zinsen & Krypto",
+   "text": [
+    "Öl wurde billiger: WTI fiel am Mittwoch um 3,2 % auf den tiefsten Stand seit Ende August, weil die US-Lager stärker gestiegen sind als erwartet. Heute früh kostet Brent rund 91,70 Dollar, WTI rund 82,70 Dollar.",
+    "Gold fiel am Mittwoch um rund 3,5 % auf etwa 3.730 Dollar – so tief wie seit September 2025 nicht mehr. Silber verlor fast 5 %. Grund sind die Erwartung höherer Zinsen und ein starker Dollar. Heute früh sind die Preise stabil.",
+    "Die Rendite der 10-jährigen US-Anleihe sank leicht auf rund 5,05 %. Der Euro kostet rund 1,096 Dollar.",
+    "Bitcoin fiel auf rund 62.900 Dollar, Ethereum auf rund 1.780 Dollar. Die US-Bitcoin-ETFs hatten zuletzt (Dienstag) Abflüsse von rund 240 Millionen Dollar, davon allein rund 210 Millionen beim größten Fonds IBIT. Seit Anfang November flossen insgesamt rund 2,6 Milliarden Dollar ab."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Anthropic-Börsengang: Preis über der Spanne, heute erster Handelstag",
+   "text": [
+    "Anthropic hat den Ausgabepreis auf 83 Dollar je Aktie festgelegt – mehr als die geplante Spanne von 70 bis 78 Dollar. Das Unternehmen wird damit mit rund 1,5 Billionen Dollar bewertet. Mit rund 81 Milliarden Dollar ist es der größte Börsengang der Geschichte. Die Aktie soll heute an der Nasdaq unter dem Kürzel ANT starten. Auch Amazon, Alphabet und Partner Broadcom stehen deshalb im Blick."
+   ],
+   "quellen": [
+    {
+     "name": "Washington Post (Anthropic-IPO)",
+     "url": "https://www.washingtonpost.com/business/2026/11/18/anthropic-ipo-pricing/fcb92026-e39f-11f1-a99e-b3e3805c6b8b_story.html"
+    },
+    {
+     "name": "StockTitan (18.11.)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+    },
+    {
+     "name": "Investing.com (Asien 19.11.)",
+     "url": "https://investing.com/news/stock-market-news/asia-stocks-slide-as-taiwan-drops-4-ai-jitters-blunt-anthropic-ipo-optimism-5037723"
+    }
+   ]
+  },
+  {
+   "titel": "Fed-Protokoll: Weitere Zinserhöhungen wahrscheinlich",
+   "text": [
+    "Fast alle Mitglieder der US-Notenbank halten weitere Zinserhöhungen für angemessen. Einige brachten sogar einen größeren Schritt als 0,25 Prozentpunkte im Dezember ins Gespräch. Gouverneur Waller sagte, eine Erhöhung um 0,5 Prozentpunkte sei wohl nötig. Die nächste Sitzung ist am 8. und 9. Dezember."
+   ],
+   "quellen": [
+    {
+     "name": "CappNotes (Börsenschluss 18.11.)",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+    },
+    {
+     "name": "AP via WSLS (Asien 19.11.)",
+     "url": "https://www.wsls.com/business/2026/11/19/asian-stocks-are-mixed-and-us-futures-climb-ahead-of-anthropics-blockbuster-ipo/"
+    }
+   ]
+  },
+  {
+   "titel": "Nvidia fällt trotz starker Zahlen – Chipwerte in Asien unter Druck",
+   "text": [
+    "Nvidia hatte am Dienstag sehr gute Zahlen gemeldet, die Aktie fiel am Mittwoch aber um 2,9 %. Im November liegt sie rund 26 % im Minus. Gründe sind der Wegfall des China-Geschäfts mit Rechenzentrums-Chips und die Führungsfrage nach dem Abgang von Jensen Huang. In Asien fielen Chip- und KI-Werte heute erneut, besonders in Taiwan."
+   ],
+   "quellen": [
+    {
+     "name": "CappNotes (Börsenschluss 18.11.)",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+    },
+    {
+     "name": "Investing.com (Asien 19.11.)",
+     "url": "https://investing.com/news/stock-market-news/asia-stocks-slide-as-taiwan-drops-4-ai-jitters-blunt-anthropic-ipo-optimism-5037723"
+    }
+   ]
+  },
+  {
+   "titel": "Krypto: Strategy fällt weiter, ETF-Abflüsse halten an",
+   "text": [
+    "Die Strategy-Aktie (früher MicroStrategy) fiel am Mittwoch um 6,4 %, Coinbase um 3,9 %. Zum 30. November nimmt MSCI Strategy und die japanische Bitcoin-Firma Metaplanet aus seinen Indizes – dann setzt MSCI alle Änderungen seiner November-Überprüfung um. Aus den US-Bitcoin-ETFs flossen zuletzt rund 240 Millionen Dollar ab, seit Monatsbeginn rund 2,6 Milliarden."
+   ],
+   "quellen": [
+    {
+     "name": "CappNotes (Börsenschluss 18.11.)",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+    },
+    {
+     "name": "Cointelegraph (Bitcoin-ETFs)",
+     "url": "https://cointelegraph.com/markets/bitcoin-etf-240-million-outflow-bearish-phase"
+    },
+    {
+     "name": "ChainCatcher (ETF-Flüsse 19.11.)",
+     "url": "https://www.chaincatcher.com/en/article/2306210"
+    },
+    {
+     "name": "MSCI Index-Überprüfung November 2026",
+     "url": "https://www.msci.com/eqb/pressreleases/archive/MSCI_Nov26_QIRPR.pdf"
+    }
+   ]
+  },
+  {
+   "titel": "Nach US-Börsenschluss: Palo Alto mit starken Zahlen und Übernahme",
+   "text": [
+    "Palo Alto Networks stieg am Mittwoch um 9,9 % nach guten Quartalszahlen und einem höheren Jahresausblick. Nachbörslich kündigte das Unternehmen den Kauf von Applied Compute für 4,5 Milliarden Dollar in Aktien an; die Aktie legte weiter zu. Cybersicherheits-Werte waren insgesamt gefragt, nachdem die US-Behörde CISA vor einer gefährlichen Java-Sicherheitslücke gewarnt hatte."
+   ],
+   "quellen": [
+    {
+     "name": "CappNotes (Börsenschluss 18.11.)",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+    },
+    {
+     "name": "StockTitan (18.11.)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "tag": "",
+   "zeit": "08:00",
+   "titel": "Großbritannien: Verbraucher- und Erzeugerpreise (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt die Inflation in Großbritannien – wichtig für die Bank of England."
+  },
+  {
+   "tag": "",
+   "zeit": "11:00",
+   "titel": "EZB-Bankenaufsicht: Pressekonferenz zum SREP-Bericht",
+   "art": "Notenbank",
+   "warum": "Die EZB sagt, wie sie die Lage der Banken einschätzt."
+  },
+  {
+   "tag": "",
+   "zeit": "11:30",
+   "titel": "Alibaba – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Zeigt, wie es dem chinesischen Konsum und dem KI-Geschäft in China geht."
+  },
+  {
+   "tag": "",
+   "zeit": "13:00",
+   "titel": "Walmart – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "wichtig": true,
+   "warum": "Größter Händler der USA – zeigt, wie viel die Amerikaner einkaufen."
+  },
+  {
+   "tag": "",
+   "zeit": "14:30",
+   "titel": "USA: Erstanträge auf Arbeitslosenhilfe und Philadelphia-Fed-Index",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Erwartet: 197.000 Anträge, Philly-Fed 18,0. Ein starker Arbeitsmarkt stützt Zinserhöhungen der Fed."
+  },
+  {
+   "tag": "",
+   "zeit": "16:00",
+   "titel": "USA: Frühindikatoren (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Gibt Hinweise auf die Konjunktur der nächsten Monate."
+  },
+  {
+   "tag": "",
+   "zeit": "ab 15:30",
+   "titel": "Anthropic – erster Handelstag an der Nasdaq (ANT)",
+   "art": "Börsengang",
+   "wichtig": true,
+   "warum": "Größter Börsengang der Geschichte – gilt als Stimmungstest für die gesamte KI-Branche. Die genaue Uhrzeit des ersten Kurses steht noch nicht fest."
+  },
+  {
+   "tag": "",
+   "zeit": "ganztägig",
+   "titel": "Gipfeltreffen Xi – Trump – Putin in China / Ende des APEC-Gipfels",
+   "art": "Politik",
+   "wichtig": true,
+   "warum": "Ergebnisse zu Handel, Zöllen oder Krieg können die Märkte stark bewegen."
+  },
+  {
+   "tag": "",
+   "zeit": "nach US-Schluss",
+   "titel": "Intuit, Ross Stores, Gap, Keysight, Elastic – Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Wichtig für Software-Werte und den US-Handel."
+  }
+ ],
+ "ausblick": [
+  {
+   "tag": "Fr.",
+   "zeit": "00:30",
+   "titel": "Japan: Verbraucherpreise (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Wichtig für die nächste Zinsentscheidung der Bank of Japan und den Yen."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "08:00",
+   "titel": "Deutschland: Erzeugerpreise (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Frühes Signal für die Inflation in Deutschland."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "08:00",
+   "titel": "Großbritannien: Einzelhandelsumsätze (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, wie viel die Briten einkaufen."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "ganztägig",
+   "titel": "Rede von EZB-Präsidentin Lagarde; Gipfel EU – Großbritannien",
+   "art": "Notenbank / Politik",
+   "warum": "Hinweise auf den Zinskurs der EZB vor der Dezember-Sitzung."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "ganztägig",
+   "titel": "Monatlicher Optionsverfall an den Terminbörsen",
+   "art": "Börse",
+   "warum": "Kann zu stärkeren Kursschwankungen führen."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "CappNotes (Börsenschluss 18.11.)",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+  },
+  {
+   "name": "StockTitan (18.11.)",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+  },
+  {
+   "name": "Motley Fool / Yahoo (18.11.)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-18-230002098.html"
+  },
+  {
+   "name": "Vista Partners (18.11.)",
+   "url": "https://vistapglobal.com/u-s-stock-market-today-november-18-2026-dow-falls-561-points-nasdaq-rises-ahead-of-anthropic-ipo-ant-eprx-googl-modd-nvda-ser-tgt/"
+  },
+  {
+   "name": "dpa-AFX via ariva (DAX-Schluss 18.11.)",
+   "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-rutscht-wieder-unter-12212378"
+  },
+  {
+   "name": "aktiencheck (DAX-Schluss 18.11.)",
+   "url": "https://aktiencheck.de/artikel/dax-schluss-unter-26000-punkte-erstmals-seit-ende-oktober-unter-der-21-tage"
+  },
+  {
+   "name": "Investing.com (Asien 19.11.)",
+   "url": "https://investing.com/news/stock-market-news/asia-stocks-slide-as-taiwan-drops-4-ai-jitters-blunt-anthropic-ipo-optimism-5037723"
+  },
+  {
+   "name": "AP via WSLS (Asien 19.11.)",
+   "url": "https://www.wsls.com/business/2026/11/19/asian-stocks-are-mixed-and-us-futures-climb-ahead-of-anthropics-blockbuster-ipo/"
+  },
+  {
+   "name": "HDFC Sky (Öl 19.11.)",
+   "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-19-2026-brent-slips-0-2percent-to-91-7-wti-falls-to-82-7-as-surplus-looms"
+  },
+  {
+   "name": "Washington Post (Anthropic-IPO)",
+   "url": "https://www.washingtonpost.com/business/2026/11/18/anthropic-ipo-pricing/fcb92026-e39f-11f1-a99e-b3e3805c6b8b_story.html"
+  },
+  {
+   "name": "Cointelegraph (Bitcoin-ETFs)",
+   "url": "https://cointelegraph.com/markets/bitcoin-etf-240-million-outflow-bearish-phase"
+  },
+  {
+   "name": "ChainCatcher (ETF-Flüsse 19.11.)",
+   "url": "https://www.chaincatcher.com/en/article/2306210"
+  },
+  {
+   "name": "Tagesvorschau 19.11. (Dow Jones/finanzen.at)",
+   "url": "https://www.finanzen.at/nachrichten/aktien/tagesvorschau-donnerstag-19-november-1036781424"
+  },
+  {
+   "name": "Tagesvorschau 19.11. (dpa-AFX/finanzen.net)",
+   "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-19-november-2026-16074183"
+  },
+  {
+   "name": "Newsquawk Wochenkalender 16.–20.11.",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
+  },
+  {
+   "name": "MSCI Index-Überprüfung November 2026",
+   "url": "https://www.msci.com/eqb/pressreleases/archive/MSCI_Nov26_QIRPR.pdf"
+  }
+ ]
+}
