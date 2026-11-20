@@ -1,0 +1,176 @@
+{
+ "datum": "2026-11-20",
+ "typ": "werktag",
+ "erstellt": "2026-11-20T06:50:00+01:00",
+ "schlagzeile": "Ausverkauf trotz Anthropic-Debüt: Dow fällt um 1.100 Punkte unter 50.000 – Asien bricht heute früh ein (Nikkei und Kospi rund −4,5 %)",
+ "kurz": [
+  "Die US-Börsen sind am Donnerstag stark gefallen: Dow Jones −2,2 % auf 49.097 Punkte (erstmals seit Juni unter 50.000), S&P 500 −2,0 % (sechster Verlusttag in Folge), Nasdaq −2,3 %.",
+  "Anthropic hatte einen guten ersten Börsentag: Die Aktie startete bei 111,50 Dollar und schloss bei 97,17 Dollar – 17 % über dem Ausgabepreis von 83 Dollar. Danach drehte aber der ganze Markt ins Minus.",
+  "Chipwerte verloren deutlich: Nvidia −3,3 %, AMD −7,7 %, Broadcom −2,1 %. Gründe sind Zweifel am KI-Boom, Angst vor weiteren Zinserhöhungen und strengere Export-Regeln.",
+  "Der DAX fiel um 0,9 % auf 25.499 Punkte – der fünfte Verlusttag in Folge. SAP verlor 3,3 %, Fresenius Medical Care 4,8 %.",
+  "Heute früh brechen die Börsen in Asien ein: Nikkei und Kospi rund −4,5 %, Taiwan fast −6 %, Hang Seng rund −2 %. Die US-Futures liegen ebenfalls im Minus.",
+  "Bitcoin hält sich knapp über 62.000 Dollar, die Stimmung am Kryptomarkt ist sehr ängstlich. Aus den Bitcoin-ETFs flossen am Mittwoch 306 Millionen Dollar ab.",
+  "Heute wichtig: deutsche Erzeugerpreise (8:00 Uhr), eine Rede von EZB-Chefin Lagarde am Vormittag, Fed-Gouverneur Waller (14:25 Uhr) und die US-Verbraucherstimmung (16:00 Uhr)."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "US-Börsen (Schluss Donnerstag)",
+   "werte": [
+    { "name": "Dow Jones", "wert": "49.097,06", "veraenderung": -2.19, "hinweis": "−1.101 Punkte, erstmals seit Juni unter 50.000" },
+    { "name": "S&P 500", "wert": "7.175,83", "veraenderung": -2.02, "hinweis": "6. Verlusttag in Folge, unter der 200-Tage-Linie" },
+    { "name": "Nasdaq", "wert": "23.879,20", "veraenderung": -2.25 },
+    { "name": "Anthropic (ANT)", "wert": "97,17 $", "veraenderung": 17.07, "hinweis": "erster Handelstag, Ausgabepreis 83 $" },
+    { "name": "Nvidia", "wert": "145,98 $", "veraenderung": -3.30 },
+    { "name": "AMD", "wert": "Aktie", "veraenderung": -7.72, "hinweis": "Bericht über China-Verbindungen" },
+    { "name": "Broadcom", "wert": "346,65 $", "veraenderung": -2.09 },
+    { "name": "Alphabet", "wert": "Aktie", "veraenderung": -3.46 },
+    { "name": "Walmart", "wert": "126,04 $", "veraenderung": -1.04, "hinweis": "Zahlen besser als erwartet" }
+   ]
+  },
+  {
+   "gruppe": "Deutschland & Asien",
+   "werte": [
+    { "name": "DAX (Schluss Donnerstag)", "wert": "25.498,91", "veraenderung": -0.92, "hinweis": "5. Verlusttag in Folge" },
+    { "name": "DAX (später Handel)", "wert": "ca. 25.464", "veraenderung": -1.06, "hinweis": "Hinweis für den Start heute – eher schwach" },
+    { "name": "Nikkei 225", "wert": "Index", "veraenderung": -4.5, "hinweis": "heute früh, zeitweise −4,8 %" },
+    { "name": "Kospi", "wert": "Index", "veraenderung": -4.7, "hinweis": "heute früh" },
+    { "name": "Taiwan (Taiex)", "wert": "Index", "veraenderung": -5.9, "hinweis": "heute früh, fast −6 %" },
+    { "name": "Hang Seng", "wert": "Index", "veraenderung": -2.0, "hinweis": "rund 20 % unter dem Hoch vom Januar" },
+    { "name": "S&P-500-Future", "wert": "Future", "veraenderung": -0.4, "hinweis": "im Asien-Handel" },
+    { "name": "Nasdaq-Future", "wert": "Future", "veraenderung": -0.7, "hinweis": "im Asien-Handel" }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Krypto",
+   "werte": [
+    { "name": "Öl (Brent)", "wert": "92,27 $", "veraenderung": 0.35 },
+    { "name": "Öl (WTI)", "wert": "83,86 $", "veraenderung": 0.72 },
+    { "name": "Gold", "wert": "ca. 3.675 $", "veraenderung": -1.36, "hinweis": "heute früh eher um 3.610–3.630 $" },
+    { "name": "Silber", "wert": "k. A.", "hinweis": "kein verlässlicher aktueller Wert gefunden" },
+    { "name": "Euro/Dollar", "wert": "1,0970", "veraenderung": -0.1 },
+    { "name": "Bitcoin", "wert": "ca. 62.000 $", "veraenderung": -0.9, "hinweis": "Stimmung: extreme Angst" },
+    { "name": "Ethereum", "wert": "ca. 1.765 $", "veraenderung": 0.7 }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    { "name": "US-Rendite 10 J.", "wert": "5,05 %", "veraenderung": -0.28, "hinweis": "rund −1,4 Basispunkte", "umgekehrt": true },
+    { "name": "VIX", "wert": "28,29", "veraenderung": 15.19, "hinweis": "zeitweise fast 29 – höchster Stand seit März", "umgekehrt": true }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA",
+   "text": [
+    "Der Donnerstag begann gut: Mit dem Börsenstart von Anthropic stiegen die Kurse zunächst. Danach nahmen viele Anleger Gewinne mit, und fast alle Branchen rutschten ins Minus. Am Ende fiel der Dow Jones um 2,2 % auf 49.097 Punkte, der S&P 500 um 2,0 % auf 7.176 Punkte und der Nasdaq um 2,3 % auf 23.879 Punkte. Der S&P 500 hat jetzt sechs Tage in Folge verloren und liegt unter seiner 200-Tage-Linie.",
+    "Gründe: Die US-Notenbank deutet weitere Zinserhöhungen an – eine Erhöhung im Dezember gilt fast als sicher. Dazu kamen Zweifel, ob sich die riesigen KI-Investitionen lohnen. Die Stimmung in der Industrie der Region Philadelphia fiel stark (6,3 nach 20,9). Die Erstanträge auf Arbeitslosenhilfe stiegen leicht auf 203.000. Nur Energie- und Basiskonsumwerte lagen knapp im Plus.",
+    "Chipwerte: Nvidia fiel um 3,3 % auf 145,98 Dollar, Broadcom um 2,1 %. AMD verlor 7,7 % nach einem Medienbericht über Verbindungen zu einem gesperrten chinesischen Serverhersteller. Auch CoreWeave (−6,1 %), Nebius (−9,4 %), Amazon (−3,9 %) und Alphabet (−3,5 %) gaben nach. Walmart legte gute Zahlen vor und hob die Jahresprognose an, die Aktie fiel trotzdem um 1,0 %.",
+    "Die Angst an der Börse ist gestiegen: Der VIX kletterte auf rund 28 bis 29 Punkte – so hoch wie seit März nicht mehr. Die Rendite der 10-jährigen US-Anleihen lag kaum verändert bei rund 5,05 %."
+   ]
+  },
+  {
+   "titel": "Deutschland",
+   "text": [
+    "Der DAX schloss 0,9 % tiefer bei 25.498,91 Punkten. Es war der fünfte Verlusttag in Folge. Vom Rekord vor einer Woche (27.002 Punkte) ist der DAX jetzt gut 5 % entfernt. Im späten Handel ging es nach den US-Verlusten weiter auf rund 25.464 Punkte – der Start heute dürfte schwach werden.",
+    "Größte Verlierer waren Fresenius Medical Care (−4,8 %), SAP (−3,3 %), Fresenius (−3,1 %), Rheinmetall (−2,5 %) und Bayer (−2,3 %). Leicht im Plus lagen nur wenige Werte, zum Beispiel Deutsche Bank und Siemens (je rund +0,3 %). Außerhalb des DAX brach Evonik um rund 16 % ein, weil BASF die Übernahme-Pläne aufgegeben hat."
+   ]
+  },
+  {
+   "titel": "Asien heute früh",
+   "text": [
+    "In Asien gibt es heute einen starken Ausverkauf. Der Nikkei in Tokio fiel zeitweise um 4,8 %, der Kospi in Südkorea um rund 4,7 %, Taiwan um fast 6 %. In Japan verloren SoftBank, Kioxia und Ibiden jeweils mehr als 10 %. Der Hang Seng in Hongkong fiel um rund 2 % und liegt jetzt etwa 20 % unter seinem Hoch vom Januar.",
+    "Für Asiens Börsen ist es die schlechteste Woche seit 2020. Gründe sind Zweifel am KI-Boom, neue US-Regeln gegen den Zugang chinesischer KI-Firmen zu Rechenleistung und Sorgen um Chinas Wirtschaft. Die US-Futures liegen leicht im Minus (S&P 500 −0,4 %, Nasdaq −0,7 %)."
+   ]
+  },
+  {
+   "titel": "Rohstoffe, Krypto und Devisen",
+   "text": [
+    "Öl wurde etwas teurer: Brent stieg auf 92,27 Dollar, WTI auf 83,86 Dollar. Gold fiel dagegen deutlich auf rund 3.675 Dollar und heute früh weiter auf etwa 3.610 bis 3.630 Dollar – die Angst vor höheren Zinsen belastet. Für Silber haben wir keinen verlässlichen aktuellen Wert gefunden. Der Euro kostet rund 1,097 Dollar.",
+    "Bitcoin pendelt um 62.000 Dollar und ist nicht weit vom Tief seit Juli entfernt. Der Angst-und-Gier-Index steht bei 10 – das bedeutet extreme Angst. Ethereum liegt bei rund 1.765 Dollar."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Anthropic: Rekord-Börsengang, Aktie schließt 17 % im Plus",
+   "text": [
+    "Anthropic ist seit Donnerstag an der Nasdaq (Kürzel ANT). Mit rund 81 Milliarden Dollar ist es der größte Börsengang der Geschichte. Die Aktie startete bei 111,50 Dollar, stieg zeitweise auf fast 115 Dollar und schloss bei 97,17 Dollar – 17 % über dem Ausgabepreis von 83 Dollar. Der Börsenstart konnte die Sorgen um den KI-Boom aber nicht vertreiben. Am Montag sollen erste Hebel-ETFs auf die Aktie starten."
+   ],
+   "quellen": [
+    { "name": "Forbes", "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/" },
+    { "name": "NPR", "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion" }
+   ]
+  },
+  {
+   "titel": "Zins-Angst und KI-Zweifel: Ausverkauf erfasst die ganze Welt",
+   "text": [
+    "Die US-Notenbank Fed signalisiert weitere Zinserhöhungen, eine Erhöhung im Dezember gilt als fast sicher. Gleichzeitig zweifeln viele Anleger, ob sich die hohen KI-Ausgaben lohnen. Das trifft vor allem Chip- und Technologiewerte – erst in den USA, heute früh besonders stark in Japan, Südkorea und Taiwan."
+   ],
+   "quellen": [
+    { "name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears" },
+    { "name": "Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-dow-plunges-1-100-points-as-the-s-and-p-500-suffers-its-6th-straight-day-of-losses/" }
+   ]
+  },
+  {
+   "titel": "Krypto: Bitcoin-ETFs verlieren weiter Geld, Strategy unter Druck",
+   "text": [
+    "Aus den US-Bitcoin-ETFs flossen am Mittwoch rund 306 Millionen Dollar ab, am Dienstag rund 240 Millionen. Strategy (früher MicroStrategy) besitzt rund 850.800 Bitcoin zu einem Durchschnittspreis von etwa 75.450 Dollar – also deutlich über dem aktuellen Kurs. Laut einem Bericht soll Strategy zum 30. November aus dem MSCI-USA-Index fallen (noch nicht von MSCI bestätigt). Zu Metaplanet und Coinbase gab es keine wichtigen neuen Meldungen."
+   ],
+   "quellen": [
+    { "name": "MEXC Wochenbericht", "url": "https://www.mexc.com/learn/article/anthropics-record-ipo-history-bitcoin-sliding-toward-60000-weekly-market-report" }
+   ]
+  },
+  {
+   "titel": "Nach US-Börsenschluss: Intuit und Ross fallen, Gap steigt",
+   "text": [
+    "Intuit legte Zahlen vor und verkauft Mailchimp an Bending Spoons – die Aktie fiel nachbörslich um rund 10 %. Ross Stores hob zwar die Prognose an, verlor nachbörslich aber rund 5 %. Gap stieg nachbörslich um rund 3,6 %."
+   ],
+   "quellen": [
+    { "name": "StockTitan", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026" }
+   ]
+  },
+  {
+   "titel": "BASF gibt Evonik-Pläne auf – Evonik bricht ein",
+   "text": [
+    "BASF verzichtet auf die Übernahme von Evonik. Die Evonik-Aktie fiel daraufhin um rund 16 %."
+   ],
+   "quellen": [
+    { "name": "ad-hoc-news", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-schliesst-am-donnerstag-0-92-prozent-tiefer-bei-25-498-91-punkten/70537603" }
+   ]
+  }
+ ],
+ "termine": [
+  { "tag": "", "zeit": "08:00", "titel": "Deutschland: Erzeugerpreise (Oktober)", "art": "Wirtschaftsdaten", "wichtig": true, "warum": "Erwartet +7,4 % zum Vorjahr – frühes Signal für die Inflation in Deutschland." },
+  { "tag": "", "zeit": "08:00", "titel": "Großbritannien: Einzelhandelsumsatz (Oktober)", "art": "Wirtschaftsdaten", "warum": "Zeigt, wie viel die Briten einkaufen." },
+  { "tag": "", "zeit": "08:45", "titel": "Frankreich: Geschäftsklima (November)", "art": "Wirtschaftsdaten", "warum": "Stimmung der Firmen in Frankreich, erwartet 102 nach 105." },
+  { "tag": "", "zeit": "09:00–09:30", "titel": "Rede von EZB-Chefin Lagarde (European Banking Congress, Frankfurt)", "art": "Notenbank", "wichtig": true, "warum": "Hinweise auf die Zinspolitik in Europa." },
+  { "tag": "", "zeit": "14:00", "titel": "Rede von Bundesbank-Chef Nagel", "art": "Notenbank", "warum": "Weitere Hinweise zur EZB-Zinspolitik." },
+  { "tag": "", "zeit": "14:25", "titel": "Rede von Fed-Gouverneur Waller", "art": "Notenbank", "wichtig": true, "warum": "Die Märkte achten auf jedes Signal zur Zinserhöhung im Dezember." },
+  { "tag": "", "zeit": "16:00", "titel": "USA: Verbraucherstimmung Uni Michigan (November, endgültig)", "art": "Wirtschaftsdaten", "wichtig": true, "warum": "Erwartet 51,5 – zeigt Kauflaune und Inflationserwartungen der Verbraucher." },
+  { "tag": "", "zeit": "16:00", "titel": "Eurozone: Verbrauchervertrauen (November, erste Schätzung)", "art": "Wirtschaftsdaten", "warum": "Erwartet −18,4 – Stimmung der Verbraucher in Europa." },
+  { "tag": "", "zeit": "ganztägig", "titel": "Anthropic: Abschluss des Börsengangs", "art": "Unternehmen", "warum": "Nach dem ersten Handelstag schauen viele auf den zweiten Tag der Aktie." },
+  { "tag": "", "zeit": "", "titel": "Monatlicher Optionsverfall an den Terminbörsen", "art": "Börse", "warum": "An diesem Tag laufen viele Optionen aus – das kann zu stärkeren Kursschwankungen führen." }
+ ],
+ "ausblick": [
+  { "tag": "Mo.", "zeit": "15:45", "titel": "USA: Einkaufsmanagerindizes (November, erste Schätzung)", "art": "Wirtschaftsdaten", "warum": "Zeigt, wie es Industrie und Dienstleistern in den USA geht." },
+  { "tag": "Mo.", "zeit": "", "titel": "Strategy: wöchentliche Meldung zu Bitcoin-Käufen", "art": "Unternehmen", "warum": "Zeigt, ob Strategy weiter Bitcoin kauft." },
+  { "tag": "Mo.", "zeit": "", "titel": "Start der ersten Hebel-ETFs auf Anthropic", "art": "Börse", "warum": "Kann für zusätzliche Bewegung in der Anthropic-Aktie sorgen." },
+  { "tag": "Mi.", "zeit": "14:30", "titel": "USA: BIP (3. Quartal), PCE-Inflation und Auftragseingänge", "art": "Wirtschaftsdaten", "warum": "Die PCE-Inflation ist das wichtigste Inflationsmaß der Fed – vor dem Thanksgiving-Feiertag am Donnerstag." }
+ ],
+ "quellen": [
+  { "name": "Motley Fool (Börsenschluss 19.11.)", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-dow-plunges-1-100-points-as-the-s-and-p-500-suffers-its-6th-straight-day-of-losses/" },
+  { "name": "StockTitan (19.11.)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026" },
+  { "name": "The Weekend Spread (19.11.)", "url": "https://theweekendspread.substack.com/p/the-close-thursday-november-19-2026" },
+  { "name": "Forbes (Anthropic)", "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/" },
+  { "name": "ad-hoc-news (DAX-Schluss)", "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-schliesst-am-donnerstag-0-92-prozent-tiefer-bei-25-498-91-punkten/70537603" },
+  { "name": "aktiencheck (DAX-Gewinner/-Verlierer)", "url": "https://aktiencheck.de/artikel/dax-rutscht-um-rund-10-prozent-ab-fresenius-medical-care-und-sap-brechen-ein" },
+  { "name": "Al Jazeera (Asien)", "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears" },
+  { "name": "Kotak Neo (Asien)", "url": "https://www.kotakneo.com/news/global-markets/kospi-nikkei-fall-hang-seng-nears-bear-market-as-ai-selloff-spreads/" },
+  { "name": "MEXC (Krypto)", "url": "https://www.mexc.com/learn/article/anthropics-record-ipo-history-bitcoin-sliding-toward-60000-weekly-market-report" },
+  { "name": "finanzen.net Tagesvorschau", "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-freitag-20-november-vorlaeufige-fassung-16076104" },
+  { "name": "finanzen.at Termine (dpa-AFX)", "url": "https://www.finanzen.at/nachrichten/aktien/tagesvorschau-termine-am-20-november-2026-1036786302" },
+  { "name": "TradingCharts Kalender", "url": "https://forex.tradingcharts.com/economic_calendar/2026-11-20.html?code=USD" }
+ ]
+}
