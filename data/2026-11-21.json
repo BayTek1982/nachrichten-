@@ -1,0 +1,175 @@
+{
+ "datum": "2026-11-21",
+ "typ": "wochenende",
+ "erstellt": "2026-11-21T08:45:00+01:00",
+ "schlagzeile": "Schwarze Woche an den Börsen: Nasdaq −5,3 % am Freitag und −10 % in der Woche, Nvidia −14 % an einem Tag – Bitcoin fällt unter 56.000 Dollar",
+ "kurz": [
+  "Die US-Börsen hatten am Freitag einen sehr schlechten Tag: Nasdaq −5,3 %, S&P 500 −3,7 %, Dow Jones −1,9 %. S&P 500 und Dow liegen jetzt rund 10 % unter ihrem Rekord – das nennt man eine „Korrektur“.",
+  "Auf die ganze Woche gerechnet: S&P 500 −8,6 % (schlechteste Woche seit April 2025), Dow −8 %, Nasdaq −10 %. Die Nasdaq liegt seit Jahresbeginn jetzt im Minus.",
+  "Auslöser am Freitag: Nvidia fiel um 14 % auf 125,53 Dollar. Laut einem Reuters-Bericht prüft die US-Börsenaufsicht SEC mögliche Probleme in Nvidias Buchhaltung. Eine Prüfung heißt aber nicht, dass etwas falsch gemacht wurde.",
+  "Auch andere Chipwerte brachen ein: AMD −13 %, Broadcom −12 %, Micron −14 %. Die Anthropic-Aktie fiel am zweiten Handelstag um 8,5 % auf 88,91 Dollar – liegt aber noch über dem Ausgabepreis von 83 Dollar.",
+  "Der DAX fiel am Freitag um 2,6 % auf 24.803 Punkte, erstmals seit Anfang Oktober unter 25.000. In der Woche verlor er rund 7,3 % – die schwächste Woche seit mehr als einem Jahr.",
+  "Gold (−4,6 %) und Silber (−7,4 %) fielen ebenfalls stark. Der Angstindex VIX stieg auf fast 36.",
+  "Bitcoin ist am Samstagmorgen auf rund 56.000 Dollar gefallen (Woche etwa −18 %), Ethereum auf rund 1.575 Dollar. Aus den Bitcoin-ETFs flossen allein am Donnerstag 582 Millionen Dollar ab.",
+  "Die neue Woche ist kurz: Am Donnerstag (Thanksgiving) ist die US-Börse geschlossen. Wichtig sind am Mittwoch die US-Inflation (PCE) und das US-Wachstum (BIP)."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "Schluss Freitag (20.11.)",
+   "werte": [
+    { "name": "Dow Jones", "wert": "48.147,33", "veraenderung": -1.93, "hinweis": "Woche: −8 %, größter Wochenverlust seit März 2020" },
+    { "name": "S&P 500", "wert": "6.910,39", "veraenderung": -3.70, "hinweis": "Woche: −8,6 %, schlechteste Woche seit April 2025" },
+    { "name": "Nasdaq", "wert": "22.617,73", "veraenderung": -5.28, "hinweis": "Woche: rund −10 %, seit Jahresbeginn jetzt im Minus" },
+    { "name": "DAX", "wert": "24.802,78", "veraenderung": -2.60, "hinweis": "Woche: −7,3 %, schwächste Woche seit über einem Jahr" },
+    { "name": "Nvidia", "wert": "125,53 $", "veraenderung": -14.01, "hinweis": "schlechtester Tag seit Januar 2025" },
+    { "name": "AMD", "wert": "Aktie", "veraenderung": -13.25 },
+    { "name": "Broadcom", "wert": "Aktie", "veraenderung": -12.19 },
+    { "name": "Anthropic (ANT)", "wert": "88,91 $", "veraenderung": -8.50, "hinweis": "Ausgabepreis 83 $" },
+    { "name": "Strategy (MSTR)", "wert": "ca. 78,64 $", "veraenderung": -8.70, "hinweis": "Woche rund −23 %" }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Devisen (Freitag)",
+   "werte": [
+    { "name": "Öl (Brent)", "wert": "92,57 $", "veraenderung": 0.64 },
+    { "name": "Öl (WTI)", "wert": "83,98 $", "veraenderung": 0.93, "hinweis": "dritte Verlustwoche in Folge" },
+    { "name": "Gold", "wert": "ca. 3.515–3.535 $", "veraenderung": -4.63, "hinweis": "tiefster Stand seit rund 12 Monaten, 5 Tage: −9 %" },
+    { "name": "Silber", "wert": "ca. 41,05 $", "veraenderung": -7.41, "hinweis": "5 Tage: −15 %" },
+    { "name": "Euro/Dollar", "wert": "ca. 1,0970", "hinweis": "nahe dem tiefsten Stand seit 19 Monaten" }
+   ]
+  },
+  {
+   "gruppe": "Krypto aktuell (Samstagmorgen)",
+   "werte": [
+    { "name": "Bitcoin", "wert": "ca. 56.000 $", "veraenderung": -5.1, "hinweis": "Woche rund −18 %, zeitweise 55.130 $" },
+    { "name": "Ethereum", "wert": "ca. 1.575 $", "veraenderung": -6.3, "hinweis": "erstmals seit Juli unter 1.700 $" }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    { "name": "VIX", "wert": "35,89", "veraenderung": 26.20, "hinweis": "höchster Schluss seit Ende März", "umgekehrt": true },
+    { "name": "US-Rendite 10 J.", "wert": "4,92 %", "veraenderung": -2.4, "hinweis": "−12 Basispunkte, Anleger flüchten in Anleihen", "umgekehrt": true }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA: Schlimmste Woche seit Frühjahr 2025",
+   "text": [
+    "Am Freitag fielen fast alle Aktien. Im S&P 500 gab es 376 Verlierer und nur 123 Gewinner. Nur Basiskonsumgüter (zum Beispiel Lebensmittel) lagen leicht im Plus, Technologiewerte verloren über 7 %.",
+    "Die Gründe: Zweifel, ob sich die riesigen Ausgaben für Künstliche Intelligenz lohnen, der Bericht über eine SEC-Prüfung bei Nvidia und die Sorge, dass die US-Notenbank im Dezember die Zinsen erhöht. Fed-Gouverneurin Lisa Cook sagte, zu langes Warten berge das Risiko, „hinter die Kurve zu geraten“. An den Wettmärkten liegt die Chance für eine Zinserhöhung am 9. Dezember bei rund 90 %.",
+    "Eine gute Nachricht: Die Verbraucherstimmung der Uni Michigan stieg auf 51,5 Punkte (Oktober: 48,0), und die Inflationserwartungen sanken."
+   ]
+  },
+  {
+   "titel": "Tech und Chips: KI-Ausverkauf",
+   "text": [
+    "Nvidia verlor am Freitag 14 % und in der ganzen Woche rund 23 % – obwohl die Firma am Dienstag sehr gute Zahlen gemeldet hatte (Umsatz 115,8 Milliarden Dollar, +103 %).",
+    "Viele KI- und Speicherwerte fielen um 12 bis 16 %, zum Beispiel Micron, Arm, CoreWeave, Sandisk und Nebius. In Taiwan fiel der Leitindex in der Woche um 17,5 % – ein Rekordverlust.",
+    "Nachbörslich stieg Zscaler um rund 16 %: Berichten zufolge spricht CrowdStrike über eine Übernahme. Eine Einigung gibt es noch nicht."
+   ]
+  },
+  {
+   "titel": "Deutschland: DAX rutscht unter 25.000",
+   "text": [
+    "Der DAX fiel am Freitag um 2,6 % auf 24.803 Punkte und schloss sechs Tage in Folge im Minus. Vom Rekord bei 27.002 Punkten (12. November) ist er jetzt rund 8 % entfernt. Er liegt unter seiner 200-Tage-Linie.",
+    "Größte Verlierer: Scout24 −8,0 %, Infineon −7,9 %, Siemens Energy −6,6 %, Hochtief −5,0 %, Siemens −4,6 %. Gewinner waren vor allem sichere Werte: Fresenius Medical Care +2,4 %, Hannover Rück +1,7 %, Deutsche Telekom +1,2 %.",
+    "Marktbeobachter sprachen von einer „breiten Marktkrise“ und einer Stimmung nahe der Panik."
+   ]
+  },
+  {
+   "titel": "Rohstoffe, Devisen und Krypto",
+   "text": [
+    "Gold fiel am Freitag um gut 4 % und den neunten Tag in Folge – Anleger verkauften auch Gold, um Verluste bei Aktien auszugleichen. Silber verlor über 7 %. Öl blieb fast stabil, Brent bei 92,57 Dollar.",
+    "Der Euro steht bei rund 1,097 Dollar, nahe dem tiefsten Stand seit 19 Monaten.",
+    "Bitcoin rutschte am Freitag unter 60.000 Dollar und am Samstagmorgen bis auf rund 55.100 Dollar – den tiefsten Stand seit September 2024. Im November hat Bitcoin schon mehr als 20 % verloren. Die Stimmung am Kryptomarkt ist „extreme Angst“ (Index 12 von 100)."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Nvidia: Bericht über Prüfung durch die Börsenaufsicht",
+   "text": [
+    "Laut Reuters prüfen Mitarbeiter der US-Börsenaufsicht SEC mögliche Probleme in Nvidias Buchhaltung. Weder SEC noch Nvidia haben sich dazu geäußert. Eine Prüfung bedeutet nicht, dass Nvidia etwas falsch gemacht hat.",
+    "Die Aktie fiel um 14 % und zog den ganzen Chipsektor mit nach unten. Neue Meldungen dazu könnten am Montag die Märkte stark bewegen."
+   ],
+   "quellen": [
+    { "name": "FINCHANNEL (AP)", "url": "https://finchannel.com/nasdaq-falls-5-3-as-sp-500-and-dow-enter-corrections/142573/american-business-trends/stock-prices/2026/11/" },
+    { "name": "Stock Titan", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026" }
+   ]
+  },
+  {
+   "titel": "Strategy fliegt aus den MSCI-Indizes",
+   "text": [
+    "MSCI nimmt Strategy (früher MicroStrategy) nach Börsenschluss am 30. November aus seinen Indizes, wirksam ab 1. Dezember. Begründung: Die Firma sei mit ihren vielen Bitcoins eher ein Anlagefonds als ein normales Unternehmen.",
+    "Indexfonds müssen die Aktie deshalb verkaufen. Die Strategy-Aktie fiel am Freitag um 8,7 % auf rund 78,64 Dollar und in der Woche um etwa 23 %. Strategy hält 850.849 Bitcoin und kaufte zuletzt weitere 485 Stück."
+   ],
+   "quellen": [
+    { "name": "The Motley Fool", "url": "https://www.fool.com/investing/2026/11/19/strategy-just-got-dropped-from-msci-s-indexes-can-it-keep-buying-bitcoin/" },
+    { "name": "Invezz", "url": "https://invezz.com/news/2026/11/12/strategy-mstr-stock-falls-as-msci-exclusion-threatens-passive-fund-outflows/" }
+   ]
+  },
+  {
+   "titel": "Bitcoin-ETFs: Rekord-Abfluss bei BlackRock",
+   "text": [
+    "Aus den US-Bitcoin-ETFs flossen am Donnerstag 582 Millionen Dollar ab. Allein der größte Fonds von BlackRock (IBIT) verlor 541 Millionen Dollar – so viel wie noch nie an einem Tag.",
+    "Seit Anfang November sind rund 3,5 Milliarden Dollar abgeflossen. Coinbase fiel am Freitag um rund 3 %. Zu Metaplanet gab es keine wichtigen neuen Meldungen."
+   ],
+   "quellen": [
+    { "name": "crypto.news", "url": "https://crypto.news/bitcoin-drops-18-percent-breaks-summer-low/" },
+    { "name": "KuCoin News", "url": "https://www.kucoin.com/news/flash/bitcoin-falls-over-20-in-november-amid-etf-outflows-and-market-volatility" }
+   ]
+  },
+  {
+   "titel": "Anthropic: Zweiter Handelstag im Minus",
+   "text": [
+    "Die Anthropic-Aktie fiel am Freitag um 8,5 % auf 88,91 Dollar, zeitweise bis 83,05 Dollar – fast genau auf den Ausgabepreis von 83 Dollar. Am ersten Tag war sie bei 111,50 Dollar gestartet.",
+    "Anthropic meldete den Abschluss des Börsengangs: 1,127 Milliarden Aktien zu je 83 Dollar, dazu ein Paket von 26 Milliarden Dollar für große Partner wie Nvidia, Microsoft und Google."
+   ],
+   "quellen": [
+    { "name": "CappNotes", "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026" },
+    { "name": "FINCHANNEL (AP)", "url": "https://finchannel.com/nasdaq-falls-5-3-as-sp-500-and-dow-enter-corrections/142573/american-business-trends/stock-prices/2026/11/" }
+   ]
+  },
+  {
+   "titel": "US-Notenbank: Zinserhöhung im Dezember wird erwartet",
+   "text": [
+    "Mehrere Fed-Vertreter sprechen sich für höhere Zinsen aus. Philadelphia-Fed-Chefin Anna Paulson wäre sogar für zwei Erhöhungen hintereinander offen.",
+    "Die Märkte rechnen zu rund 90 % mit einer Erhöhung um 0,25 Prozentpunkte am 9. Dezember. Die Inflationsdaten (PCE) am Mittwoch sind deshalb besonders wichtig."
+   ],
+   "quellen": [
+    { "name": "CappNotes", "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026" },
+    { "name": "Stock Titan", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026" }
+   ]
+  }
+ ],
+ "termine": [
+  { "tag": "Mo.", "zeit": "09:30", "titel": "Deutschland: Einkaufsmanagerindizes (November, erste Schätzung)", "art": "Wirtschaftsdaten", "warum": "Erste Stimmung bei Industrie und Dienstleistern im November. Eurozone um 10:00 Uhr." },
+  { "tag": "Mo.", "zeit": "15:45", "titel": "USA: Einkaufsmanagerindizes (November)", "art": "Wirtschaftsdaten", "warum": "Zeigt, ob die US-Wirtschaft trotz Börsenstress stabil bleibt." },
+  { "tag": "Mo.", "zeit": "abends", "titel": "Quartalszahlen Hewlett Packard Enterprise", "art": "Quartalszahlen", "warum": "Server für KI – Hinweis, wie stark die Nachfrage noch ist." },
+  { "tag": "Di.", "zeit": "10:00", "titel": "Deutschland: ifo-Geschäftsklima (November)", "art": "Wirtschaftsdaten", "wichtig": true, "warum": "Wichtigster Stimmungswert der deutschen Wirtschaft." },
+  { "tag": "Di.", "zeit": "16:00", "titel": "USA: Verbrauchervertrauen (Conference Board)", "art": "Wirtschaftsdaten", "warum": "Zeigt, ob die Amerikaner weiter Geld ausgeben wollen." },
+  { "tag": "Di.", "zeit": "22:05", "titel": "Quartalszahlen Dell (und HP)", "art": "Quartalszahlen", "wichtig": true, "warum": "Dell verkauft viele KI-Server – nach dem Chip-Ausverkauf genau beobachtet." },
+  { "tag": "Mi.", "zeit": "08:00", "titel": "Deutschland: BIP 3. Quartal (zweite Schätzung)", "art": "Wirtschaftsdaten", "warum": "Bestätigt, wie die deutsche Wirtschaft im Sommer gewachsen ist." },
+  { "tag": "Mi.", "zeit": "14:30", "titel": "USA: PCE-Inflation, BIP 3. Quartal, Auftragseingänge, Arbeitslosenanträge", "art": "Wirtschaftsdaten", "wichtig": true, "warum": "Die PCE-Inflation ist das Lieblingsmaß der Fed – entscheidend für die Zinserhöhung im Dezember." },
+  { "tag": "Mi.", "zeit": "20:00", "titel": "USA: Konjunkturbericht der Fed (Beige Book)", "art": "Notenbank", "warum": "Zeigt die Lage der US-Wirtschaft in den Regionen." },
+  { "tag": "Do.", "zeit": "ganztägig", "titel": "USA: Thanksgiving – Börse geschlossen", "art": "Feiertag", "warum": "Weniger Handel, oft schwankungsarme Tage – in nervösen Zeiten aber nicht sicher." },
+  { "tag": "Do.", "zeit": "13:30", "titel": "EZB: Protokoll der Oktober-Sitzung", "art": "Notenbank", "warum": "Hinweise, wie die EZB über die Zinsen denkt." },
+  { "tag": "Fr.", "zeit": "09:55", "titel": "Deutschland: Arbeitsmarktdaten (November)", "art": "Wirtschaftsdaten", "warum": "Zeigt, wie stabil der Arbeitsmarkt ist. US-Börse schließt am Freitag früher (19:00 Uhr)." }
+ ],
+ "quellen": [
+  { "name": "CappNotes – Closing Look 20.11.2026", "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026" },
+  { "name": "FINCHANNEL (AP)", "url": "https://finchannel.com/nasdaq-falls-5-3-as-sp-500-and-dow-enter-corrections/142573/american-business-trends/stock-prices/2026/11/" },
+  { "name": "Stock Titan", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026" },
+  { "name": "Handelsblatt", "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-schwaechste-woche-seit-mehr-als-einem-jahr/100271464.html" },
+  { "name": "MarketScreener (dpa-AFX)", "url": "https://de.marketscreener.com/boerse-nachrichten/aktien-frankfurt-schluss-dax-faellt-unter-25-000-punkte-schwache-tech-werte-ce785ed3da80f622" },
+  { "name": "aktiencheck – DAX-Wochenausblick", "url": "https://aktiencheck.de/artikel/dax-wochenausblick-ifo-einkaufsmanager-bip-und-zwei-kapitalmarkttage-welche" },
+  { "name": "Newsquawk – Wochenkalender", "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---23rd-27th-november-2026" },
+  { "name": "Rio Times – Gold & Silber", "url": "https://www.riotimesonline.com/gold-silver-precious-metals-friday-november-20-2026/" },
+  { "name": "Mitrade – Euro/Dollar", "url": "https://www.mitrade.com/insights/news/live-news/article-1-2266339-20261120" },
+  { "name": "crypto.news", "url": "https://crypto.news/bitcoin-drops-18-percent-breaks-summer-low/" },
+  { "name": "CoinGabbar", "url": "https://www.coingabbar.com/en/crypto-news-nov-21-bitcoin-ethereum-price-drops-nvidia-selloff" },
+  { "name": "The Motley Fool – Strategy/MSCI", "url": "https://www.fool.com/investing/2026/11/19/strategy-just-got-dropped-from-msci-s-indexes-can-it-keep-buying-bitcoin/" }
+ ]
+}
