@@ -1,0 +1,379 @@
+{
+ "datum": "2026-11-22",
+ "typ": "wochenende",
+ "erstellt": "2026-11-22T08:50:00+01:00",
+ "schlagzeile": "Wochenrückblick: Schlechteste Börsenwoche seit 2025 – Nvidia −23 % in einer Woche; Bitcoin erholt sich am Wochenende auf rund 59.000 Dollar",
+ "kurz": [
+  "Die vergangene Woche war für die Börsen sehr schlecht: S&P 500 −8,6 %, Nasdaq rund −10 %, Dow Jones −8 %, DAX −7,3 %.",
+  "S&P 500 und Dow liegen rund 10 % unter ihrem Rekord – man spricht von einer „Korrektur“. Die Nasdaq ist seit Jahresbeginn im Minus.",
+  "Größter Verlierer war Nvidia: −23 % in einer Woche, so viel wie seit Oktober 2008 nicht mehr. Grund sind Zweifel an den KI-Ausgaben und ein Bericht über eine Prüfung der Buchhaltung durch die US-Börsenaufsicht SEC. Eine Prüfung heißt nicht, dass etwas falsch gemacht wurde.",
+  "Gold (5 Tage −9 %) und Silber (−15 %) fielen ebenfalls stark. Der Angstindex VIX steht bei fast 36.",
+  "Bitcoin hat sich am Wochenende etwas erholt: von rund 55.600 Dollar am Samstagmorgen auf etwa 59.000 Dollar am Sonntagmorgen (+5,7 % in 24 Stunden). Ethereum steht bei rund 1.650 Dollar.",
+  "Aus den Bitcoin-ETFs flossen in der Woche rund 1,25 Milliarden Dollar ab. Strategy wird Ende November aus den MSCI-Indizes genommen.",
+  "Die neue Woche ist kurz: Am Donnerstag (Thanksgiving) ist die US-Börse geschlossen, am Freitag schließt sie früher. Wichtig sind am Dienstag das ifo-Geschäftsklima und Dell, am Mittwoch die US-Inflation (PCE)."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "Schluss Freitag (20.11.) mit Wochenbilanz",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "48.147,33",
+     "veraenderung": -1.93,
+     "hinweis": "Woche: −8 %"
+    },
+    {
+     "name": "S&P 500",
+     "wert": "6.910,39",
+     "veraenderung": -3.7,
+     "hinweis": "Woche: −8,6 %, schlechteste Woche seit April 2025"
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "22.617,73",
+     "veraenderung": -5.28,
+     "hinweis": "Woche: rund −10 %"
+    },
+    {
+     "name": "DAX",
+     "wert": "24.802,78",
+     "veraenderung": -2.6,
+     "hinweis": "Woche: −7,3 %, schwächste Woche seit über einem Jahr"
+    },
+    {
+     "name": "Nvidia",
+     "wert": "125,53 $",
+     "veraenderung": -14.01,
+     "hinweis": "Woche: rund −23 %, schlechteste Woche seit Oktober 2008"
+    },
+    {
+     "name": "Strategy (MSTR)",
+     "wert": "ca. 78,64 $",
+     "veraenderung": -8.7,
+     "hinweis": "Woche: rund −23 %"
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Devisen (Freitag)",
+   "werte": [
+    {
+     "name": "Öl (Brent)",
+     "wert": "92,57 $",
+     "veraenderung": 0.64
+    },
+    {
+     "name": "Öl (WTI)",
+     "wert": "83,98 $",
+     "veraenderung": 0.93,
+     "hinweis": "dritte Verlustwoche in Folge"
+    },
+    {
+     "name": "Gold",
+     "wert": "ca. 3.515–3.535 $",
+     "veraenderung": -4.63,
+     "hinweis": "tiefster Stand seit rund 12 Monaten, 5 Tage: −9 %"
+    },
+    {
+     "name": "Silber",
+     "wert": "ca. 41,05 $",
+     "veraenderung": -7.41,
+     "hinweis": "5 Tage: −15 %"
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "ca. 1,0970",
+     "hinweis": "nahe dem tiefsten Stand seit 19 Monaten"
+    }
+   ]
+  },
+  {
+   "gruppe": "Krypto aktuell (Sonntagmorgen)",
+   "werte": [
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 58.900 $",
+     "veraenderung": 5.7,
+     "hinweis": "24 Std.; Samstag zeitweise 55.600 $, kurz über 60.000 $"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.650 $",
+     "veraenderung": 6.1,
+     "hinweis": "24 Std."
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    {
+     "name": "VIX",
+     "wert": "35,89",
+     "veraenderung": 26.2,
+     "hinweis": "höchster Schluss seit Ende März",
+     "umgekehrt": true
+    },
+    {
+     "name": "US-Rendite 10 J.",
+     "wert": "4,92 %",
+     "veraenderung": -2.4,
+     "hinweis": "−12 Basispunkte, Anleger flüchten in Anleihen",
+     "umgekehrt": true
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA: Korrektur in einer Woche",
+   "text": [
+    "Die US-Börsen fielen fast jeden Tag. Am Freitag verlor die Nasdaq 5,3 %, der S&P 500 3,7 %. S&P 500 und Dow liegen jetzt rund 10 % unter ihrem Rekord.",
+    "Gründe: Zweifel, ob sich die riesigen KI-Ausgaben lohnen, die Probleme bei Nvidia und die Erwartung, dass die US-Notenbank am 9. Dezember die Zinsen erhöht (Wahrscheinlichkeit laut Wettmärkten rund 90 %).",
+    "Lichtblick: Die Verbraucherstimmung der Uni Michigan stieg im November auf 51,5 Punkte."
+   ]
+  },
+  {
+   "titel": "Tech und Chips: Nvidia im freien Fall",
+   "text": [
+    "Nvidia fiel sieben Tage in Folge und verlor in der Woche rund 23 % – etwa 1 Billion Dollar Börsenwert. Seit dem Rücktritt von Firmenchef Jensen Huang Mitte November ist die Stimmung schlecht, trotz sehr guter Zahlen am Dienstag.",
+    "Auch AMD (−13 % am Freitag), Broadcom (−12 %) und Micron (−14 %) brachen ein. Die Anthropic-Aktie schloss am Freitag bei 88,91 Dollar, knapp über dem Ausgabepreis von 83 Dollar."
+   ]
+  },
+  {
+   "titel": "Deutschland: DAX unter 25.000 Punkten",
+   "text": [
+    "Der DAX fiel sechs Tage in Folge und schloss am Freitag bei 24.803 Punkten. Vom Rekord (27.002 Punkte am 12. November) ist er rund 8 % entfernt.",
+    "Besonders schwach waren Technik- und Industriewerte wie Infineon, Siemens Energy und Siemens. Sichere Werte wie Deutsche Telekom hielten sich besser."
+   ]
+  },
+  {
+   "titel": "Rohstoffe, Devisen und Krypto",
+   "text": [
+    "Gold fiel neun Tage in Folge auf den tiefsten Stand seit rund einem Jahr, Silber verlor in fünf Tagen etwa 15 %. Öl blieb fast stabil (Brent 92,57 Dollar). Der Euro steht bei rund 1,097 Dollar.",
+    "Bitcoin fiel in der Woche um rund 18 % und am Samstagmorgen bis auf etwa 55.600 Dollar – den tiefsten Stand seit September 2024. Danach erholte er sich kurz auf über 60.000 Dollar und steht am Sonntagmorgen bei rund 58.900 Dollar. Die Stimmung am Kryptomarkt bleibt ängstlich."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Nvidia: Prüfung durch die Börsenaufsicht SEC",
+   "text": [
+    "Laut Reuters hat die SEC eine Prüfung der Buchhaltung von Nvidia begonnen; Einzelheiten sind nicht bekannt. Nvidia hat sich nicht dazu geäußert. Eine Prüfung bedeutet nicht, dass etwas falsch gemacht wurde.",
+    "Neue Meldungen dazu könnten am Montag den ganzen Chipsektor stark bewegen."
+   ],
+   "quellen": [
+    {
+     "name": "The Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+    },
+    {
+     "name": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/11/21/nvidias-worst-losing-streak-since-2008-now-has-an-sec-problem-what-shareholders-need-to-know/"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin erholt sich am Wochenende leicht",
+   "text": [
+    "Nach dem Tief bei rund 55.600 Dollar am Samstagmorgen stieg Bitcoin kurz über 60.000 Dollar und steht am Sonntagmorgen bei etwa 58.900 Dollar. Ethereum legte auf rund 1.650 Dollar zu.",
+    "Am Wochenende wird wenig gehandelt – solche Erholungen sind oft wackelig. Bitcoin liegt rund 53 % unter seinem Rekord vom Oktober 2025."
+   ],
+   "quellen": [
+    {
+     "name": "CoinCodex",
+     "url": "https://coincodex.com/article/95777/daily-market-update-for-november-22-2026/"
+    },
+    {
+     "name": "Sunday Guardian",
+     "url": "https://sundayguardianlive.com/business/bitcoin-price-today-btc-trades-at-58875-as-indian-investors-track-the-latest-crypto-market-move-check-market-drivers-snapshot-more-325947/"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin-ETFs: Weitere Abflüsse",
+   "text": [
+    "Aus den US-Bitcoin-ETFs flossen in der Woche vom 16. bis 20. November rund 1,25 Milliarden Dollar ab, zusammen mit den Ether-ETFs rund 1,47 Milliarden Dollar.",
+    "Allein am Donnerstag verlor BlackRocks Bitcoin-Fonds IBIT 541 Millionen Dollar – ein Rekord für einen Tag. Coinbase fiel am Freitag um rund 3 %. Zu Metaplanet gab es keine wichtigen neuen Meldungen."
+   ],
+   "quellen": [
+    {
+     "name": "The Crypto Times",
+     "url": "https://www.cryptotimes.io/2026/11/21/bitcoin-etfs-lose-1-25b-as-ether-funds-add-to-weekly-crypto-outflows/"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-ether-etf-outflows-nov-16-20-2026/"
+    }
+   ]
+  },
+  {
+   "titel": "Strategy: Abschied aus den MSCI-Indizes naht",
+   "text": [
+    "MSCI nimmt Strategy (früher MicroStrategy) nach Börsenschluss am 30. November aus seinen Indizes, wirksam ab 1. Dezember. Indexfonds müssen die Aktie bis dahin verkaufen.",
+    "Die Aktie verlor in der Woche rund 23 %. Strategy hält 850.849 Bitcoin. Oft meldet die Firma montags neue Bitcoin-Käufe."
+   ],
+   "quellen": [
+    {
+     "name": "The Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/19/strategy-just-got-dropped-from-msci-s-indexes-can-it-keep-buying-bitcoin/"
+    }
+   ]
+  },
+  {
+   "titel": "US-Notenbank: Zinserhöhung im Dezember erwartet",
+   "text": [
+    "Die Märkte rechnen zu rund 90 % mit einer Zinserhöhung am 9. Dezember. Für die PCE-Inflation am Mittwoch werden 3,8 % (Kernrate 3,2 %) erwartet.",
+    "Fällt die Inflation höher aus, könnte das die Börsen weiter belasten."
+   ],
+   "quellen": [
+    {
+     "name": "CMC Markets",
+     "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-global-pmis-us-pce-dell-earnings"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "tag": "Mo.",
+   "zeit": "09:30",
+   "titel": "Deutschland: Einkaufsmanagerindizes (November, erste Schätzung)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Erste Stimmung bei Industrie und Dienstleistern im November. Eurozone um 10:00 Uhr."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "15:45",
+   "titel": "USA: Einkaufsmanagerindizes (November)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, ob die US-Wirtschaft trotz Börsenstress stabil bleibt."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "abends",
+   "titel": "Quartalszahlen Hewlett Packard Enterprise",
+   "art": "Quartalszahlen",
+   "warum": "Server für KI – Hinweis, wie stark die Nachfrage noch ist."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "10:00",
+   "titel": "Deutschland: ifo-Geschäftsklima (November)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Wichtigster Stimmungswert der deutschen Wirtschaft."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "16:00",
+   "titel": "USA: Verbrauchervertrauen (Conference Board)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, ob die Amerikaner weiter Geld ausgeben wollen."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "22:05",
+   "titel": "Quartalszahlen Dell (und HP)",
+   "art": "Quartalszahlen",
+   "wichtig": true,
+   "warum": "Dell verkauft viele KI-Server – nach dem Chip-Ausverkauf genau beobachtet."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "08:00",
+   "titel": "Deutschland: BIP 3. Quartal (zweite Schätzung)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Bestätigt, wie die deutsche Wirtschaft im Sommer gewachsen ist."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "14:30",
+   "titel": "USA: PCE-Inflation, BIP 3. Quartal, Auftragseingänge, Arbeitslosenanträge",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Die PCE-Inflation ist das Lieblingsmaß der Fed – entscheidend für die Zinserhöhung im Dezember."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "vorbörslich",
+   "titel": "Quartalszahlen Deere",
+   "art": "Quartalszahlen",
+   "warum": "Landmaschinen – Hinweis auf Landwirtschaft und Industrie."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "20:00",
+   "titel": "USA: Konjunkturbericht der Fed (Beige Book)",
+   "art": "Notenbank",
+   "warum": "Zeigt die Lage der US-Wirtschaft in den Regionen."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "ganztägig",
+   "titel": "USA: Thanksgiving – Börse geschlossen",
+   "art": "Feiertag",
+   "warum": "Weniger Handel, oft schwankungsarme Tage – in nervösen Zeiten aber nicht sicher."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "13:30",
+   "titel": "EZB: Protokoll der Oktober-Sitzung",
+   "art": "Notenbank",
+   "warum": "Hinweise, wie die EZB über die Zinsen denkt."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "09:55",
+   "titel": "Deutschland: Arbeitsmarktdaten (November)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, wie stabil der Arbeitsmarkt ist. US-Börse schließt am Freitag früher (19:00 Uhr)."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "CMC Markets – Week Ahead",
+   "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-global-pmis-us-pce-dell-earnings"
+  },
+  {
+   "name": "The Motley Fool – Nvidia/SEC",
+   "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+  },
+  {
+   "name": "CoinCodex – 22.11.2026",
+   "url": "https://coincodex.com/article/95777/daily-market-update-for-november-22-2026/"
+  },
+  {
+   "name": "Sunday Guardian – Bitcoin",
+   "url": "https://sundayguardianlive.com/business/bitcoin-price-today-btc-trades-at-58875-as-indian-investors-track-the-latest-crypto-market-move-check-market-drivers-snapshot-more-325947/"
+  },
+  {
+   "name": "The Crypto Times – ETF-Woche",
+   "url": "https://www.cryptotimes.io/2026/11/21/bitcoin-etfs-lose-1-25b-as-ether-funds-add-to-weekly-crypto-outflows/"
+  },
+  {
+   "name": "Stock Titan – Earnings-Kalender",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026"
+  },
+  {
+   "name": "CappNotes – Closing Look 20.11.2026",
+   "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"
+  },
+  {
+   "name": "FINCHANNEL (AP)",
+   "url": "https://finchannel.com/nasdaq-falls-5-3-as-sp-500-and-dow-enter-corrections/142573/american-business-trends/stock-prices/2026/11/"
+  },
+  {
+   "name": "Handelsblatt",
+   "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-schwaechste-woche-seit-mehr-als-einem-jahr/100271464.html"
+  },
+  {
+   "name": "Newsquawk – Wochenkalender",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---23rd-27th-november-2026"
+  },
+  {
+   "name": "Rio Times – Gold & Silber",
+   "url": "https://www.riotimesonline.com/gold-silver-precious-metals-friday-november-20-2026/"
+  }
+ ]
+}
