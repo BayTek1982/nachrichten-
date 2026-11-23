@@ -1,0 +1,452 @@
+{
+ "datum": "2026-11-23",
+ "typ": "werktag",
+ "erstellt": "2026-11-23T06:55:00+01:00",
+ "schlagzeile": "Gegenbewegung nach der schwarzen Woche: US-Futures steigen um mehr als 2 %, DAX-Future stabil – Bitcoin wieder über 60.000 Dollar",
+ "kurz": [
+  "Nach der schlechtesten Börsenwoche seit April 2025 deutet sich zum Wochenstart eine Erholung an: Die US-Futures liegen deutlich im Plus (S&P 500 rund +2,2 %, Nasdaq rund +2,9 %).",
+  "Am Freitag hatten die US-Börsen noch stark verloren: S&P 500 −3,7 %, Nasdaq −5,3 %, Dow Jones −1,9 %. Nvidia fiel um 14 %, Micron und Arm um rund 14 %.",
+  "Der DAX schloss am Freitag 2,6 % tiefer bei 24.802 Punkten – unter der Marke von 25.000. Der DAX-Future steht heute früh leicht höher bei rund 24.913 Punkten.",
+  "In Asien ist das Bild gemischt: Der Kospi fiel zeitweise um fast 6 %, Taiwan drehte dagegen ins Plus (+2,5 %). Die Börse in Tokio ist wegen eines Feiertags geschlossen.",
+  "Bitcoin hat sich vom Tief bei rund 55.100 Dollar am Samstag erholt und liegt wieder bei etwa 60.000–61.000 Dollar. Gold steigt heute früh um fast 2 % auf rund 3.600 Dollar.",
+  "Wichtig für Krypto-Firmen: Strategy (MicroStrategy) und Metaplanet fliegen nach dem 30. November aus wichtigen MSCI-Indizes. Die Strategy-Aktie fiel am Freitag unter 80 Dollar.",
+  "Heute stehen die Einkaufsmanagerindizes für Deutschland (9:30 Uhr), Europa (10:00 Uhr) und die USA (15:45 Uhr) an. Am Donnerstag ist die US-Börse wegen Thanksgiving geschlossen."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "US-Börsen (Schluss Freitag)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "48.147,33",
+     "veraenderung": -1.93,
+     "hinweis": "Woche: rund −8 %"
+    },
+    {
+     "name": "S&P 500",
+     "wert": "6.910,39",
+     "veraenderung": -3.7,
+     "hinweis": "Korrektur, schlechteste Woche seit April 2025"
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "22.617,73",
+     "veraenderung": -5.28,
+     "hinweis": "Jahresgewinn 2026 komplett weg"
+    },
+    {
+     "name": "Nvidia",
+     "wert": "125,53 $",
+     "veraenderung": -14.01
+    },
+    {
+     "name": "Micron",
+     "wert": "594,51 $",
+     "veraenderung": -13.89
+    },
+    {
+     "name": "Arm",
+     "wert": "152,20 $",
+     "veraenderung": -14.09
+    },
+    {
+     "name": "Strategy (MSTR)",
+     "wert": "77,80 $",
+     "veraenderung": -9.67,
+     "hinweis": "unter 80 $"
+    },
+    {
+     "name": "S&P-500-Future (heute früh)",
+     "wert": "Future",
+     "veraenderung": 2.2
+    },
+    {
+     "name": "Nasdaq-Future (heute früh)",
+     "wert": "Future",
+     "veraenderung": 2.9
+    }
+   ]
+  },
+  {
+   "gruppe": "Deutschland & Asien",
+   "werte": [
+    {
+     "name": "DAX (Schluss Freitag)",
+     "wert": "24.802,78",
+     "veraenderung": -2.6,
+     "hinweis": "Woche: −7,3 %"
+    },
+    {
+     "name": "DAX-Future (6 Uhr)",
+     "wert": "24.913",
+     "veraenderung": 0.11,
+     "hinweis": "+27 Punkte"
+    },
+    {
+     "name": "Kospi (Südkorea)",
+     "wert": "Index",
+     "veraenderung": -3.2,
+     "hinweis": "zeitweise −5,8 %"
+    },
+    {
+     "name": "Taiex (Taiwan)",
+     "wert": "Index",
+     "veraenderung": 2.5,
+     "hinweis": "nach schwachem Start ins Plus gedreht"
+    },
+    {
+     "name": "Hang Seng (Hongkong)",
+     "wert": "22.267,10",
+     "veraenderung": -0.64
+    },
+    {
+     "name": "CSI 300 (China)",
+     "wert": "3.930,08",
+     "veraenderung": -0.62
+    },
+    {
+     "name": "Nikkei (Japan)",
+     "wert": "56.436,65",
+     "veraenderung": -5.06,
+     "hinweis": "Schluss Freitag, heute Feiertag"
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Krypto (heute früh)",
+   "werte": [
+    {
+     "name": "Öl (Brent)",
+     "wert": "ca. 92 $",
+     "veraenderung": -0.5
+    },
+    {
+     "name": "Öl (WTI)",
+     "wert": "ca. 83 $",
+     "veraenderung": -0.5
+    },
+    {
+     "name": "Gold",
+     "wert": "ca. 3.604 $",
+     "veraenderung": 1.87,
+     "hinweis": "Freitag tiefster Stand seit Sept. 2025"
+    },
+    {
+     "name": "Silber",
+     "wert": "41,12 $",
+     "veraenderung": -3.83,
+     "hinweis": "Schluss Freitag"
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "1,0983",
+     "veraenderung": 0.16
+    },
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 60.000–61.000 $",
+     "hinweis": "Samstag-Tief rund 55.100 $"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.650 $",
+     "hinweis": "Stand Sonntag"
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    {
+     "name": "US-Rendite 10 J.",
+     "wert": "4,91 %",
+     "veraenderung": -2.77,
+     "hinweis": "Schluss Freitag; heute früh rund 4,94 %",
+     "umgekehrt": true
+    },
+    {
+     "name": "VIX (Angstbarometer)",
+     "wert": "35,89",
+     "veraenderung": 26.2,
+     "hinweis": "Schluss Freitag, höchster Stand seit Ende März",
+     "umgekehrt": true
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA",
+   "text": [
+    "Am Freitag ging der Ausverkauf weiter: Der S&P 500 fiel um 3,7 % und ist jetzt in einer Korrektur (mehr als 10 % unter dem Hoch). Der Nasdaq verlor 5,3 % und hat seinen ganzen Gewinn aus 2026 verloren.",
+    "Besonders hart traf es Chipwerte: Nvidia −14 %, Micron −13,9 %, Arm −14,1 %. Gründe sind Zweifel am KI-Boom (hohe, oft mit Schulden bezahlte Investitionen), die Angst vor einer Zinserhöhung im Dezember und ein mutmaßlicher Spionage-Skandal rund um Nvidia, der strengere China-Regeln für Chips wahrscheinlicher macht.",
+    "Heute früh zeigen die Futures eine kräftige Gegenbewegung: S&P 500 rund +2,2 %, Nasdaq rund +2,9 %, Dow-Future laut Berichten rund +680 Punkte. Diese Woche ist kurz: Donnerstag bleibt die Börse wegen Thanksgiving zu, Freitag schließt sie früher (19 Uhr deutscher Zeit)."
+   ]
+  },
+  {
+   "titel": "Deutschland",
+   "text": [
+    "Der DAX fiel am Freitag um 2,6 % auf 24.802 Punkte und damit unter 25.000. In der Woche verlor er 7,3 % – der größte Wochenverlust des Jahres. Infineon und Scout24 brachen ein.",
+    "Der DAX-Future steht heute früh mit 24.913 Punkten leicht im Plus. Nach den starken US-Futures ist ein freundlicher Start möglich."
+   ]
+  },
+  {
+   "titel": "Asien",
+   "text": [
+    "Japan ist heute wegen eines Feiertags geschlossen. Am Freitag hatte der Nikkei 5,1 % verloren.",
+    "Der Kospi in Südkorea fiel zeitweise um 5,8 % und lag am Vormittag (europäischer Zeit früh) noch rund 3 % im Minus. Taiwan drehte dagegen um 2,5 % ins Plus. Hongkong und China verloren je rund 0,6 %."
+   ]
+  },
+  {
+   "titel": "Rohstoffe & Krypto",
+   "text": [
+    "Gold erholt sich nach dem starken Rückgang der Vorwoche um fast 2 % auf rund 3.600 Dollar. Öl ist leicht schwächer (Brent rund 92 Dollar, WTI rund 83 Dollar); Angriffe in der Golfregion bremsen den Rückgang.",
+    "Bitcoin fiel am Samstag auf rund 55.100 Dollar, den tiefsten Stand seit etwa zwei Jahren, und stieg danach wieder über 60.000 Dollar. Die Stimmung bleibt aber angespannt: Aus den Bitcoin-ETFs flossen im November bis zum 19. bereits rund 3,5 Milliarden Dollar ab."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "KI-Angst drückt die Börsen – heute Erholung erwartet",
+   "text": [
+    "Die Sorge, dass die riesigen KI-Investitionen sich nicht lohnen, hat die Tech-Werte in der Vorwoche stark fallen lassen. Dazu kommen Berichte über einen Spionage-Fall rund um Nvidia und die Erwartung, dass der US-Wahlsieg der Demokraten den Bau neuer Rechenzentren bremst.",
+    "Zum Wochenstart steigen die US-Futures aber deutlich. Viele Fachleute fragen sich, ob der Ausverkauf zu weit gegangen ist."
+   ],
+   "quellen": [
+    {
+     "name": "Al Jazeera (Asien, 23.11.)",
+     "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
+    },
+    {
+     "name": "StockTitan (Börsenschluss 20.11.)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+    }
+   ]
+  },
+  {
+   "titel": "MSCI wirft Strategy und Metaplanet aus wichtigen Indizes",
+   "text": [
+    "MSCI nimmt Strategy (MicroStrategy) aus dem MSCI USA Index und Metaplanet aus dem MSCI Japan Small Cap Index. Das gilt nach Börsenschluss am 30. November.",
+    "Indexfonds müssen deshalb Aktien verkaufen – Schätzungen liegen bei rund 1,6 Milliarden Dollar für Strategy. Die Strategy-Aktie fiel am Freitag um 9,7 % auf 77,80 Dollar."
+   ],
+   "quellen": [
+    {
+     "name": "CoinReporter (MSCI, Strategy/Metaplanet)",
+     "url": "https://www.coinreporter.io/2026/11/msci-confirms-removal-of-strategy-and-metaplanet-from-key-indexes/"
+    },
+    {
+     "name": "The Market Periodical (MSTR, ETF-Abflüsse)",
+     "url": "https://themarketperiodical.com/2026/11/22/mstr-stock-crashes-below-key-level-as-bitcoin-etf-outflows-jump-amid-btc-plunge/"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin erholt sich – ETF-Abflüsse bleiben hoch",
+   "text": [
+    "Bitcoin stieg vom Samstag-Tief bei rund 55.100 Dollar wieder über 60.000 Dollar. Viele Verkäufe von Händlern mit Krediten (Zwangsverkäufe) sind vorbei.",
+    "Aus den US-Bitcoin-ETFs flossen im November bis zum 19. aber rund 3,5 Milliarden Dollar ab, allein am 19. November mehr als 580 Millionen Dollar."
+   ],
+   "quellen": [
+    {
+     "name": "CoinDesk (Bitcoin-Erholung, 21.11.)",
+     "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
+    },
+    {
+     "name": "The Market Periodical (MSTR, ETF-Abflüsse)",
+     "url": "https://themarketperiodical.com/2026/11/22/mstr-stock-crashes-below-key-level-as-bitcoin-etf-outflows-jump-amid-btc-plunge/"
+    }
+   ]
+  },
+  {
+   "titel": "Zinsangst: Fed-Erhöhung im Dezember erwartet",
+   "text": [
+    "Die Märkte rechnen damit, dass die US-Notenbank Fed bei ihrer Sitzung am 8./9. Dezember die Zinsen erhöht – inzwischen eher um 0,25 statt 0,50 Prozentpunkte.",
+    "Darum sind die Inflationsdaten (PCE) am Mittwoch diese Woche besonders wichtig."
+   ],
+   "quellen": [
+    {
+     "name": "Mitrade (Gold, 23.11.)",
+     "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-rebounds-above-3600-stock-correction"
+    },
+    {
+     "name": "JournalArta (Wochenvorschau, 22.11.)",
+     "url": "https://journalarta.com/en/2026/11/22/stocks-to-watch-this-week-nvidia-workday-deere-and-thanksgiving-pce-data/"
+    }
+   ]
+  },
+  {
+   "titel": "Öl: OPEC+-Treffen am 29. November",
+   "text": [
+    "Der Ölpreis fällt die dritte Woche in Folge, weil eine schwächere Wirtschaft weniger Nachfrage bedeuten könnte. Angriffe auf Schiffe im Golf und ein Huthi-Angriff auf eine saudische Raffinerie bremsen den Rückgang.",
+    "Am 29. November berät die OPEC+ über die Fördermenge für 2027."
+   ],
+   "quellen": [
+    {
+     "name": "HDFC Sky (Öl, 23.11.)",
+     "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-23-2026-brent-falls-0-5percent-to-92-wti-slips-to-83-as-global-market-selloff-weighs-on-demand-outlook"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "tag": "",
+   "zeit": "07:00",
+   "titel": "Julius Bär: Umsatz drittes Quartal",
+   "art": "Quartalszahlen",
+   "warum": "Große Schweizer Privatbank – zeigt, wie es reichen Anlegern geht."
+  },
+  {
+   "tag": "",
+   "zeit": "09:30",
+   "titel": "Deutschland: Einkaufsmanagerindizes (November, erste Schätzung)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Erwartet: Industrie 54,0, Dienstleister 52,3 – zeigt, ob die deutsche Wirtschaft weiter wächst."
+  },
+  {
+   "tag": "",
+   "zeit": "10:00",
+   "titel": "Eurozone: Einkaufsmanagerindizes (November)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Erwartet: Gesamtindex 51,5 – Stimmung in den Firmen im ganzen Euroraum."
+  },
+  {
+   "tag": "",
+   "zeit": "ganztägig",
+   "titel": "BASF: Kapitalmarkttag (bis Dienstag)",
+   "art": "Unternehmen",
+   "warum": "BASF stellt Ziele und Pläne vor – wichtig für den DAX-Chemiewert."
+  },
+  {
+   "tag": "",
+   "zeit": "14:30",
+   "titel": "USA: Chicago-Fed-Aktivitätsindex (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Breites Bild der US-Konjunktur."
+  },
+  {
+   "tag": "",
+   "zeit": "15:45",
+   "titel": "USA: Einkaufsmanagerindizes (November, erste Schätzung)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Zeigt, wie es Industrie und Dienstleistern in den USA geht – wichtig für die Zinsfrage."
+  },
+  {
+   "tag": "",
+   "zeit": "22:00",
+   "titel": "Hewlett Packard Enterprise und Zoom: Quartalszahlen (nach US-Börsenschluss)",
+   "art": "Quartalszahlen",
+   "warum": "HPE verkauft Server für KI-Rechenzentren – neuer Hinweis zum KI-Boom."
+  },
+  {
+   "tag": "",
+   "zeit": "22:00",
+   "titel": "Rede von New-York-Fed-Chef John Williams",
+   "art": "Notenbank",
+   "wichtig": true,
+   "warum": "Williams ist einer der wichtigsten Fed-Vertreter – Hinweise zur Zinserhöhung im Dezember."
+  }
+ ],
+ "ausblick": [
+  {
+   "tag": "Di.",
+   "zeit": "10:00",
+   "titel": "Deutschland: Ifo-Geschäftsklima (November)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Wichtigster Stimmungsindikator für die deutsche Wirtschaft."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "vor US-Start",
+   "titel": "Analog Devices, Medtronic, Best Buy: Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Analog Devices ist ein Chipwert – wichtig nach dem Einbruch der Halbleiter."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "16:00",
+   "titel": "USA: Verbrauchervertrauen (November)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, ob die Amerikaner weiter Geld ausgeben wollen."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "22:00",
+   "titel": "Dell, HP, Workday, Autodesk: Quartalszahlen (nach US-Börsenschluss)",
+   "art": "Quartalszahlen",
+   "warum": "Dell verkauft KI-Server – neuer Test für den KI-Boom."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "14:30",
+   "titel": "USA: PCE-Inflation, BIP (2. Schätzung), Auftragseingänge",
+   "art": "Wirtschaftsdaten",
+   "warum": "Das Inflationsmaß der Fed – entscheidend für die Zinserhöhung im Dezember."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "StockTitan (Börsenschluss 20.11.)",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+  },
+  {
+   "name": "Al Jazeera (Asien, 23.11.)",
+   "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
+  },
+  {
+   "name": "APA (Asien, 23.11.)",
+   "url": "https://en.apa.az/bourse/asian-stock-markets-start-new-week-with-declines-537824"
+  },
+  {
+   "name": "finanzen.net (DAX-Futures, 23.11.)",
+   "url": "https://www.finanzen.net/nachricht/aktien/eurex-dax-futures-im-fruehhandel-stabilisiert-16080784"
+  },
+  {
+   "name": "XTB (DAX-Wochenverlust)",
+   "url": "https://www.xtb.com/de/Marktanalysen/Trading-News/dax-groesster-wochenverlust-des-jahres-chartanalyse-prognose-wochenausblick"
+  },
+  {
+   "name": "Mitrade (Gold, 23.11.)",
+   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-rebounds-above-3600-stock-correction"
+  },
+  {
+   "name": "HDFC Sky (Öl, 23.11.)",
+   "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-23-2026-brent-falls-0-5percent-to-92-wti-slips-to-83-as-global-market-selloff-weighs-on-demand-outlook"
+  },
+  {
+   "name": "CoinReporter (MSCI, Strategy/Metaplanet)",
+   "url": "https://www.coinreporter.io/2026/11/msci-confirms-removal-of-strategy-and-metaplanet-from-key-indexes/"
+  },
+  {
+   "name": "The Market Periodical (MSTR, ETF-Abflüsse)",
+   "url": "https://themarketperiodical.com/2026/11/22/mstr-stock-crashes-below-key-level-as-bitcoin-etf-outflows-jump-amid-btc-plunge/"
+  },
+  {
+   "name": "CoinDesk (Bitcoin-Erholung, 21.11.)",
+   "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
+  },
+  {
+   "name": "JournalArta (Wochenvorschau, 22.11.)",
+   "url": "https://journalarta.com/en/2026/11/22/stocks-to-watch-this-week-nvidia-workday-deere-and-thanksgiving-pce-data/"
+  },
+  {
+   "name": "finanzen.at (Tagesvorschau 23.11.)",
+   "url": "https://www.finanzen.at/nachrichten/aktien/tagesvorschau-montag-23-november-1036790243"
+  },
+  {
+   "name": "finanzen.net (Wochenvorschau)",
+   "url": "https://www.finanzen.net/nachricht/aktien/wochenvorschau-termine-bis-4-dezember-2026-16079016"
+  },
+  {
+   "name": "CNBC (US-Futures, 22.11.)",
+   "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+  },
+  {
+   "name": "Crypto Briefing (Dow-Futures)",
+   "url": "https://cryptobriefing.com/dow-futures-rise-684-points-stocks-rebound/"
+  }
+ ]
+}
