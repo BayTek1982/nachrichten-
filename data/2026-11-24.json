@@ -1,0 +1,455 @@
+{
+ "datum": "2026-11-24",
+ "typ": "werktag",
+ "erstellt": "2026-11-24T06:41:00+01:00",
+ "schlagzeile": "Riesen-Erholung: Jensen Huang zurück bei Nvidia – Aktie +31 %, Nasdaq +6,5 %, DAX +2,2 %; Asien zieht kräftig nach",
+ "kurz": [
+  "Die Börsen haben sich am Montag stark erholt: Der S&P 500 stieg um 4,7 %, der Nasdaq um 6,5 % und der Dow Jones um 3,0 %.",
+  "Auslöser war die überraschende Rückkehr von Jensen Huang als Chef von Nvidia. Die Nvidia-Aktie sprang um 31,5 % auf 165 Dollar, Micron stieg um 19 %.",
+  "Der DAX schloss 2,15 % höher bei 25.337 Punkten und beendete damit eine Verlustserie von sechs Tagen. Siemens Energy und Infineon gewannen fast 7 %.",
+  "Heute früh zieht Asien kräftig nach: Kospi +6,5 %, Taiwan mehr als +9 %, Nikkei +3,9 %. Der DAX-Future liegt mit 25.407 Punkten fast unverändert.",
+  "Das Angstbarometer VIX fiel um 26 % auf 26,6. Gold stieg um rund 3 % auf etwa 3.635 Dollar, Öl wurde billiger (Brent rund 86 Dollar).",
+  "Bitcoin erholte sich kurz auf rund 64.600 Dollar, liegt heute früh aber wieder bei etwa 60.400 Dollar. Aus den Bitcoin-ETFs flossen in der Vorwoche 1,79 Milliarden Dollar ab.",
+  "Heute wichtig: Ifo-Geschäftsklima (10:00 Uhr), US-Verbrauchervertrauen (16:00 Uhr) und abends die Zahlen von Dell und HP."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "US-Börsen (Schluss Montag)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "49.595,31",
+     "veraenderung": 3.01
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.237,17",
+     "veraenderung": 4.73,
+     "hinweis": "raus aus der Korrektur, Ende von 7 Verlusttagen"
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "24.089,56",
+     "veraenderung": 6.51
+    },
+    {
+     "name": "Nvidia",
+     "wert": "165,05 $",
+     "veraenderung": 31.48,
+     "hinweis": "Jensen Huang wieder Chef"
+    },
+    {
+     "name": "Micron",
+     "wert": "Aktie",
+     "veraenderung": 19.04,
+     "hinweis": "neue mehrjährige Lieferverträge"
+    },
+    {
+     "name": "Broadcom / AMD",
+     "wert": "–",
+     "hinweis": "keine Schlusskurse in den Quellen"
+    },
+    {
+     "name": "Tesla",
+     "wert": "385,46 $",
+     "veraenderung": 11.46
+    },
+    {
+     "name": "CrowdStrike",
+     "wert": "Aktie",
+     "veraenderung": -8.92,
+     "hinweis": "kauft Zscaler für rund 44 Mrd. $"
+    },
+    {
+     "name": "Zscaler",
+     "wert": "Aktie",
+     "veraenderung": 17.67
+    }
+   ]
+  },
+  {
+   "gruppe": "Deutschland & Asien",
+   "werte": [
+    {
+     "name": "DAX (Schluss Montag)",
+     "wert": "25.337,27",
+     "veraenderung": 2.15,
+     "hinweis": "+534 Punkte, Ende einer 6-Tage-Verlustserie"
+    },
+    {
+     "name": "DAX-Future (ca. 6 Uhr)",
+     "wert": "25.407",
+     "veraenderung": -0.02,
+     "hinweis": "−5 Punkte"
+    },
+    {
+     "name": "Nikkei (Japan)",
+     "wert": "58.654,40",
+     "veraenderung": 3.9
+    },
+    {
+     "name": "Kospi (Südkorea)",
+     "wert": "5.014,41",
+     "veraenderung": 6.5
+    },
+    {
+     "name": "Taiex (Taiwan)",
+     "wert": "Index",
+     "veraenderung": 9.0,
+     "hinweis": "mehr als +9 %, TSMC +10 %"
+    },
+    {
+     "name": "Hang Seng (Hongkong)",
+     "wert": "22.432,45",
+     "veraenderung": 0.2
+    },
+    {
+     "name": "Shanghai Composite",
+     "wert": "3.563,58",
+     "veraenderung": 0.7
+    },
+    {
+     "name": "ASX 200 (Australien)",
+     "wert": "8.718,80",
+     "veraenderung": 1.7
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Krypto",
+   "werte": [
+    {
+     "name": "Öl (Brent)",
+     "wert": "ca. 86,27 $",
+     "veraenderung": -0.5,
+     "hinweis": "Montag −3,6 %"
+    },
+    {
+     "name": "Öl (WTI)",
+     "wert": "ca. 79,90 $",
+     "veraenderung": -0.3,
+     "hinweis": "Montag rund −3,8 %"
+    },
+    {
+     "name": "Gold",
+     "wert": "ca. 3.635 $",
+     "veraenderung": 2.7,
+     "hinweis": "Montag, nach 9 % Minus in der Vorwoche"
+    },
+    {
+     "name": "Silber",
+     "wert": "–",
+     "hinweis": "kein aktueller Kurs in den Quellen; Vorwoche −15 %"
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "1,0913",
+     "veraenderung": 0.02
+    },
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 60.400 $",
+     "veraenderung": -1.5,
+     "hinweis": "Montag-Hoch rund 64.600 $"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.700 $",
+     "veraenderung": -1.6
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    {
+     "name": "US-Rendite 10 J.",
+     "wert": "4,92 %",
+     "veraenderung": 0.12,
+     "hinweis": "heute früh rund 4,93 %",
+     "umgekehrt": true
+    },
+    {
+     "name": "VIX (Angstbarometer)",
+     "wert": "26,62",
+     "veraenderung": -25.84,
+     "umgekehrt": true
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA",
+   "text": [
+    "Nach sieben Verlusttagen in Folge gab es am Montag eine sehr starke Erholung: S&P 500 +4,7 % auf 7.237 Punkte, Nasdaq +6,5 %, Dow Jones +3,0 %. Der S&P 500 holte damit gut die Hälfte des Verlusts der Vorwoche wieder auf.",
+    "Grund war vor allem Nvidia: Der Verwaltungsrat setzte Jensen Huang wieder als Chef ein. US-Präsident Trump sagte, er habe die Einigung mit dem Verwaltungsrat erreicht. Die Aktie stieg um 31,5 % – einer der größten Tagesgewinne an Börsenwert überhaupt.",
+    "Auch andere KI-Werte stiegen stark: Micron +19 %, CoreWeave +22 %, Dell +20 %, Meta +6,6 %, Alphabet +5,9 %. CrowdStrike fiel dagegen um 8,9 %, weil die Firma Zscaler für rund 44 Milliarden Dollar in Aktien kaufen will."
+   ]
+  },
+  {
+   "titel": "Deutschland",
+   "text": [
+    "Der DAX stieg um 2,15 % auf 25.337 Punkte und liegt wieder über 25.000. 36 von 40 Werten legten zu. Vorne lagen Siemens Energy (+6,9 %) und Infineon (+6,6 %), dahinter Hochtief, Deutsche Bank und Rheinmetall.",
+    "Verlierer waren Deutsche Börse (−1,3 %) und Bayer (−0,7 %) nach einem US-Gerichtsbeschluss zum Glyphosat-Vergleich. Der DAX-Future steht heute früh mit 25.407 Punkten fast unverändert."
+   ]
+  },
+  {
+   "titel": "Asien",
+   "text": [
+    "Asien folgt der Wall Street mit kräftigen Gewinnen: Taiwan steigt um mehr als 9 % (TSMC und MediaTek je rund +10 %), der Kospi um 6,5 % über 5.000 Punkte, der Nikkei um 3,9 %.",
+    "Chipwerte wie Tokyo Electron (+10,5 %), Advantest (+14 %), Samsung (+7,5 %) und SK Hynix (+8,6 %) führen. Hongkong (+0,2 %) und Shanghai (+0,7 %) steigen nur leicht."
+   ]
+  },
+  {
+   "titel": "Rohstoffe & Krypto",
+   "text": [
+    "Gold stieg am Montag um rund 3 % auf etwa 3.635 Dollar, nachdem es in der Vorwoche 9 % verloren hatte. Öl fiel deutlich: Brent rund 86 Dollar, WTI unter 80 Dollar.",
+    "Bitcoin stieg am Montag bis auf rund 64.600 Dollar, gab den Gewinn aber wieder ab und liegt heute früh bei etwa 60.400 Dollar. Ethereum steht bei rund 1.700 Dollar."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Jensen Huang kehrt als Nvidia-Chef zurück",
+   "text": [
+    "Der Verwaltungsrat von Nvidia hat Jensen Huang wieder als Chef eingesetzt. US-Präsident Trump sagte, er habe die Einigung erreicht.",
+    "Die Aktie stieg um 31,5 % auf 165 Dollar. Das zog Chipwerte weltweit nach oben – auch Infineon im DAX und TSMC in Taiwan."
+   ],
+   "quellen": [
+    {
+     "name": "Motley Fool (Börsenschluss 23.11.)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/"
+    },
+    {
+     "name": "STL News (Wall Street 23.11.)",
+     "url": "https://www.stl.news/us-stock-market-today-november-23-2026/"
+    }
+   ]
+  },
+  {
+   "titel": "CrowdStrike kauft Zscaler für rund 44 Milliarden Dollar",
+   "text": [
+    "Der IT-Sicherheitskonzern CrowdStrike will den Konkurrenten Zscaler komplett in Aktien übernehmen. Der Abschluss ist für die zweite Hälfte 2027 geplant.",
+    "Zscaler stieg um 17,7 %, CrowdStrike fiel um 8,9 %, obwohl die Quartalszahlen besser als erwartet waren."
+   ],
+   "quellen": [
+    {
+     "name": "Motley Fool (Börsenschluss 23.11.)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/"
+    }
+   ]
+  },
+  {
+   "titel": "Strategy und Coinbase erholen sich – MSCI-Rauswurf bleibt",
+   "text": [
+    "Die Strategy-Aktie (MicroStrategy) stieg zum Handelsstart um rund 16 % auf etwa 90 Dollar, Coinbase um 8,4 % auf rund 110 Dollar. Strategy kaufte in der Vorwoche weitere 457 Bitcoin und hält nun 851.305 Bitcoin.",
+    "Nach Börsenschluss am 30. November fliegen Strategy und Metaplanet aber aus wichtigen MSCI-Indizes. Indexfonds müssen dann Aktien verkaufen."
+   ],
+   "quellen": [
+    {
+     "name": "TradingNews (Bitcoin, Strategy, ETF)",
+     "url": "https://www.tradingnews.com/news/bitcoin-btc-usd-bounces-13-off-55130-low-to-62526-as-shorts-burn-73200-usd-target"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin-ETFs: hohe Abflüsse",
+   "text": [
+    "Aus den US-Bitcoin-ETFs flossen in der Woche vom 16. bis 20. November rund 1,79 Milliarden Dollar ab – die vierte Abfluss-Woche in Folge. Am 20. November allein waren es 669 Millionen Dollar.",
+    "Im November sind es bisher rund 4,1 Milliarden Dollar. Zahlen für Montag lagen noch nicht vor."
+   ],
+   "quellen": [
+    {
+     "name": "DigitalToday (Bitcoin-ETF-Abflüsse)",
+     "url": "https://www.digitaltoday.co.kr/en/view/130041/bitcoin-spot-etfs-extend-outflows-weekly-1-79-billion-dollars-exit"
+    },
+    {
+     "name": "crypto.news (Bitcoin)",
+     "url": "https://crypto.news/bitcoin-rally-fades-short-squeeze-64k/"
+    }
+   ]
+  },
+  {
+   "titel": "Zinsen: Fed-Erhöhung im Dezember sehr wahrscheinlich",
+   "text": [
+    "Laut Terminmarkt liegt die Wahrscheinlichkeit für eine Zinserhöhung der US-Notenbank im Dezember bei rund 92 %.",
+    "Darum sind die US-Inflationsdaten (PCE) am Mittwoch besonders wichtig. Die Rendite 10-jähriger US-Anleihen liegt bei rund 4,92 %."
+   ],
+   "quellen": [
+    {
+     "name": "TradingNews (Bitcoin, Strategy, ETF)",
+     "url": "https://www.tradingnews.com/news/bitcoin-btc-usd-bounces-13-off-55130-low-to-62526-as-shorts-burn-73200-usd-target"
+    },
+    {
+     "name": "AP via Yahoo (US-Indizes 23.11.)",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-213053319.html"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "tag": "",
+   "zeit": "10:00",
+   "titel": "Deutschland: Ifo-Geschäftsklima (November)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Wichtigster Stimmungswert für die deutsche Wirtschaft. Erwartet: 90,5 (vorher 90,2)."
+  },
+  {
+   "tag": "",
+   "zeit": "ganztägig",
+   "titel": "BASF: Kapitalmarkttag (Tag 2)",
+   "art": "Unternehmen",
+   "warum": "BASF stellt Ziele und Pläne vor – wichtig für den DAX-Chemiewert."
+  },
+  {
+   "tag": "",
+   "zeit": "ganztägig",
+   "titel": "Volkswagen: Start der Tarifgespräche mit der IG Metall",
+   "art": "Unternehmen",
+   "warum": "Löhne und Kosten bei VW."
+  },
+  {
+   "tag": "",
+   "zeit": "12:45",
+   "titel": "Medtronic: Quartalszahlen (vor US-Börsenstart)",
+   "art": "Quartalszahlen",
+   "warum": "Großer Medizintechnik-Konzern."
+  },
+  {
+   "tag": "",
+   "zeit": "13:00",
+   "titel": "Analog Devices und Best Buy: Quartalszahlen (vor US-Börsenstart)",
+   "art": "Quartalszahlen",
+   "wichtig": true,
+   "warum": "Analog Devices ist ein Chipwert – wichtig nach dem Auf und Ab der Halbleiter. Best Buy zeigt die Kauflaune vor dem Weihnachtsgeschäft."
+  },
+  {
+   "tag": "",
+   "zeit": "16:00",
+   "titel": "USA: Verbrauchervertrauen (Conference Board, November)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Zeigt, ob die Amerikaner weiter Geld ausgeben wollen. Erwartet: 92,2 (vorher 91,7)."
+  },
+  {
+   "tag": "",
+   "zeit": "16:00",
+   "titel": "USA: Richmond-Fed-Industrieindex (November)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Stimmung in der US-Industrie."
+  },
+  {
+   "tag": "",
+   "zeit": "22:00",
+   "titel": "Dell und HP Inc.: Quartalszahlen (nach US-Börsenschluss)",
+   "art": "Quartalszahlen",
+   "wichtig": true,
+   "warum": "Dell verkauft KI-Server – neuer Test für den KI-Boom nach der Nvidia-Erholung."
+  }
+ ],
+ "ausblick": [
+  {
+   "tag": "Mi.",
+   "zeit": "08:00",
+   "titel": "Deutschland: Wirtschaftswachstum 3. Quartal (2. Schätzung)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt genauer, wie stark die deutsche Wirtschaft gewachsen ist."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "14:30",
+   "titel": "USA: PCE-Inflation, Einkommen und Ausgaben, BIP (2. Schätzung), Erstanträge, Auftragseingänge",
+   "art": "Wirtschaftsdaten",
+   "warum": "Das Inflationsmaß der Fed – entscheidend für die Zinserhöhung im Dezember."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "16:00",
+   "titel": "USA: Neubauverkäufe (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zustand des US-Immobilienmarkts."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "20:00",
+   "titel": "USA: Konjunkturbericht der Fed (Beige Book)",
+   "art": "Notenbank",
+   "warum": "Lagebild der Fed aus allen Regionen – Hinweise vor der Zinssitzung."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "ganztägig",
+   "titel": "Deere: Quartalszahlen",
+   "art": "Quartalszahlen",
+   "warum": "Landmaschinen-Riese – Hinweis auf Landwirtschaft und Industrie."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "ganztägig",
+   "titel": "USA: Börse geschlossen (Thanksgiving)",
+   "art": "Feiertag",
+   "warum": "Weniger Handel, oft größere Schwankungen."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "Motley Fool (Börsenschluss 23.11.)",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/"
+  },
+  {
+   "name": "AP via Yahoo (US-Indizes 23.11.)",
+   "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-213053319.html"
+  },
+  {
+   "name": "STL News (Wall Street 23.11.)",
+   "url": "https://www.stl.news/us-stock-market-today-november-23-2026/"
+  },
+  {
+   "name": "ad-hoc-news (DAX-Schluss 23.11.)",
+   "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-schliesst-2-15-prozent-hoeher-nvidia-huang-sorgt-fuer-tech-erholung/70547542"
+  },
+  {
+   "name": "aktiencheck (DAX-Gewinner/Verlierer)",
+   "url": "https://aktiencheck.de/artikel/dax-zieht-rund-22-prozent-an-siemens-energy-und-infineon-vorn-deutsche-boerse-am"
+  },
+  {
+   "name": "AP (Asien, 24.11.)",
+   "url": "https://www.wsls.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/"
+  },
+  {
+   "name": "Saxo (Asia Quick Take 24.11.)",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--24-november-2026-24112026"
+  },
+  {
+   "name": "finanzen.at (DAX-Futures, 24.11.)",
+   "url": "https://www.finanzen.at/nachrichten/aktien/eurex-dax-futures-im-fruehhandel-behauptet-1036794332"
+  },
+  {
+   "name": "TradingNews (Bitcoin, Strategy, ETF)",
+   "url": "https://www.tradingnews.com/news/bitcoin-btc-usd-bounces-13-off-55130-low-to-62526-as-shorts-burn-73200-usd-target"
+  },
+  {
+   "name": "crypto.news (Bitcoin)",
+   "url": "https://crypto.news/bitcoin-rally-fades-short-squeeze-64k/"
+  },
+  {
+   "name": "DigitalToday (Bitcoin-ETF-Abflüsse)",
+   "url": "https://www.digitaltoday.co.kr/en/view/130041/bitcoin-spot-etfs-extend-outflows-weekly-1-79-billion-dollars-exit"
+  },
+  {
+   "name": "finanzen.net (Tagesvorschau 24.11.)",
+   "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-24-november-2026-16082883"
+  },
+  {
+   "name": "finanzen.net (Tagesvorschau Dow Jones)",
+   "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-dienstag-24-november-16082880"
+  },
+  {
+   "name": "finanzen.net (Wochenvorschau)",
+   "url": "https://finanzen.net/nachricht/aktien/wochenvorschau-termine-bis-7-dezember-2026-16082882"
+  }
+ ]
+}
