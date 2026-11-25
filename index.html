@@ -48,6 +48,20 @@ h3{font-size:1rem;margin:0 0 4px}
 .punkt{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-right:4px}
 .teilen{display:inline-flex;align-items:center;gap:6px}
 .teilen.klein{margin-top:12px;font-size:.82rem;padding:7px 12px}
+.vorlesen{display:inline-flex;align-items:center;gap:6px}
+.heldknoepfe{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.heldknoepfe .teilen.klein{margin-top:0}
+.vorlesen.klein{font-size:.82rem;padding:7px 12px}
+.liest{outline:2px solid var(--accent);outline-offset:3px}
+.spieler{position:fixed;left:50%;transform:translateX(-50%);bottom:max(12px,env(safe-area-inset-bottom));z-index:25;width:min(520px,calc(100vw - 24px));background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px 12px;box-shadow:0 10px 30px rgba(0,0,0,.35);display:grid;gap:8px}
+.spieler .zeile{display:flex;gap:6px;align-items:center;justify-content:space-between}
+.spieler .was{font-size:.8rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.spieler .was b{color:var(--fg)}
+.spieler .btn{min-width:44px;font-size:1rem;padding:9px 10px}
+.spieler .fort{height:4px;border-radius:2px;background:var(--chip);overflow:hidden}
+.spieler .fort i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+body.spielt .oben{bottom:calc(max(12px,env(safe-area-inset-bottom)) + 120px)}
+body.spielt main{padding-bottom:110px}
 .teilmenue{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:30;display:flex;align-items:flex-end;justify-content:center;padding:16px}
 .teilbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;width:min(420px,100%);display:grid;gap:8px;text-align:center}
 .teilbox .btn{text-decoration:none;display:block}
@@ -141,6 +155,7 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
       </div>
     </div>
     <button class="btn teilen" id="teilen" type="button" hidden><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg> Teilen</button>
+    <button class="btn zweit vorlesen" id="vorlesen" type="button" hidden><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg> Vorlesen</button>
     <button class="btn zweit" id="neu" type="button">Neu laden</button>
   </div>
 </header>
@@ -148,10 +163,13 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
 
 <main id="inhalt" hidden>
   <div style="display:grid;gap:20px">
-    <section class="box held">
+    <section class="box held" id="held-box">
       <div class="datum" id="datum"></div>
       <p class="schlagzeile" id="schlagzeile"></p>
+      <div class="heldknoepfe">
       <button class="btn teilen klein" id="teilen2" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg> Diese Ausgabe teilen</button>
+      <button class="btn zweit vorlesen klein" id="vorlesen2" type="button" hidden><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg> Vorlesen</button>
+      </div>
     </section>
 
     <section class="box kurz" id="kurz-box">
@@ -207,6 +225,17 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
     <a class="btn zweit" id="t-mail">E-Mail</a>
     <button class="btn zweit" id="t-kopie" type="button">Text kopieren</button>
     <button class="btn zweit" id="t-zu" type="button">Schließen</button>
+  </div>
+</div>
+<div class="spieler" id="spieler" role="region" aria-label="Vorlesen" hidden>
+  <div class="was" id="sp-was">Liest: <b>–</b></div>
+  <div class="fort"><i id="sp-fort"></i></div>
+  <div class="zeile">
+    <button class="btn zweit" id="sp-zurueck" type="button" aria-label="Vorheriger Abschnitt">⏮</button>
+    <button class="btn" id="sp-pause" type="button" aria-label="Pause">⏸</button>
+    <button class="btn zweit" id="sp-vor" type="button" aria-label="Nächster Abschnitt">⏭</button>
+    <button class="btn zweit" id="sp-tempo" type="button" aria-label="Lesetempo">1×</button>
+    <button class="btn zweit" id="sp-stopp" type="button" aria-label="Vorlesen beenden">■</button>
   </div>
 </div>
 <button class="oben" id="oben" type="button" aria-label="Nach oben" hidden>↑</button>
@@ -280,7 +309,8 @@ async function zeige(datum){
   try{ d = await ladeJson('data/' + (eintrag?.datei || datum + '.json')); }
   catch{ hinweis('Diese Ausgabe konnte nicht geladen werden.'); return; }
   hinweis('');
-  aktuell = datum; aktuellDaten = d; kalZu(); $('teilen').hidden = false;
+  if (typeof VL !== 'undefined' && VL.laeuft) vorlesenStopp();
+  aktuell = datum; aktuellDaten = d; kalZu(); $('teilen').hidden = false; if ('speechSynthesis' in window) $('vorlesen').hidden = false;
   const pos = index.findIndex(a=>a.datum===datum);
   $('kaltext').textContent = (pos===0 ? 'Neueste · ' : '') + datumText(datum);
   $('neuer').disabled = pos <= 0;
@@ -412,6 +442,162 @@ document.addEventListener('click', kalZu);
 document.addEventListener('keydown', e=>{ if (e.key==='Escape') kalZu(); });
 $('aelter').addEventListener('click', ()=>{ const p = index.findIndex(a=>a.datum===aktuell); if (p < index.length-1) zeige(index[p+1].datum); });
 $('neuer').addEventListener('click', ()=>{ const p = index.findIndex(a=>a.datum===aktuell); if (p > 0) zeige(index[p-1].datum); });
+
+/* ===== Vorlesen ===== */
+const VL = { teile:[], pos:0, laeuft:false, pause:false, token:0, stimme:null, tempo:1, sperre:null };
+const TEMPI = [0.85, 1, 1.15, 1.3];
+try{ const t = parseFloat(localStorage.getItem('vl-tempo')); if (TEMPI.includes(t)) VL.tempo = t; }catch{}
+function stimmeWaehlen(){
+  const alle = speechSynthesis.getVoices().filter(v=>/^de(-|_|$)/i.test(v.lang));
+  VL.stimme = alle.find(v=>/de.?DE/i.test(v.lang) && /google/i.test(v.name)) || alle.find(v=>/de.?DE/i.test(v.lang)) || alle[0] || null;
+}
+function sprech(t){
+  return String(t||'')
+    .replace(/(^|[\s(\/])[–−-]\s?(?=\d)/g,'$1minus ')
+    .replace(/(^|[\s(\/])\+\s?(?=\d)/g,'$1plus ')
+    .replace(/\bca\.\s/g,'circa ')
+    .replace(/\bz\.\s?B\./g,'zum Beispiel')
+    .replace(/\bMrd\./g,'Milliarden').replace(/\bMio\./g,'Millionen')
+    .replace(/\s[–—]\s/g,', ')
+    .replace(/[▲▼•📰]/g,'').replace(/\s+/g,' ').trim();
+}
+function zerlegen(text){
+  const saetze = sprech(text).split(/(?<=(?<!\b\d{1,2})[.!?])\s+(?=[A-ZÄÖÜ„"])/);
+  const out = [];
+  for (let x of saetze){
+    while (x.length > 220){
+      let cut = x.lastIndexOf(', ', 200); if (cut < 60) cut = x.lastIndexOf(' ', 200); if (cut < 60) cut = 200;
+      out.push(x.slice(0,cut+1).trim()); x = x.slice(cut+1).trim();
+    }
+    if (x) out.push(x);
+  }
+  return out;
+}
+function datumLang(iso){
+  const d = new Date(iso+'T12:00:00');
+  return d.toLocaleDateString('de-DE',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+}
+function vorleseTeile(){
+  const d = aktuellDaten, teile = [];
+  const add = (box, name, texte)=>{ for (const t of texte) for (const z of zerlegen(t)) teile.push({box, name, text:z}); };
+  add('held-box','Schlagzeile',['Meine Nachrichten vom ' + datumLang(d.datum) + '.', (d.schlagzeile||'') + '.']);
+  if ((d.kurz||[]).length) add('kurz-box','Kurz gesagt',['Kurz gesagt.', ...d.kurz]);
+  if ((d.kennzahlen||[]).length){
+    const t = ['Die wichtigsten Zahlen.'];
+    for (const g of d.kennzahlen){
+      if (g.gruppe) t.push(g.gruppe + '.');
+      for (const k of (g.werte||[])){
+        let z = k.name;
+        if (k.wert && /\d/.test(k.wert)) z += ': ' + k.wert;
+        if (typeof k.veraenderung === 'number') z += (k.wert && /\d/.test(k.wert) ? ', ' : ': ') + (k.veraenderung>0?'plus ':k.veraenderung<0?'minus ':'') + zahl(Math.abs(k.veraenderung)) + ' Prozent';
+        t.push(z + '.');
+      }
+    }
+    add('zahlen-box','Zahlen',t);
+  }
+  if ((d.maerkte||[]).length){
+    const t = [$('maerkte-titel').textContent + '.'];
+    for (const a of d.maerkte){ if (typeof a === 'string') t.push(a); else { if (a.titel) t.push(a.titel + '.'); t.push(...(a.text||[])); } }
+    add('maerkte-box','Märkte',t);
+  }
+  for (const [i,n] of (d.nachrichten||[]).entries()) add('nachrichten-box','Nachrichten', [(i===0?'Die Nachrichten. ':'') + n.titel + '.', ...(n.text||[])]);
+  const termin = (liste, box, titel)=>{
+    if (!(liste||[]).length) return;
+    add(box, titel, [titel + '.', ...liste.map(t=> (t.tag ? t.tag + ', ' : '') + (t.zeit ? t.zeit.replace(/^(\d{1,2}):(\d{2})$/,(m,h,mi)=> +h + ' Uhr' + (mi!=='00' ? ' ' + +mi : '')) + ': ' : '') + t.titel + '.' + (t.warum ? ' ' + t.warum : ''))]);
+  };
+  termin(d.termine, 'termine-box', $('termine-titel').textContent);
+  termin(d.ausblick, 'ausblick-box', 'Ausblick morgen');
+  teile.push({box:'held-box', name:'Ende', text:'Das war die Ausgabe. Nur zur Information, keine Kauf- oder Verkaufsempfehlung.'});
+  return teile;
+}
+function markieren(box){
+  document.querySelectorAll('.liest').forEach(e=>e.classList.remove('liest'));
+  const e = $(box); if (!e) return;
+  e.classList.add('liest');
+  const r = e.getBoundingClientRect();
+  if (r.top < 0 || r.top > innerHeight*0.6) e.scrollIntoView({behavior:'smooth', block:'start'});
+}
+function spielerAnzeigen(){
+  const t = VL.teile[VL.pos];
+  $('sp-was').replaceChildren('Liest: ', el('b',null, t ? t.name : '–'));
+  $('sp-fort').style.width = (VL.teile.length ? Math.round(VL.pos / VL.teile.length * 100) : 0) + '%';
+  $('sp-pause').textContent = VL.pause ? '▶' : '⏸';
+  $('sp-pause').setAttribute('aria-label', VL.pause ? 'Weiter' : 'Pause');
+  $('sp-tempo').textContent = String(VL.tempo).replace('.',',') + '×';
+}
+function sprichAb(i){
+  const tok = ++VL.token;
+  speechSynthesis.cancel();
+  if (i >= VL.teile.length){ vorlesenStopp(); return; }
+  VL.pos = i; VL.pause = false;
+  const t = VL.teile[i];
+  if (i === 0 || VL.teile[i-1].box !== t.box) markieren(t.box);
+  spielerAnzeigen();
+  const u = new SpeechSynthesisUtterance(t.text);
+  u.lang = 'de-DE'; if (VL.stimme) u.voice = VL.stimme; u.rate = VL.tempo;
+  u.onend = ()=>{ if (tok === VL.token && VL.laeuft && !VL.pause) sprichAb(i+1); };
+  u.onerror = e=>{ if (tok === VL.token && VL.laeuft && !VL.pause && e.error !== 'interrupted' && e.error !== 'canceled') sprichAb(i+1); };
+  setTimeout(()=>{ if (tok === VL.token) speechSynthesis.speak(u); }, 60);
+}
+async function wachHalten(an){
+  try{
+    if (an && 'wakeLock' in navigator && !VL.sperre) VL.sperre = await navigator.wakeLock.request('screen');
+    if (!an && VL.sperre){ await VL.sperre.release(); VL.sperre = null; }
+  }catch{}
+}
+function vorlesenStart(){
+  if (!aktuellDaten) return;
+  stimmeWaehlen();
+  VL.teile = vorleseTeile(); VL.laeuft = true;
+  document.body.classList.add('spielt'); $('spieler').hidden = false;
+  knoepfeText(); wachHalten(true);
+  sprichAb(0);
+}
+function vorlesenStopp(){
+  VL.token++; VL.laeuft = false; VL.pause = false;
+  speechSynthesis.cancel();
+  document.querySelectorAll('.liest').forEach(e=>e.classList.remove('liest'));
+  document.body.classList.remove('spielt'); $('spieler').hidden = true;
+  knoepfeText(); wachHalten(false);
+}
+function knoepfeText(){
+  for (const id of ['vorlesen','vorlesen2']){
+    const b = $(id); b.lastChild.textContent = VL.laeuft ? ' Stopp' : ' Vorlesen';
+  }
+}
+function abschnittSprung(r){
+  const box = VL.teile[VL.pos]?.box;
+  let i = VL.pos;
+  if (r > 0){ while (i < VL.teile.length && VL.teile[i].box === box && VL.teile[i].name === VL.teile[VL.pos].name) i++; }
+  else {
+    let start = i; while (start > 0 && VL.teile[start-1].name === VL.teile[VL.pos].name && VL.teile[start-1].box === box) start--;
+    i = start;
+    if (VL.pos - start < 2 && start > 0){ const n = VL.teile[start-1]; i = start-1; while (i > 0 && VL.teile[i-1].name === n.name && VL.teile[i-1].box === n.box) i--; }
+  }
+  sprichAb(Math.max(0, Math.min(i, VL.teile.length)));
+}
+if ('speechSynthesis' in window && 'SpeechSynthesisUtterance' in window){
+  stimmeWaehlen();
+  speechSynthesis.addEventListener?.('voiceschanged', stimmeWaehlen);
+  const umschalten = ()=> VL.laeuft ? vorlesenStopp() : vorlesenStart();
+  $('vorlesen').addEventListener('click', umschalten);
+  $('vorlesen2').addEventListener('click', umschalten);
+  $('vorlesen2').hidden = false;
+  $('sp-stopp').addEventListener('click', vorlesenStopp);
+  $('sp-pause').addEventListener('click', ()=>{
+    if (VL.pause){ sprichAb(VL.pos); wachHalten(true); }
+    else { VL.pause = true; VL.token++; speechSynthesis.cancel(); spielerAnzeigen(); }
+  });
+  $('sp-vor').addEventListener('click', ()=> abschnittSprung(1));
+  $('sp-zurueck').addEventListener('click', ()=> abschnittSprung(-1));
+  $('sp-tempo').addEventListener('click', ()=>{
+    VL.tempo = TEMPI[(TEMPI.indexOf(VL.tempo)+1) % TEMPI.length];
+    try{ localStorage.setItem('vl-tempo', String(VL.tempo)); }catch{}
+    if (VL.pause) spielerAnzeigen(); else sprichAb(VL.pos);
+  });
+  document.addEventListener('visibilitychange', ()=>{ if (!document.hidden && VL.laeuft && !VL.pause) wachHalten(true); });
+  addEventListener('pagehide', ()=> speechSynthesis.cancel());
+}
 $('neu').addEventListener('click', ladeIndex);
 ladeIndex();
 addEventListener('scroll', ()=>{ $('oben').hidden = scrollY < 600; }, {passive:true});
