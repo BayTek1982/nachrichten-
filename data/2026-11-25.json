@@ -1,0 +1,481 @@
+{
+ "datum": "2026-11-25",
+ "typ": "werktag",
+ "erstellt": "2026-11-25T06:42:00+01:00",
+ "schlagzeile": "Rückschlag nach der Rally: Chipwerte fallen kräftig – Nasdaq −1,5 %, DAX −1,3 %, Asien stürzt ab; Dow erstmals über 50.000",
+ "kurz": [
+  "Nach der riesigen Erholung am Montag ging es am Dienstag bei Technologie-Aktien wieder abwärts: Der Nasdaq fiel um 1,5 %, der S&P 500 um 0,5 %.",
+  "Der Dow Jones stieg dagegen um 0,85 % und schloss zum ersten Mal über 50.000 Punkten – Anleger wechselten in klassische Werte.",
+  "Chipwerte wurden stark verkauft: Der Chip-Index fiel um fast 8 %, Nvidia gab rund 6 % ab, Analog Devices sogar 17 %.",
+  "Der DAX verlor 1,26 % auf 25.018 Punkte. Infineon fiel fast 10 %, Aixtron 16 % und Aurubis 15 %. Das Ifo-Geschäftsklima stieg auf 90,6 Punkte – der beste Wert seit Mai 2023.",
+  "Heute früh fallen die Börsen in Asien stark: Kospi rund −6 %, Taiwan bis zu −8 %, Nikkei rund −3,5 %. Die US-Futures liegen im Minus – das deutet auf einen schwachen Start hin.",
+  "Gold fiel um gut 2 % auf rund 3.550 Dollar, Silber um 5 %. Bitcoin liegt unter 60.000 Dollar; aus Bitcoin-ETFs flossen im November schon fast 5 Milliarden Dollar ab.",
+  "Heute wichtig: Um 14:30 Uhr kommen viele US-Daten auf einmal, vor allem die PCE-Inflation. Morgen ist in den USA wegen Thanksgiving die Börse geschlossen."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "US-Börsen (Schluss Dienstag)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "50.018,70",
+     "veraenderung": 0.85,
+     "hinweis": "erstmals über 50.000 Punkten"
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.201,09",
+     "veraenderung": -0.5,
+     "hinweis": "8. Minustag in 9 Tagen"
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "23.733,54",
+     "veraenderung": -1.48
+    },
+    {
+     "name": "Nasdaq-100",
+     "wert": "26.214,17",
+     "veraenderung": -1.99
+    },
+    {
+     "name": "Chip-Index (SOX)",
+     "wert": "ca. 8.832",
+     "veraenderung": -7.9
+    },
+    {
+     "name": "Nvidia",
+     "wert": "Aktie",
+     "veraenderung": -5.86,
+     "hinweis": "Gewinnmitnahmen nach +31 % am Montag"
+    },
+    {
+     "name": "Analog Devices",
+     "wert": "Aktie",
+     "veraenderung": -17.37,
+     "hinweis": "trotz guter Zahlen"
+    },
+    {
+     "name": "HP Enterprise",
+     "wert": "Aktie",
+     "veraenderung": -16.31,
+     "hinweis": "warnt vor geringeren KI-Margen 2027"
+    },
+    {
+     "name": "AMD / Micron / Broadcom",
+     "wert": "–",
+     "hinweis": "unter Druck, keine genauen Schlusskurse in den Quellen"
+    }
+   ]
+  },
+  {
+   "gruppe": "Deutschland & Asien",
+   "werte": [
+    {
+     "name": "DAX (Schluss Dienstag)",
+     "wert": "25.017,81",
+     "veraenderung": -1.26,
+     "hinweis": "Tagestief 24.955"
+    },
+    {
+     "name": "DAX vorbörslich",
+     "wert": "–",
+     "hinweis": "kein Wert in den Quellen; US-Futures Nasdaq rund −1 %, S&P rund −0,5 %"
+    },
+    {
+     "name": "MDax",
+     "wert": "28.791,63",
+     "veraenderung": -1.72
+    },
+    {
+     "name": "Nikkei (Japan)",
+     "wert": "ca. 56.660",
+     "veraenderung": -3.4,
+     "hinweis": "am Nachmittag, zwischen −3 % und −3,6 %"
+    },
+    {
+     "name": "Kospi (Südkorea)",
+     "wert": "ca. 4.710",
+     "veraenderung": -6.0,
+     "hinweis": "Samsung und SK Hynix rund −9 %"
+    },
+    {
+     "name": "Taiex (Taiwan)",
+     "wert": "Index",
+     "veraenderung": -7.9,
+     "hinweis": "Tagestief am Vormittag; TSMC über −9 %"
+    },
+    {
+     "name": "Hang Seng (Hongkong)",
+     "wert": "Index",
+     "veraenderung": 1.0,
+     "hinweis": "rund +1 %"
+    },
+    {
+     "name": "Shanghai Composite",
+     "wert": "Index",
+     "veraenderung": -0.5,
+     "hinweis": "leicht im Minus (unter 1 %)"
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Krypto",
+   "werte": [
+    {
+     "name": "Öl (Brent)",
+     "wert": "ca. 87,50–91 $",
+     "hinweis": "Quellen widersprechen sich; leicht fallend"
+    },
+    {
+     "name": "Öl (WTI)",
+     "wert": "ca. 80,80 $",
+     "veraenderung": -1.0
+    },
+    {
+     "name": "Gold",
+     "wert": "ca. 3.552 $",
+     "veraenderung": -2.25,
+     "hinweis": "Schluss Dienstag"
+    },
+    {
+     "name": "Silber",
+     "wert": "ca. 40,79 $",
+     "veraenderung": -5.22,
+     "hinweis": "tiefster Stand seit 14 Monaten"
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "1,0953",
+     "veraenderung": -0.1
+    },
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 59.600 $",
+     "veraenderung": -2.7
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.670 $",
+     "veraenderung": -2.3
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    {
+     "name": "US-Rendite 10 J.",
+     "wert": "4,90 %",
+     "veraenderung": -0.28,
+     "umgekehrt": true
+    },
+    {
+     "name": "VIX (Angstbarometer)",
+     "wert": "26,36",
+     "veraenderung": -0.98,
+     "umgekehrt": true
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA",
+   "text": [
+    "Am Dienstag lief es an der Wall Street sehr unterschiedlich: Der Dow Jones stieg um 0,85 % auf 50.018,70 Punkte – zum ersten Mal über 50.000. Der S&P 500 fiel um 0,5 % auf 7.201 Punkte, der Nasdaq um 1,48 % auf 23.734 Punkte.",
+    "Nach dem Sprung am Montag (Rückkehr von Jensen Huang als Nvidia-Chef) nahmen viele Anleger Gewinne mit. Nvidia fiel um rund 6 %, der Chip-Index sogar um fast 8 %. Analog Devices brach um 17 % ein, obwohl die Zahlen gut waren. HP Enterprise fiel um 16 %.",
+    "Gewinner gab es bei Händlern: Kohl's +19 %, Dollar Tree +11 % (höhere Jahresprognose). Auch Best Buy hob die Prognose an. Die frisch an die Börse gegangene Anthropic-Aktie fiel unter ihren Ausgabepreis von 83 Dollar.",
+    "Das US-Verbrauchervertrauen stieg im November überraschend stark auf 103,3 Punkte (vorher 91,9) – der höchste Wert seit Januar 2025.",
+    "Nach Börsenschluss legte Dell Zahlen vor: Umsatz und Gewinn über den Erwartungen, die Jahresprognose wurde angehoben, der KI-Auftragsbestand liegt bei 132,3 Milliarden Dollar."
+   ]
+  },
+  {
+   "titel": "Deutschland & Europa",
+   "text": [
+    "Der DAX fiel um 1,26 % auf 25.017,81 Punkte und hielt sich knapp über der Marke von 25.000. Vom Rekord bei gut 27.000 Punkten ist er mehr als 8 % entfernt.",
+    "Große Verlierer: Aixtron −16 % (UBS rät zum Verkauf), Aurubis −15 % (Gewinnwarnung wegen Problemen in einem neuen US-Werk), Infineon −9,7 %. DHL fiel um 3 % wegen Berichten über neue US-Zölle.",
+    "Gewinner: Sanofi +9,8 % nach dem Kauf von Insmed für 41 Milliarden Dollar, Flatexdegiro deutlich höher, Rüstungswerte wie Rheinmetall erholt.",
+    "Das Ifo-Geschäftsklima stieg auf 90,6 Punkte – der beste Wert seit Mai 2023. Laut Ifo hängt die Erholung aber stark an Staatsausgaben."
+   ]
+  },
+  {
+   "titel": "Asien heute früh",
+   "text": [
+    "In Asien gab es heute große Verluste bei Chipwerten: Kospi rund −6 % (Handel kurz gestoppt), Taiwan zeitweise −7,9 %, Nikkei rund −3,5 %. Tokyo Electron fiel um 13,5 %, Advantest um 14,5 %, TSMC um mehr als 9 %.",
+    "Gründe: neue Zweifel am KI-Boom, Gewinnmitnahmen und Sorge vor weiteren US-Zöllen. Hongkong stieg dagegen um rund 1 %."
+   ]
+  },
+  {
+   "titel": "Rohstoffe, Zinsen & Krypto",
+   "text": [
+    "Gold fiel um 2,25 % auf rund 3.552 Dollar, Silber um 5,2 % auf rund 40,79 Dollar. Ein Grund: Am Markt wird fest mit einer Zinserhöhung der US-Notenbank im Dezember gerechnet.",
+    "Öl wurde leicht billiger, weil mehr Öl aus dem Golf exportiert wird. Die Quellen nennen für Brent Werte zwischen etwa 87,50 und 91 Dollar.",
+    "Die Rendite 10-jähriger US-Anleihen lag fast unverändert bei 4,90 %. Der VIX blieb mit 26,4 erhöht.",
+    "Bitcoin fiel wieder unter 60.000 Dollar (ca. 59.600 $), Ethereum liegt bei rund 1.670 Dollar."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Chip-Ausverkauf: Nvidia-Rally hält nicht",
+   "text": [
+    "Nur einen Tag nach dem Rekordsprung (+31 %) fiel Nvidia um rund 6 %. Der Chip-Index verlor fast 8 %, in Asien brachen Samsung, SK Hynix und TSMC um rund 9–10 % ein.",
+    "Anleger zweifeln wieder, ob sich die hohen KI-Ausgaben lohnen."
+   ],
+   "quellen": [
+    {
+     "name": "Startup Fortune (Chip-Ausverkauf 24.11.)",
+     "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/"
+    },
+    {
+     "name": "Motley Fool via Yahoo (Börsenschluss 24.11.)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html"
+    },
+    {
+     "name": "Al Jazeera (Asien 25.11.)",
+     "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom"
+    }
+   ]
+  },
+  {
+   "titel": "Dow Jones zum ersten Mal über 50.000 Punkten",
+   "text": [
+    "Während Technologie-Aktien fielen, kauften Anleger klassische Werte wie Amgen, Nike und Salesforce. Der Dow schloss bei 50.018,70 Punkten.",
+    "Das Verbrauchervertrauen stieg auf 103,3 Punkte – deutlich besser als erwartet."
+   ],
+   "quellen": [
+    {
+     "name": "Vistap Global (Wall Street 24.11.)",
+     "url": "https://vistapglobal.com/stock-market-today-november-24-2026-dow-tops-50000-as-nasdaq-slides-consumer-confidence-surges-with-pce-due-on-thanksgiving-eve-ant-bby-dell-dks-dltr-eprx-gld-insm-kymr-modd-msft-n/"
+    },
+    {
+     "name": "Motley Fool via Yahoo (Börsenschluss 24.11.)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html"
+    }
+   ]
+  },
+  {
+   "titel": "Strategy und Metaplanet fliegen Ende November aus MSCI-Indizes",
+   "text": [
+    "MSCI streicht Strategy (MicroStrategy) und Metaplanet nach Börsenschluss am 30. November aus seinen Indizes. JPMorgan schätzte die Verkäufe von Indexfonds auf rund 2,8 Milliarden Dollar.",
+    "Die Strategy-Aktie fiel in der Vorwoche um 30 %. Bitcoin liegt deutlich unter dem durchschnittlichen Kaufpreis von Strategy (rund 75.450 Dollar). Ein Analyst senkte das Kursziel auf 59 Dollar. Coinbase fiel vorbörslich um 3,5 % auf rund 105 Dollar."
+   ],
+   "quellen": [
+    {
+     "name": "Cointelegraph (MSCI: Strategy-Streichung)",
+     "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november"
+    },
+    {
+     "name": "CEO Economy (Strategy/Metaplanet)",
+     "url": "https://ceoeconomy.com/article/strategy-shares-fall-30-percent-bitcoin-below-cost-metaplanet"
+    },
+    {
+     "name": "Bitcoin Magazine (ETF-Abflüsse 24.11.)",
+     "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin-ETFs: Rekord-Abflüsse im November",
+   "text": [
+    "Am Dienstag flossen 231,6 Millionen Dollar aus den US-Bitcoin-ETFs ab – der sechste Abfluss-Tag in Folge. Am Montag waren es rund 570 Millionen.",
+    "Im November sind es damit rund 4,9 Milliarden Dollar – so viel wie noch nie in einem Monat."
+   ],
+   "quellen": [
+    {
+     "name": "Bloomingbit (ETF-Flüsse 24.11.)",
+     "url": "https://en.bloomingbit.io/feed/news/125188"
+    },
+    {
+     "name": "Bitcoin Magazine (ETF-Abflüsse 24.11.)",
+     "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows"
+    }
+   ]
+  },
+  {
+   "titel": "Sanofi kauft Insmed für 41 Milliarden Dollar",
+   "text": [
+    "Der französische Pharmakonzern zahlt 175 Dollar je Aktie in bar. Die Sanofi-Aktie stieg um fast 10 % – der beste Tag seit 2008."
+   ],
+   "quellen": [
+    {
+     "name": "Goldesel (Abendupdate 24.11.)",
+     "url": "https://goldesel.de/artikel/abendupdate-24-11-dax-schliesst-knapp-ueber-25-000-ki-ausverkauf-drueckt-nasdaq-dow-im-plus"
+    },
+    {
+     "name": "Vistap Global (Wall Street 24.11.)",
+     "url": "https://vistapglobal.com/stock-market-today-november-24-2026-dow-tops-50000-as-nasdaq-slides-consumer-confidence-surges-with-pce-due-on-thanksgiving-eve-ant-bby-dell-dks-dltr-eprx-gld-insm-kymr-modd-msft-n/"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "tag": "",
+   "zeit": "08:00",
+   "titel": "Deutschland: Wirtschaftswachstum 3. Quartal (2. Schätzung)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt genauer, wie sich die deutsche Wirtschaft entwickelt hat."
+  },
+  {
+   "tag": "",
+   "zeit": "08:00",
+   "titel": "Easyjet: Jahreszahlen; Hannover Rück: Investorentag",
+   "art": "Unternehmen",
+   "warum": "Hannover Rück nennt Ziele für 2027 und bis 2029."
+  },
+  {
+   "tag": "",
+   "zeit": "vor US-Start",
+   "titel": "Deere & Co: Zahlen 4. Quartal",
+   "art": "Quartalszahlen",
+   "warum": "Großer Landmaschinen-Hersteller – Hinweis auf Landwirtschaft und Zölle."
+  },
+  {
+   "tag": "",
+   "zeit": "14:30",
+   "titel": "USA: PCE-Inflation (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Das wichtigste Inflationsmaß der US-Notenbank. Erwartet: 3,8 % zum Vorjahr (vorher 3,6 %), Kernrate 3,2 %. Entscheidend für die Zinserhöhung im Dezember."
+  },
+  {
+   "tag": "",
+   "zeit": "14:30",
+   "titel": "USA: Wachstum 3. Quartal (2. Schätzung), Erstanträge, Auftragseingang langlebige Güter",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Erwartet: BIP +3,4 %, Erstanträge 201.000, Aufträge +0,7 %."
+  },
+  {
+   "tag": "",
+   "zeit": "16:00",
+   "titel": "USA: Verkauf neuer Häuser (Oktober)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, wie es dem Immobilienmarkt geht. Erwartet: 650.000."
+  },
+  {
+   "tag": "",
+   "zeit": "16:30",
+   "titel": "USA: Öl-Lagerbestände (EIA)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Wichtig für den Ölpreis."
+  },
+  {
+   "tag": "",
+   "zeit": "20:00",
+   "titel": "USA: Konjunkturbericht der Fed (Beige Book)",
+   "art": "Notenbank",
+   "wichtig": true,
+   "warum": "Zeigt, wie die Notenbank die Wirtschaft sieht – kurz vor der Zinssitzung am 8./9. Dezember."
+  }
+ ],
+ "ausblick": [
+  {
+   "tag": "Do.",
+   "zeit": "ganztägig",
+   "titel": "USA: Thanksgiving – Börse geschlossen",
+   "art": "Feiertag",
+   "warum": "Ohne Wall Street ist der Handel in Europa meist ruhiger."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "02:00",
+   "titel": "Südkorea: Zinsentscheid",
+   "art": "Notenbank",
+   "warum": "Wichtig nach dem starken Kursrutsch in Seoul."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "08:00",
+   "titel": "Deutschland: NIM-Konsumklima (Dezember)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt die Kauflaune der Verbraucher vor Weihnachten (zuletzt −30,8)."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "ganztägig",
+   "titel": "Rheinmetall: Kapitalmarkttag (bis Fr.)",
+   "art": "Unternehmen",
+   "warum": "Neue Ziele des größten deutschen Rüstungskonzerns."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "ganztägig",
+   "titel": "EU-Sondergipfel zu Finanzen und Ukraine-Hilfe",
+   "art": "Politik",
+   "warum": "Kann Rüstungs- und Bauwerte bewegen."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "Motley Fool via Yahoo (Börsenschluss 24.11.)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html"
+  },
+  {
+   "name": "Startup Fortune (Chip-Ausverkauf 24.11.)",
+   "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/"
+  },
+  {
+   "name": "Vistap Global (Wall Street 24.11.)",
+   "url": "https://vistapglobal.com/stock-market-today-november-24-2026-dow-tops-50000-as-nasdaq-slides-consumer-confidence-surges-with-pce-due-on-thanksgiving-eve-ant-bby-dell-dks-dltr-eprx-gld-insm-kymr-modd-msft-n/"
+  },
+  {
+   "name": "dpa-AFX via Ariva (DAX-Schluss 24.11.)",
+   "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-rueckschlag-tech-rally-12219133"
+  },
+  {
+   "name": "Goldesel (Abendupdate 24.11.)",
+   "url": "https://goldesel.de/artikel/abendupdate-24-11-dax-schliesst-knapp-ueber-25-000-ki-ausverkauf-drueckt-nasdaq-dow-im-plus"
+  },
+  {
+   "name": "investingLive (Asien 25.11.)",
+   "url": "https://investinglive.com/stock-market-update/asian-stocks-slide-as-ai-doubts-return-kospi-down-nearly-6-and-nikkei-more-than-3/"
+  },
+  {
+   "name": "Al Jazeera (Asien 25.11.)",
+   "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom"
+  },
+  {
+   "name": "Saxo (Asia Quick Take 25.11.)",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take-25-november-2026-25112026"
+  },
+  {
+   "name": "Bitcoin Magazine (ETF-Abflüsse 24.11.)",
+   "url": "https://bitcoinmagazine.com/markets/bitcoin-price-slips-60000-etf-outflows"
+  },
+  {
+   "name": "Bloomingbit (ETF-Flüsse 24.11.)",
+   "url": "https://en.bloomingbit.io/feed/news/125188"
+  },
+  {
+   "name": "Cointelegraph (MSCI: Strategy-Streichung)",
+   "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november"
+  },
+  {
+   "name": "CEO Economy (Strategy/Metaplanet)",
+   "url": "https://ceoeconomy.com/article/strategy-shares-fall-30-percent-bitcoin-below-cost-metaplanet"
+  },
+  {
+   "name": "Mitrade (Gold & Silber 25.11.)",
+   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-tumbles-bca-exits-before-pce"
+  },
+  {
+   "name": "Economic Times via fvbb (Öl 25.11.)",
+   "url": "https://fvbb.com/ns/oil-price-today-november-25-brent-crude-dips/332541"
+  },
+  {
+   "name": "dpa-AFX via finanzen.at (Termine 25.11.)",
+   "url": "https://www.finanzen.at/nachrichten/aktien/tagesvorschau-termine-am-25-november-2026-1036798136"
+  },
+  {
+   "name": "Investing.com (US-Daten 25.11.)",
+   "url": "https://www.investing.com/news/stock-market-news/gdp-jobless-claims-and-pce-among-key-data-due-wednesday-93CH-5048884"
+  },
+  {
+   "name": "dpa-AFX via Ariva (Wochenvorschau)",
+   "url": "https://www.ariva.de/news/wochenvorschau-termine-bis-30-november-2026-12209083"
+  }
+ ]
+}
