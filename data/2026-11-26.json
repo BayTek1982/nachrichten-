@@ -1,0 +1,528 @@
+{
+ "datum": "2026-11-26",
+ "typ": "werktag",
+ "erstellt": "2026-11-26T06:41:00+01:00",
+ "schlagzeile": "Aufholjagd am Abend: Dow dreht nach 1.100 Punkten Minus ins Plus, Asien erholt sich – heute ist die Wall Street wegen Thanksgiving geschlossen",
+ "kurz": [
+  "Die US-Börsen erlebten am Mittwoch eine Achterbahnfahrt: Der Dow Jones lag zeitweise mehr als 1.100 Punkte im Minus, schloss aber 0,33 % höher bei 50.183 Punkten.",
+  "S&P 500 (−0,25 %) und Nasdaq (−0,62 %) machten den größten Teil ihrer Verluste wieder wett. Nvidia fiel trotzdem um 3,9 %, Micron um 4,5 %.",
+  "Gründe für den Druck am Morgen: Die Inflation (PCE) stieg im Oktober stärker als erwartet, und die US-Regierung plant neue Zölle von bis zu 20 % auf China, die EU und weitere Länder.",
+  "Der DAX schloss 1,26 % tiefer bei 24.702 Punkten – so tief wie seit Juli nicht mehr. Nach der Erholung in New York wird heute ein deutlich freundlicherer Start erwartet.",
+  "In Asien geht es heute früh aufwärts: Nikkei rund +1,6 %, Kospi rund +1,5 %, Hang Seng rund +1,9 %. Südkorea hat den Leitzins auf 3,25 % erhöht.",
+  "Öl wird teurer (Brent rund 95 Dollar) nach einem Angriff auf eine saudische Ölanlage. Bitcoin liegt wieder bei rund 61.000 Dollar, aus den Bitcoin-ETFs fließt aber weiter Geld ab.",
+  "Heute ist die US-Börse wegen Thanksgiving geschlossen. In Europa wichtig: GfK-Konsumklima um 8:00 Uhr und das EZB-Protokoll um 13:30 Uhr."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "US-Börsen (Schluss Mittwoch)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "50.182,95",
+     "veraenderung": 0.33,
+     "hinweis": "lag zeitweise über 1.100 Punkte im Minus"
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.182,78",
+     "veraenderung": -0.25,
+     "hinweis": "zeitweise −3,2 %"
+    },
+    {
+     "name": "Nasdaq",
+     "wert": "23.585,80",
+     "veraenderung": -0.62,
+     "hinweis": "zeitweise −4,6 %"
+    },
+    {
+     "name": "Nasdaq-100",
+     "wert": "26.046,90",
+     "veraenderung": -0.64
+    },
+    {
+     "name": "Russell 2000 (Nebenwerte)",
+     "wert": "2.704,06",
+     "veraenderung": 0.71
+    },
+    {
+     "name": "Nvidia",
+     "wert": "149,30 $",
+     "veraenderung": -3.91,
+     "hinweis": "im November rund −27 %; nachbörslich +1,3 %"
+    },
+    {
+     "name": "Micron",
+     "wert": "Aktie",
+     "veraenderung": -4.53,
+     "hinweis": "Speicherchips weiter unter Druck"
+    },
+    {
+     "name": "Lam Research",
+     "wert": "Aktie",
+     "veraenderung": -5.68
+    },
+    {
+     "name": "Oracle",
+     "wert": "Aktie",
+     "veraenderung": -5.13
+    },
+    {
+     "name": "Meta",
+     "wert": "Aktie",
+     "veraenderung": 3.4,
+     "hinweis": "gegen den Trend fester"
+    },
+    {
+     "name": "HP Inc.",
+     "wert": "Aktie",
+     "veraenderung": 11.49,
+     "hinweis": "gute Zahlen, höhere Dividende"
+    },
+    {
+     "name": "Ambarella",
+     "wert": "Aktie",
+     "veraenderung": -19.77,
+     "hinweis": "schwacher Ausblick wegen Speicherchip-Mangel"
+    }
+   ]
+  },
+  {
+   "gruppe": "Deutschland & Asien",
+   "werte": [
+    {
+     "name": "DAX (Schluss Mi.)",
+     "wert": "24.702,13",
+     "veraenderung": -1.26,
+     "hinweis": "tiefster Schluss seit Juli"
+    },
+    {
+     "name": "DAX vorbörslich",
+     "wert": "ca. 25.080",
+     "veraenderung": 1.53,
+     "hinweis": "Lang & Schwarz am Mittwochabend; freundlicher Start erwartet"
+    },
+    {
+     "name": "MDAX",
+     "wert": "28.595,47",
+     "veraenderung": -0.68
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "wert": "5.894",
+     "veraenderung": -1.8
+    },
+    {
+     "name": "Nikkei 225",
+     "wert": "ca. 57.900",
+     "veraenderung": 1.6,
+     "hinweis": "heute früh"
+    },
+    {
+     "name": "Kospi",
+     "wert": "ca. 4.790",
+     "veraenderung": 1.5,
+     "hinweis": "nach −6 % am Mittwoch"
+    },
+    {
+     "name": "Hang Seng",
+     "wert": "–",
+     "veraenderung": 1.9,
+     "hinweis": "heute früh"
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Krypto",
+   "werte": [
+    {
+     "name": "Öl Brent",
+     "wert": "95,22 $",
+     "veraenderung": 0.64,
+     "hinweis": "am Mittwoch schon +3,5 %"
+    },
+    {
+     "name": "Öl WTI",
+     "wert": "84,36 $",
+     "veraenderung": 0.82
+    },
+    {
+     "name": "Gold",
+     "wert": "3.599 $",
+     "veraenderung": 0.28,
+     "hinweis": "war am Mittwoch kurz unter 3.500 $"
+    },
+    {
+     "name": "Silber",
+     "wert": "42,16 $",
+     "veraenderung": 1.84
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "1,0960",
+     "veraenderung": -0.13
+    },
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 60.900 $",
+     "veraenderung": 0.91,
+     "hinweis": "im November rund −21 %"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.699 $",
+     "veraenderung": 0.41
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & VIX",
+   "werte": [
+    {
+     "name": "Rendite US-Anleihen 10 J.",
+     "wert": "4,85 %",
+     "veraenderung": -1.14,
+     "hinweis": "−6 Basispunkte",
+     "umgekehrt": true
+    },
+    {
+     "name": "Rendite US-Anleihen 2 J.",
+     "wert": "4,61 %",
+     "veraenderung": -0.43,
+     "hinweis": "−2 Basispunkte",
+     "umgekehrt": true
+    },
+    {
+     "name": "VIX (Angstbarometer)",
+     "wert": "28,29",
+     "veraenderung": 7.32,
+     "hinweis": "morgens über 30",
+     "umgekehrt": true
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA: Großer Schreck, dann Erholung",
+   "text": [
+    "Am Mittwochmorgen fielen die Kurse stark. Die PCE-Inflation – das Inflationsmaß, auf das die US-Notenbank am meisten achtet – stieg im Oktober auf 3,8 %. Die Kerninflation (ohne Energie und Lebensmittel) stieg auf 3,3 %, erwartet waren 3,2 %.",
+    "Dazu kam die Nachricht über neue US-Zölle. Der S&P 500 lag zeitweise 3,2 % im Minus, der Nasdaq 4,6 %. Am Nachmittag ließ der Verkauf bei KI-Aktien nach, und die Kurse holten den Großteil der Verluste auf.",
+    "Die meisten Aktien im S&P 500 stiegen sogar (370 Gewinner, 128 Verlierer). Gekauft wurden vor allem Rohstoff-, Immobilien- und Industriewerte sowie kleinere Firmen. Laut einem Bericht soll der bekannte Investor Michael Burry seine Wetten auf fallende Nasdaq-Kurse aufgelöst haben."
+   ]
+  },
+  {
+   "titel": "Chip- und Tech-Werte",
+   "text": [
+    "Nvidia fiel um 3,9 % auf 149,30 Dollar, zeitweise sogar um 8 %. Die Ratingagentur S&P prüft eine Herabstufung der Kreditnote von Nvidia wegen Risiken bei der Unternehmensführung. Nachbörslich stieg die Aktie leicht um 1,3 %.",
+    "Micron (−4,5 %), Sandisk (−5,6 %) und Lam Research (−5,7 %) verloren ebenfalls. Auch Oracle (−5,1 %) und Amazon (−3,1 %) gaben nach. Meta stieg dagegen um 3,4 %."
+   ]
+  },
+  {
+   "titel": "Deutschland",
+   "text": [
+    "Der DAX verlor 1,26 % auf 24.702 Punkte, den tiefsten Schluss seit Juli. Infineon fiel um 6,5 %, Siemens Energy um 4,6 %. Bayer verlor 2,6 % nach einem Bericht über ein Medikament.",
+    "Autowerte waren gefragt: VW stieg um 4,6 %, BMW um 3,7 %. Nach Handelsschluss in Frankfurt drehte die Wall Street nach oben – im späten Handel stand der DAX bei rund 25.080 Punkten."
+   ]
+  },
+  {
+   "titel": "Asien über Nacht",
+   "text": [
+    "Nach dem Absturz am Mittwoch erholen sich die Börsen in Asien: Nikkei rund +1,6 % auf etwa 57.900 Punkte, Kospi rund +1,5 %, Hang Seng rund +1,9 %. SK Hynix und SoftBank legen deutlich zu.",
+    "Die Notenbank in Südkorea hat den Leitzins wie erwartet um 0,25 Prozentpunkte auf 3,25 % erhöht – die dritte Erhöhung seit Juli. Die US-Futures stehen im Plus (Nasdaq-100 rund +1 %)."
+   ]
+  },
+  {
+   "titel": "Rohstoffe, Krypto und Zinsen",
+   "text": [
+    "Brent-Öl stieg am Mittwoch um 3,5 %, nachdem die Huthi-Miliz die saudische Ölanlage Ras Tanura angegriffen hat; heute früh kostet Brent rund 95 Dollar. Gold liegt bei rund 3.600 Dollar, Silber steigt um fast 2 %.",
+    "Bitcoin hat sich auf rund 61.000 Dollar erholt, liegt im November aber rund 21 % im Minus. Die Rendite 10-jähriger US-Anleihen fiel auf 4,85 %. Der VIX (Angstbarometer) stieg auf 28,3."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "US-Inflation steigt stärker als erwartet – Zinserhöhung im Dezember fast sicher",
+   "text": [
+    "Die PCE-Inflation stieg im Oktober auf 3,8 %, die Kerninflation auf 3,3 % (erwartet: 3,2 %). Die US-Wirtschaft wuchs im 3. Quartal mit 4,3 % deutlich stärker als zunächst gemeldet.",
+    "An den Märkten wird zu rund 98 % damit gerechnet, dass die US-Notenbank die Zinsen am 9. Dezember um 0,25 Prozentpunkte erhöht."
+   ],
+   "quellen": [
+    {
+     "name": "StockAnalysis",
+     "url": "https://stockanalysis.com/news/us-pce-inflation-october-2026/"
+    },
+    {
+     "name": "CAPP Notes",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+    },
+    {
+     "name": "CoinDesk",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in"
+    }
+   ]
+  },
+  {
+   "titel": "USA planen neue Zölle auf China, EU und Japan",
+   "text": [
+    "Die US-Regierung hat neue Zölle vorgeschlagen: bis zu 20 % auf Waren aus China und bis zu 15 % auf Waren aus der EU und Japan. Betroffen sind auch weitere Länder.",
+    "Die Zölle sollen erst nach einer Anhörungsphase kommen – frühestens im Januar. Das belastete am Mittwoch vor allem Europa und Asien."
+   ],
+   "quellen": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+    },
+    {
+     "name": "CAPP Notes",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+    },
+    {
+     "name": "Goldesel",
+     "url": "https://goldesel.de/artikel/abendupdate-25-11-dax-schliesst-auf-tief-seit-juli-wall-street-dreht-nach-burry-ausstieg-kraeftig-nach-oben"
+    }
+   ]
+  },
+  {
+   "titel": "MSCI wirft Strategy und Metaplanet aus seinen Indizes",
+   "text": [
+    "Der Indexanbieter MSCI nimmt die Bitcoin-Firmen Strategy (früher MicroStrategy) und Metaplanet zum Monatsende (30. November) aus seinen Aktienindizes. Fonds, die diese Indizes nachbilden, müssen die Aktien dann verkaufen.",
+    "Gleichzeitig fließt weiter Geld aus Bitcoin-ETFs ab: Am Dienstag waren es rund 231 Millionen Dollar – der sechste Abflusstag in Folge. Im November sind es bereits über 4,7 Milliarden Dollar, so viel wie noch nie in einem Monat."
+   ],
+   "quellen": [
+    {
+     "name": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november"
+    },
+    {
+     "name": "Altcoin Buzz",
+     "url": "https://www.altcoinbuzz.io/why-are-strategy-and-metaplanet-leaving-msci-indexes-on-nov-30"
+    },
+    {
+     "name": "Coin Edition",
+     "url": "https://coinedition.com/bitcoin-price-rebounds-as-santiment-flags-150k-btc-whale-drop/"
+    },
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/blackrock-leads-bitcoin-and-ethereum-etf-outflows-as-728m-exits/"
+    }
+   ]
+  },
+  {
+   "titel": "Nvidia: Kreditnote unter Beobachtung",
+   "text": [
+    "Die Ratingagentur S&P Global prüft eine Herabstufung von Nvidias Kreditnote (bisher AA) und nennt Risiken bei der Unternehmensführung. Am Montag war die Aktie nach der Rückkehr von Jensen Huang als Chef um 31 % gestiegen.",
+    "Seitdem ist die Aktie wieder deutlich gefallen; im November liegt sie rund 27 % im Minus."
+   ],
+   "quellen": [
+    {
+     "name": "CAPP Notes",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+    },
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+    }
+   ]
+  },
+  {
+   "titel": "Angriff auf saudische Ölanlage – Ölpreis steigt",
+   "text": [
+    "Nach einem Huthi-Angriff auf die saudische Anlage Ras Tanura stieg Brent-Öl am Mittwoch um 3,5 %. Heute früh steigt der Preis den dritten Tag in Folge.",
+    "Am Sonntag (29. November) trifft sich das Ölkartell OPEC+."
+   ],
+   "quellen": [
+    {
+     "name": "CAPP Notes",
+     "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+    },
+    {
+     "name": "Trading Economics (Brent)",
+     "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+     "name": "Trading Economics (WTI)",
+     "url": "https://tradingeconomics.com/commodity/crude-oil"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "tag": "",
+   "zeit": "ganztägig",
+   "titel": "USA: Thanksgiving – Börse geschlossen",
+   "art": "Feiertag",
+   "wichtig": true,
+   "warum": "Ohne Wall Street ist der Handel in Europa meist ruhiger, die Umsätze sind niedriger."
+  },
+  {
+   "tag": "",
+   "zeit": "08:00",
+   "titel": "Deutschland: GfK-Konsumklima Dezember",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Zeigt, wie viel Lust die Deutschen aufs Geldausgeben haben. Erwartet: −29 (vorher −30,8)."
+  },
+  {
+   "tag": "",
+   "zeit": "10:00",
+   "titel": "Eurozone: Geldmenge M3 Oktober",
+   "art": "Wirtschaftsdaten",
+   "warum": "Hinweis darauf, wie viel Geld in der Wirtschaft unterwegs ist. Erwartet: 3,5 %."
+  },
+  {
+   "tag": "",
+   "zeit": "11:30",
+   "titel": "Großbritannien: Finanzstabilitätsbericht der Bank of England",
+   "art": "Notenbank",
+   "warum": "Zeigt, welche Risiken die britische Notenbank für das Finanzsystem sieht."
+  },
+  {
+   "tag": "",
+   "zeit": "13:30",
+   "titel": "EZB: Protokoll der letzten Zinssitzung",
+   "art": "Notenbank",
+   "wichtig": true,
+   "warum": "Gibt Hinweise, wie die EZB über die nächsten Zinsschritte denkt (nächste Sitzung im Dezember)."
+  },
+  {
+   "tag": "",
+   "zeit": "–",
+   "titel": "Quartalszahlen",
+   "art": "Unternehmen",
+   "warum": "Wegen Thanksgiving heute keine wichtigen Quartalszahlen in den USA."
+  }
+ ],
+ "ausblick": [
+  {
+   "tag": "Fr.",
+   "zeit": "00:30",
+   "titel": "Japan: Verbraucherpreise Tokio (November)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Wichtig für die Frage, ob Japans Notenbank die Zinsen bald erhöht."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "08:45",
+   "titel": "Frankreich: Inflation (vorläufig) und Wachstum 3. Quartal",
+   "art": "Wirtschaftsdaten",
+   "warum": "Erster Hinweis auf die Inflation in der Eurozone."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "09:55",
+   "titel": "Deutschland: Arbeitsmarktdaten November",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Zeigt, wie es um die Jobs in Deutschland steht."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "11:00",
+   "titel": "Eurozone: Wirtschaftsstimmung November",
+   "art": "Wirtschaftsdaten",
+   "warum": "Stimmung von Firmen und Verbrauchern in Europa."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "ganztägig",
+   "titel": "Bundestag: Abstimmung über den Haushalt 2027 (geplant)",
+   "art": "Politik",
+   "warum": "Rekordhaushalt mit hohen neuen Schulden – wichtig für deutsche Staatsanleihen."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "19:00",
+   "titel": "USA: Black Friday – Börse schließt früher",
+   "art": "Handelszeiten",
+   "wichtig": true,
+   "warum": "Kurzer Handelstag mit wenig Umsatz; Beginn des wichtigen Weihnachtsgeschäfts."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "AP / ABC News",
+   "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11252026-138453529"
+  },
+  {
+   "name": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/"
+  },
+  {
+   "name": "CAPP Notes",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+  },
+  {
+   "name": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+  },
+  {
+   "name": "StockAnalysis",
+   "url": "https://stockanalysis.com/news/us-pce-inflation-october-2026/"
+  },
+  {
+   "name": "finanzen.at",
+   "url": "https://www.finanzen.at/nachrichten/aktien/xetra-schluss-schwach-dax-rutscht-wieder-unter-25-000-punkte-1036800435"
+  },
+  {
+   "name": "Goldesel",
+   "url": "https://goldesel.de/artikel/abendupdate-25-11-dax-schliesst-auf-tief-seit-juli-wall-street-dreht-nach-burry-ausstieg-kraeftig-nach-oben"
+  },
+  {
+   "name": "Aktiencheck",
+   "url": "https://aktiencheck.de/artikel/dax-tagesbilanz-flucht-aus-ki-aktien-drueckt-den-index-auf-24702-punkte-warnt"
+  },
+  {
+   "name": "investingLive",
+   "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asia-stocks-extend-rebound/"
+  },
+  {
+   "name": "WOL / CNBC",
+   "url": "https://www.wol.com/2026/11/26/asia-markets-up-as-investors-assess-u-s-tariffs-korea-rate-decision-in-focus/"
+  },
+  {
+   "name": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262322889-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey"
+  },
+  {
+   "name": "Coin Edition",
+   "url": "https://coinedition.com/bitcoin-price-rebounds-as-santiment-flags-150k-btc-whale-drop/"
+  },
+  {
+   "name": "crypto.news",
+   "url": "https://crypto.news/blackrock-leads-bitcoin-and-ethereum-etf-outflows-as-728m-exits/"
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in"
+  },
+  {
+   "name": "Trading Economics (Brent)",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+  },
+  {
+   "name": "Trading Economics (WTI)",
+   "url": "https://tradingeconomics.com/commodity/crude-oil"
+  },
+  {
+   "name": "Cointelegraph",
+   "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november"
+  },
+  {
+   "name": "Altcoin Buzz",
+   "url": "https://www.altcoinbuzz.io/why-are-strategy-and-metaplanet-leaving-msci-indexes-on-nov-30"
+  },
+  {
+   "name": "ActionForex",
+   "url": "https://www.actionforex.com/economic-calendar/661597-eco-data-11-26-26/"
+  },
+  {
+   "name": "Wochenkalender (Substack)",
+   "url": "https://cscottgarliss.substack.com/p/economic-calendar-for-the-week-of-f6d"
+  },
+  {
+   "name": "Aktiencheck Börsenkalender",
+   "url": "https://aktiencheck.de/artikel/boersenkalender-bis-weihnachten-thanksgiving-haushaltsabstimmung-jobs-report-fed"
+  }
+ ]
+}
