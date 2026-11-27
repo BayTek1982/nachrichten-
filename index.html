@@ -50,6 +50,12 @@ h3{font-size:1rem;margin:0 0 4px}
 .teilen.klein{margin-top:12px;font-size:.82rem;padding:7px 12px}
 .vorlesen{display:inline-flex;align-items:center;gap:6px}
 .heldknoepfe{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.ausgabewahl{display:inline-flex;gap:4px;padding:4px;margin:10px 0 2px;border-radius:12px;background:var(--chip)}
+.ausgabewahl button{font:600 .92rem var(--f-body);border:0;border-radius:9px;padding:8px 14px;background:transparent;color:var(--fg);cursor:pointer}
+.ausgabewahl button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.kalgrid button.zwei::after{margin-left:-6px;box-shadow:7px 0 0 var(--accent)}
+.kalgrid button.zwei.gewaehlt::after{box-shadow:7px 0 0 var(--accent-ink)}
+.punkt.zwei{margin-right:11px;box-shadow:7px 0 0 var(--accent)}
 .heldknoepfe .teilen.klein{margin-top:0}
 .vorlesen.klein{font-size:.82rem;padding:7px 12px}
 .liest{outline:2px solid var(--accent);outline-offset:3px}
@@ -136,7 +142,7 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
     <img src="icons/nachrichten-192.png" alt="">
     <div>
     <h1>Meine Nachrichten</h1>
-    <div class="sub">Börsen-Briefing für jeden Morgen · Mo–Fr 6:38 Uhr, Sa/So 8:36 Uhr</div>
+    <div class="sub">Börsen-Briefing morgens und abends · Mo–Fr 6:38 und 20 Uhr, Sa/So 8:36 Uhr</div>
     </div>
   </div>
   <div class="steuer">
@@ -151,7 +157,7 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
           <button class="btn zweit pfeil" id="kalnach" type="button" aria-label="Nächster Monat">›</button>
         </div>
         <div class="kalgrid" id="kalgrid"></div>
-        <div class="kalfuss"><span><i class="punkt"></i> Ausgabe vorhanden</span><button class="btn" id="kalneu" type="button">Neueste</button></div>
+        <div class="kalfuss"><span><i class="punkt"></i> Ausgabe · <i class="punkt zwei"></i> Morgen + Abend</span><button class="btn" id="kalneu" type="button">Neueste</button></div>
       </div>
     </div>
     <button class="btn teilen" id="teilen" type="button" hidden><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg> Teilen</button>
@@ -165,6 +171,10 @@ main h2::before{content:"";width:4px;height:1.05em;border-radius:2px;background:
   <div style="display:grid;gap:20px">
     <section class="box held" id="held-box">
       <div class="datum" id="datum"></div>
+      <div class="ausgabewahl" id="ausgabewahl" role="group" aria-label="Ausgabe wählen" hidden>
+        <button type="button" id="wahl-morgen" aria-pressed="false">☀️ Morgen</button>
+        <button type="button" id="wahl-abend" aria-pressed="false">🌙 Abend</button>
+      </div>
       <p class="schlagzeile" id="schlagzeile"></p>
       <div class="heldknoepfe">
       <button class="btn teilen klein" id="teilen2" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg> Diese Ausgabe teilen</button>
@@ -323,6 +333,14 @@ async function zeige(schluessel){
   $('aelter').disabled = pos < 0 || pos >= index.length-1;
   const wochenende = d.typ === 'wochenende';
   const abend = d.typ === 'abend';
+  { const tag = index.filter(a=>a.datum===(eintrag?.datum||d.datum));
+    const m = tag.find(a=>!istAbend(a)), ab = tag.find(a=>istAbend(a));
+    $('ausgabewahl').hidden = !(m && ab);
+    if (m && ab){
+      $('wahl-morgen').setAttribute('aria-pressed', String(!abend)); $('wahl-abend').setAttribute('aria-pressed', String(abend));
+      $('wahl-morgen').onclick = ()=>{ if (abend) zeige(schl(m)); };
+      $('wahl-abend').onclick = ()=>{ if (!abend) zeige(schl(ab)); };
+    } }
 
   let stand = datumText(d.datum) + (abend ? ' · Abend-Ausgabe' : '');
   if (d.erstellt){ const e = new Date(d.erstellt); if (!isNaN(e)) stand += ' · erstellt ' + e.toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Berlin'}) + ' Uhr'; }
@@ -423,11 +441,11 @@ function kalZeichnen(){
   const erster = new Date(Date.UTC(j,m,1)).getUTCDay();
   for (let i=0;i<(erster+6)%7;i++) g.append(el('span'));
   const tage = new Date(Date.UTC(j,m+1,0)).getUTCDate();
-  const vorhanden = new Set(index.map(a=>a.datum)), heute = heuteIso();
+  const vorhanden = new Set(index.map(a=>a.datum)), zwei = new Set(index.filter(istAbend).map(a=>a.datum)), heute = heuteIso();
   for (let t=1;t<=tage;t++){
     const iso = `${j}-${String(m+1).padStart(2,'0')}-${String(t).padStart(2,'0')}`;
     if (vorhanden.has(iso)){
-      const b = el('button',{type:'button',class:(iso===aktuellDaten?.datum?'gewaehlt':'')+(iso===heute?' heute':''),'aria-label':datumText(iso)},t);
+      const b = el('button',{type:'button',class:(iso===aktuellDaten?.datum?'gewaehlt':'')+(iso===heute?' heute':'')+(zwei.has(iso)?' zwei':''),'aria-label':datumText(iso)+(zwei.has(iso)?', Morgen und Abend':'')},t);
       b.addEventListener('click',()=>{ zeige(schl(index.find(a=>a.datum===iso))); scrollTo({top:0,behavior:'smooth'}); });
       g.append(b);
     } else g.append(el('span',{class:'leer'+(iso===heute?' heute':'')},t));
