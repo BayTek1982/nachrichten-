@@ -2,6 +2,11 @@
  "ausgaben": [
   {
    "datum": "2026-11-27",
+   "datei": "2026-11-27-abend.json",
+   "schlagzeile": "Starker Wochenschluss: DAX +0,9 % auf 25.441, Wall Street mit Chip-Rally im kurzen Black-Friday-Handel – Nasdaq +2,3 %"
+  },
+  {
+   "datum": "2026-11-27",
    "datei": "2026-11-27.json",
    "schlagzeile": "DAX zurück über 25.000 und heute weiter fester erwartet – Wall Street öffnet nach Thanksgiving nur kurz, Bitcoin-ETFs mit Rekord-Abflüssen im November"
   },

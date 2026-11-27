@@ -1,0 +1,395 @@
+{
+ "datum": "2026-11-27",
+ "typ": "abend",
+ "erstellt": "2026-11-27T20:11:00+01:00",
+ "schlagzeile": "Starker Wochenschluss: DAX +0,9 % auf 25.441, Wall Street mit Chip-Rally im kurzen Black-Friday-Handel – Nasdaq +2,3 %",
+ "kurz": [
+  "Der DAX hat den Freitag mit plus 0,90 % auf 25.441 Punkten beendet. Auf die Woche gerechnet sind das rund 2,6 % Plus.",
+  "34 von 40 DAX-Werten stiegen. Rheinmetall war mit +3,3 % vorne, obwohl die Firma ihr Umsatzziel für 2030 gesenkt hat. Commerzbank fiel um 1,9 %.",
+  "Die Wall Street hatte nach Thanksgiving nur bis 19 Uhr geöffnet. Alle drei großen Indizes schlossen deutlich im Plus: Dow +1,2 %, S&P 500 +1,6 %, Nasdaq +2,3 %.",
+  "Chipwerte haben sich stark erholt: Der Halbleiter-Index stieg um fast 4,7 %, Micron um mehr als 7 %. Nvidia legte nur 0,8 % zu.",
+  "Die US-Zinsen sind gestiegen: Die 10-jährige Rendite liegt bei 4,94 %. Grund ist das höher korrigierte US-Wachstum (BIP 3. Quartal: 4,3 %). Viele rechnen mit einer Zinserhöhung der Fed im Dezember.",
+  "Gold (+2 bis 3 %) und Silber (+5,6 %) haben kräftig zugelegt. Öl wurde am Nachmittag billiger.",
+  "Bitcoin liegt bei knapp 60.000 Dollar. Aus den US-Bitcoin-ETFs sind im November schon 5,39 Mrd. Dollar abgeflossen – ein Rekord.",
+  "Am Wochenende trifft sich die OPEC+ (Sonntag). Am Montag kommen die deutschen Inflationszahlen (14 Uhr)."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "Deutschland & Europa (Schluss 17:30 Uhr)",
+   "werte": [
+    {
+     "name": "DAX",
+     "wert": "25.441,24",
+     "veraenderung": 0.9,
+     "hinweis": "Woche ca. +2,6 %"
+    },
+    {
+     "name": "MDAX",
+     "wert": "29.705,60",
+     "veraenderung": 1.51
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "wert": "6.089,20",
+     "veraenderung": 1.24,
+     "hinweis": "Woche ca. +2,5 %"
+    },
+    {
+     "name": "Rendite 10 J. Bund",
+     "wert": "3,28 %",
+     "veraenderung": 0,
+     "umgekehrt": true,
+     "hinweis": "Veränderung nicht genannt"
+    }
+   ]
+  },
+  {
+   "gruppe": "US-Börsen (Schluss 19:00 Uhr – verkürzter Black-Friday-Handel)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "50.774,94",
+     "veraenderung": 1.18
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.297,49",
+     "veraenderung": 1.6
+    },
+    {
+     "name": "Nasdaq Composite",
+     "wert": "24.129,50",
+     "veraenderung": 2.31
+    },
+    {
+     "name": "Nasdaq 100",
+     "wert": "26.726,39",
+     "veraenderung": 2.61
+    },
+    {
+     "name": "Halbleiter-Index (SOX)",
+     "wert": "9.186,71",
+     "veraenderung": 4.69
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe, Devisen & Krypto (Stand ca. 17–19 Uhr)",
+   "werte": [
+    {
+     "name": "Öl Brent",
+     "wert": "ca. 95,21 $",
+     "veraenderung": -1.5,
+     "hinweis": "16:18 Uhr; Quellen uneinheitlich"
+    },
+    {
+     "name": "Öl WTI",
+     "wert": "ca. 82,92 $",
+     "veraenderung": -0.91,
+     "hinweis": "Januar-Kontrakt, ca. 19 Uhr"
+    },
+    {
+     "name": "Gold",
+     "wert": "ca. 3.640–3.670 $",
+     "veraenderung": 2.5,
+     "hinweis": "+2 bis +3 % je nach Uhrzeit"
+    },
+    {
+     "name": "Silber",
+     "wert": "43,91 $",
+     "veraenderung": 5.63,
+     "hinweis": "15:33 Uhr"
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "1,0947",
+     "veraenderung": -0.31,
+     "hinweis": "16:56 Uhr"
+    },
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 59.900 $",
+     "veraenderung": -1.2,
+     "hinweis": "ca. 17–19 Uhr; morgens noch ca. 61.500 $"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.735 $",
+     "veraenderung": 2.3,
+     "hinweis": "Stand Vormittag"
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & Angst-Index (US, Schluss)",
+   "werte": [
+    {
+     "name": "Rendite 10 J. USA",
+     "wert": "4,94 %",
+     "veraenderung": 1.81,
+     "umgekehrt": true,
+     "hinweis": "+8,8 Basispunkte"
+    },
+    {
+     "name": "VIX",
+     "wert": "ca. 23,8–24,4",
+     "veraenderung": -11.2,
+     "umgekehrt": true,
+     "hinweis": "Vortag 26,80"
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "Deutschland & Europa",
+   "text": [
+    "Der DAX schloss bei 25.441 Punkten (+0,90 %). Tagesspanne: 25.293 bis 25.472. In zwei Tagen hat er rund 3 % gewonnen und liegt wieder über der 200-Tage-Linie. Bis zum Rekordhoch (27.002) fehlen noch etwa 5,8 %.",
+    "Gewinner: Rheinmetall +3,3 % (Kapitalmarkttag: Umsatzziel 2030 auf 33–37 Mrd. Euro gesenkt, aber hohe Marge und Prognose 2026 bestätigt), MTU +2,9 % (vor dem Kapitalmarkttag am Montag), Infineon +2,7 % (Erholung bei Chipwerten), Daimler Truck +2,0 %, Deutsche Bank +1,9 %, Siemens Energy +1,9 %.",
+    "Verlierer: Commerzbank −1,9 % (zwölfter Minustag in 13 Tagen; UniCredit verlangt eine außerordentliche Hauptversammlung), Beiersdorf −1,0 %, Hannover Rück −0,8 %, Münchener Rück −0,6 % (Abstufung durch Kepler Cheuvreux).",
+    "Europa: Euro Stoxx 50 +1,24 % auf 6.089 Punkte. Banken (UniCredit, Santander je gut +4 %) und Chipwerte (ASML +2,6 %, STMicro +3,9 %) waren stark. Hilfe kam aus China, wo Maßnahmen zur Stabilisierung der Finanzmärkte gemeldet wurden."
+   ]
+  },
+  {
+   "titel": "USA",
+   "text": [
+    "Die Wall Street hatte nur bis 13 Uhr New Yorker Zeit (19 Uhr bei uns) geöffnet, die Umsätze waren gering. Dow +1,18 % auf 50.775, S&P 500 +1,60 % auf 7.297, Nasdaq +2,31 % auf 24.130. Alle 11 Branchen im S&P 500 stiegen, Konsumwerte waren vorne.",
+    "Chips: Der Halbleiter-Index SOX stieg um 4,7 %, Micron um mehr als 7 %. Nvidia legte nur 0,8 % zu – die Aktie schwankt stark seit der Rückkehr von Jensen Huang als Chef. Tesla +5,2 % vor der Hauptversammlung am 3. Dezember.",
+    "Black Friday: Händler melden kauffreudige Kunden. Adobe erwartet für die Feiertage 6,7 % mehr Online-Umsatz, der Handelsverband NRF erstmals über 1 Billion Dollar."
+   ]
+  },
+  {
+   "titel": "Zinsen, Rohstoffe & Krypto",
+   "text": [
+    "Die 10-jährige US-Rendite stieg um 8,8 Basispunkte auf 4,94 %. Grund: Das US-Wachstum im 3. Quartal wurde auf 4,3 % hochkorrigiert. Der Markt rechnet stark mit einer Zinserhöhung der Fed am 9. Dezember.",
+    "Öl stieg am Morgen wegen Angriffen im Nahen Osten (Straße von Hormus, Saudi-Arabien), drehte aber am Nachmittag ins Minus. Auf Wochensicht bleibt ein Plus. Gold stieg um 2–3 % auf rund 3.640–3.670 Dollar, Silber um über 5 %.",
+    "Bitcoin hielt sich am Vormittag bei rund 61.500 Dollar, auch beim großen Optionsverfall (rund 7 Mrd. Dollar) gab es kaum Bewegung. Am frühen Abend lag er aber nur noch knapp unter 60.000 Dollar."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Rheinmetall senkt Ziel für 2030 – Aktie steigt trotzdem",
+   "text": [
+    "Am Kapitalmarkttag nannte Rheinmetall für 2030 einen Umsatz von 33 bis 37 Mrd. Euro. Analysten hatten im Schnitt etwas mehr erwartet (36,8 Mrd.).",
+    "Die Anleger freuten sich aber über die hohe Gewinnmarge von rund 20 %, die bestätigte Prognose für 2026 und einen Auftrag aus Rumänien über 738 Mio. Euro. Die Aktie stieg um 3,3 %."
+   ],
+   "quellen": [
+    {
+     "name": "aktiencheck (DAX-Analyse)",
+     "url": "https://aktiencheck.de/artikel/dax-analyse-rheinmetall-kappt-ziele-und-fuehrt-rally-an-commerzbank-faellt"
+    },
+    {
+     "name": "ad-hoc-news (DAX-Schluss)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-schliesst-0-90-prozent-hoeher-tech-aktien-geben-rueckenwind/70562896"
+    }
+   ]
+  },
+  {
+   "titel": "Wirtschaftsdaten: Inflation in Frankreich und Spanien sinkt, Stimmung in der Eurozone schwach",
+   "text": [
+    "Frankreich: Inflation im November 3,2 % (vorher 3,7 %, erwartet 3,6 %) – besser als erwartet. Spanien: 4,1 % nach 4,9 %.",
+    "Die Wirtschaftsstimmung in der Eurozone fiel auf 95,8 Punkte (erwartet 97,2) – schwächer als erwartet.",
+    "Deutschland: 2,936 Mio. Arbeitslose, Quote 6,2 %. Saisonbereinigt +9.000. Die Verbraucher in der Eurozone erwarten mehr Inflation (3,5 % nach 3,1 %).",
+    "Der Euro gab leicht nach auf rund 1,095 Dollar."
+   ],
+   "quellen": [
+    {
+     "name": "aktiencheck (DAX-Analyse)",
+     "url": "https://aktiencheck.de/artikel/dax-analyse-rheinmetall-kappt-ziele-und-fuehrt-rally-an-commerzbank-faellt"
+    },
+    {
+     "name": "ARIVA/dpa-AFX (Aktien Europa Schluss)",
+     "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-erholung-fortgesetzt-12223165"
+    },
+    {
+     "name": "finanzen.net (Euro/Dollar)",
+     "url": "https://finanzen.net/nachricht/devisen/devisen-im-blick-warum-der-eurokurs-zum-us-dollar-etwas-nachgibt-16089843"
+    }
+   ]
+  },
+  {
+   "titel": "US-Zinsen steigen – Fed-Zinserhöhung im Dezember erwartet",
+   "text": [
+    "Das US-Wachstum im 3. Quartal wurde auf 4,3 % hochkorrigiert (vorher 3,4 %). Die 10-jährige Rendite stieg auf 4,94 %.",
+    "Der Markt rechnet zu über 90 % mit einer Zinserhöhung der US-Notenbank am 9. Dezember. Nächste Woche ist der US-Arbeitsmarktbericht (Freitag) der wichtigste Test."
+   ],
+   "quellen": [
+    {
+     "name": "Kiplinger (Wall Street)",
+     "url": "https://www.kiplinger.com/investing/stocks/dow-adds-592-points-on-black-friday-as-ai-fear-fades-stock-market-today"
+    },
+    {
+     "name": "Yahoo Finance (Live-Blog)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html"
+    },
+    {
+     "name": "JBizNews (US-Schluss)",
+     "url": "https://jbiznews.com/u-s-stocks-close-sharply-higher-in-shortened-black-friday-session-and-post-big-weekly-gains-dow-jones-industrial-average-up-1-18-sp-500-up-1-60-nasdaq-composite-up-2-31/"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin-ETFs: Rekord-Abflüsse im November – Strategy fliegt aus MSCI-Indizes",
+   "text": [
+    "Aus den US-Bitcoin-ETFs sind im November bis Mittwoch netto 5,39 Mrd. Dollar abgeflossen – so viel wie noch nie in einem Monat. Am Mittwoch allein waren es 453 Mio. Dollar, der siebte Abflusstag in Folge. Zahlen für Freitag liegen noch nicht vor.",
+    "Strategy (früher MicroStrategy) wird am Montag, 30.11., zum Handelsschluss aus den MSCI-Indizes genommen. Die Aktie notiert nahe am Wert ihrer Bitcoin-Bestände.",
+    "Der große Optionsverfall bei Deribit (rund 7 Mrd. Dollar) ging ohne große Kursbewegung vorbei."
+   ],
+   "quellen": [
+    {
+     "name": "aktiencheck (Bitcoin-ETF-Abflüsse)",
+     "url": "https://aktiencheck.de/artikel/bitcoin-kurs-rekord-abfluesse-von-539-milliarden-dollar-aus-us-etfs-im-november"
+    },
+    {
+     "name": "aktiencheck (Bitcoin-Optionsverfall)",
+     "url": "https://aktiencheck.de/artikel/bitcoin-kurs-7-milliarden-verfall-ohne-kursreaktion-bitcoin-haelt-sich-ueber"
+    },
+    {
+     "name": "wallstreet-online (Bitcoin)",
+     "url": "https://www.wallstreet-online.de/nachricht/21756139-optionsverfall-black-friday-bitcoin-aufholjagd-fort"
+    }
+   ]
+  },
+  {
+   "titel": "Neue US-Zölle und EU-Haushaltsstreit",
+   "text": [
+    "Die USA planen neue Zölle gegen 14 Partner, für die EU 15 %, für China 20 %. Laut US-Regierung sollen sie alte Zölle ersetzen und frühestens im Januar gelten.",
+    "Der EU-Sondergipfel zum Haushalt 2028–2034 ist gescheitert; nächster Versuch am 17. Dezember."
+   ],
+   "quellen": [
+    {
+     "name": "aktiencheck (DAX-Wochenbilanz)",
+     "url": "https://aktiencheck.de/artikel/dax-wochenbilanz-25441-punkte-plus-26-prozent-rente-zoelle-eu-gipfel-und-fed"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "zeit": "19:00",
+   "titel": "Wall Street hat geschlossen (verkürzter Handel)",
+   "art": "Börse",
+   "warum": "Heute Abend gibt es keine US-Quartalszahlen mehr. Der Handel geht am Montag normal weiter."
+  },
+  {
+   "tag": "So.",
+   "zeit": "",
+   "titel": "Treffen der OPEC+",
+   "art": "Rohstoffe",
+   "wichtig": true,
+   "warum": "Erwartet wird, dass die Fördermengen bis mindestens Anfang 2027 gleich bleiben. Eine Überraschung würde den Ölpreis bewegen."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "02:30",
+   "titel": "China: Einkaufsmanagerindizes November (voraussichtlich)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, wie es Chinas Industrie geht – wichtig für Rohstoffe, Autos und Chipwerte."
+  }
+ ],
+ "ausblick": [
+  {
+   "tag": "Mo.",
+   "zeit": "11:00",
+   "titel": "Kapitalmarkttag MTU Aero Engines",
+   "art": "Unternehmen",
+   "warum": "Neue Ziele könnten die Aktie bewegen, die heute schon 2,9 % stieg."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "14:00",
+   "titel": "Deutschland: Inflation November (vorläufig)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Wichtig für die Frage, ob die EZB im Dezember die Zinsen erhöht."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "15:30",
+   "titel": "EZB-Chefin Lagarde im Europäischen Parlament",
+   "art": "Notenbank",
+   "warum": "Hinweise auf die Zinsentscheidung am 17. Dezember."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "22:00",
+   "titel": "Strategy fliegt aus den MSCI-Indizes (zum Handelsschluss)",
+   "art": "Index-Änderung",
+   "warum": "Indexfonds müssen die Aktie verkaufen – das kann bei Strategy und Krypto-Aktien für Bewegung sorgen."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "",
+   "titel": "Letzter Handelstag im November",
+   "art": "Börse",
+   "warum": "Monatsende: Fonds schichten oft um, außerdem steht die endgültige ETF-Bilanz für Bitcoin im November fest."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "ad-hoc-news (DAX-Schluss)",
+   "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-schliesst-0-90-prozent-hoeher-tech-aktien-geben-rueckenwind/70562896"
+  },
+  {
+   "name": "aktiencheck (DAX-Analyse)",
+   "url": "https://aktiencheck.de/artikel/dax-analyse-rheinmetall-kappt-ziele-und-fuehrt-rally-an-commerzbank-faellt"
+  },
+  {
+   "name": "aktiencheck (DAX-Wochenbilanz)",
+   "url": "https://aktiencheck.de/artikel/dax-wochenbilanz-25441-punkte-plus-26-prozent-rente-zoelle-eu-gipfel-und-fed"
+  },
+  {
+   "name": "ARIVA/dpa-AFX (Aktien Europa Schluss)",
+   "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-erholung-fortgesetzt-12223165"
+  },
+  {
+   "name": "ad-hoc-news (Euro Stoxx 50)",
+   "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-schliesst-nach-asien-impulsen-1-24-prozent-hoeher/70562911"
+  },
+  {
+   "name": "finanzen.net (Euro/Dollar)",
+   "url": "https://finanzen.net/nachricht/devisen/devisen-im-blick-warum-der-eurokurs-zum-us-dollar-etwas-nachgibt-16089843"
+  },
+  {
+   "name": "JBizNews (US-Schluss)",
+   "url": "https://jbiznews.com/u-s-stocks-close-sharply-higher-in-shortened-black-friday-session-and-post-big-weekly-gains-dow-jones-industrial-average-up-1-18-sp-500-up-1-60-nasdaq-composite-up-2-31/"
+  },
+  {
+   "name": "Kiplinger (Wall Street)",
+   "url": "https://www.kiplinger.com/investing/stocks/dow-adds-592-points-on-black-friday-as-ai-fear-fades-stock-market-today"
+  },
+  {
+   "name": "Yahoo Finance (Live-Blog)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html"
+  },
+  {
+   "name": "Eurasia Business News",
+   "url": "https://eurasiabusinessnews.com/2026/11/27/u-s-stock-market-today-november-27-2026-tech-rebounds-in-shortened-black-friday-session/"
+  },
+  {
+   "name": "aktiencheck (Bitcoin-ETF-Abflüsse)",
+   "url": "https://aktiencheck.de/artikel/bitcoin-kurs-rekord-abfluesse-von-539-milliarden-dollar-aus-us-etfs-im-november"
+  },
+  {
+   "name": "aktiencheck (Bitcoin-Optionsverfall)",
+   "url": "https://aktiencheck.de/artikel/bitcoin-kurs-7-milliarden-verfall-ohne-kursreaktion-bitcoin-haelt-sich-ueber"
+  },
+  {
+   "name": "wallstreet-online (Bitcoin)",
+   "url": "https://www.wallstreet-online.de/nachricht/21756139-optionsverfall-black-friday-bitcoin-aufholjagd-fort"
+  },
+  {
+   "name": "FinFly (Kryptokurse)",
+   "url": "https://finfly.news/en/crypto/crypto-prices-2026-11-27"
+  },
+  {
+   "name": "ARIVA/dpa-AFX (Ölpreise)",
+   "url": "https://www.ariva.de/news/oelpreise-drehen-in-die-verlustzone-anstieg-auf-wochensicht-12223022"
+  },
+  {
+   "name": "wallstreet-online (Goldpreis)",
+   "url": "https://www.wallstreet-online.de/nachricht/21757636-goldpreis-goldpreis-kraeftig-plus-2-98-3-673-60-usd"
+  }
+ ]
+}
