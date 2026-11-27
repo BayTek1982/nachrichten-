@@ -2,13 +2,14 @@
 
 Tägliches Börsen-Briefing – **https://nachrichten.kompassapps.de**
 
-Die Seite wird jeden Morgen automatisch von Claude befüllt (Mo–Fr 6:38 Uhr, Sa/So 8:36 Uhr).
+Die Seite wird automatisch von Claude befüllt: jeden Morgen (Mo–Fr 6:38 Uhr, Sa/So 8:36 Uhr) und zusätzlich Mo–Fr um 20 Uhr mit einer Abend-Ausgabe.
 Die Seite selbst (`index.html`) bleibt gleich, jeden Tag kommt nur eine neue Datei in `data/` dazu.
 
 ## Aufbau
 
 - `data/index.json` – Liste aller Ausgaben (neueste zuerst)
-- `data/JJJJ-MM-TT.json` – eine Ausgabe pro Tag
+- `data/JJJJ-MM-TT.json` – Morgen-Ausgabe (bzw. Wochenend-Ausgabe)
+- `data/JJJJ-MM-TT-abend.json` – Abend-Ausgabe (Mo–Fr, `"typ": "abend"`)
 
 ### data/index.json
 
@@ -43,3 +44,11 @@ Die Seite selbst (`index.html`) bleibt gleich, jeden Tag kommt nur eine neue Dat
 - `tag` bei Terminen nur am Wochenende bzw. im Ausblick nötig (z. B. „Mo.“).
 - Links nur mit `https://`.
 - Keine Kauf- oder Verkaufsempfehlungen.
+
+### Abend-Ausgabe
+
+- Datei `data/JJJJ-MM-TT-abend.json`, gleiches Format, aber `"typ": "abend"`.
+- In `data/index.json` ein eigener Eintrag mit gleichem `datum` und `"datei": "JJJJ-MM-TT-abend.json"`.
+- Morgen- und Abend-Ausgabe desselben Tages stehen beide in `index.json`; doppelt darf nur dieselbe **Datei** nicht sein.
+- `termine` = heute Abend und in der Nacht (z. B. Zahlen nach US-Börsenschluss), `ausblick` = morgen (mit `"tag"`).
+- Auf der Seite erscheint sie als „· Abend“; der Link lautet `?tag=JJJJ-MM-TT-abend`.

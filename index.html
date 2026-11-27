@@ -286,6 +286,11 @@ function terminListe(ziel, liste){
 }
 
 let index = [];
+/* Jede Ausgabe hat einen Schlüssel = Dateiname ohne .json (z. B. 2026-11-27 oder 2026-11-27-abend) */
+const schl = a => (a?.datei || (a?.datum||'') + '.json').replace(/\.json$/,'');
+const istAbend = a => /-abend$/.test(schl(a));
+const ausgabeText = a => datumText(a.datum) + (istAbend(a) ? ' · Abend' : '');
+const findeAusgabe = k => index.find(a=>schl(a)===k) || index.find(a=>a.datum===k);
 async function ladeJson(pfad){
   const r = await fetch(`${pfad}?t=${Date.now()}`, {cache:'no-store'});
   if (!r.ok) throw new Error(r.status);
@@ -296,28 +301,30 @@ async function ladeIndex(){
   hinweis('');
   try{ index = (await ladeJson('data/index.json')).ausgaben || []; }
   catch{ hinweis('Die Übersicht konnte nicht geladen werden. Bitte später noch einmal „Neu laden“ tippen.'); return; }
-  index.sort((a,b)=> b.datum.localeCompare(a.datum));
+  index.sort((a,b)=> b.datum.localeCompare(a.datum) || (istAbend(b) - istAbend(a)));
   $('tagwahl').hidden = !index.length;
   if (!index.length){ hinweis('Noch keine Ausgabe da – die erste kommt mit dem nächsten Morgen-Briefing.'); $('inhalt').hidden = true; return; }
   const wunsch = new URLSearchParams(location.search).get('tag');
-  await zeige(index.some(a=>a.datum===wunsch) ? wunsch : index[0].datum);
+  await zeige(findeAusgabe(wunsch) ? wunsch : schl(index[0]));
 }
 
-async function zeige(datum){
-  const eintrag = index.find(a=>a.datum===datum);
+async function zeige(schluessel){
+  const eintrag = findeAusgabe(schluessel);
+  const datum = eintrag ? schl(eintrag) : schluessel;
   let d;
   try{ d = await ladeJson('data/' + (eintrag?.datei || datum + '.json')); }
   catch{ hinweis('Diese Ausgabe konnte nicht geladen werden.'); return; }
   hinweis('');
   if (typeof VL !== 'undefined' && VL.laeuft) vorlesenStopp();
   aktuell = datum; aktuellDaten = d; kalZu(); $('teilen').hidden = false; if ('speechSynthesis' in window) $('vorlesen').hidden = false;
-  const pos = index.findIndex(a=>a.datum===datum);
-  $('kaltext').textContent = (pos===0 ? 'Neueste · ' : '') + datumText(datum);
+  const pos = index.findIndex(a=>schl(a)===datum);
+  $('kaltext').textContent = (pos===0 ? 'Neueste · ' : '') + (eintrag ? ausgabeText(eintrag) : datumText(datum));
   $('neuer').disabled = pos <= 0;
   $('aelter').disabled = pos < 0 || pos >= index.length-1;
   const wochenende = d.typ === 'wochenende';
+  const abend = d.typ === 'abend';
 
-  let stand = datumText(d.datum);
+  let stand = datumText(d.datum) + (abend ? ' · Abend-Ausgabe' : '');
   if (d.erstellt){ const e = new Date(d.erstellt); if (!isNaN(e)) stand += ' · erstellt ' + e.toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Berlin'}) + ' Uhr'; }
   $('datum').textContent = stand;
   $('schlagzeile').textContent = d.schlagzeile || '';
@@ -343,7 +350,7 @@ async function zeige(datum){
   }
   $('zahlen-box').hidden = !gruppen.length;
 
-  $('maerkte-titel').textContent = wochenende ? 'Märkte – Rückblick' : 'Märkte über Tag und Nacht';
+  $('maerkte-titel').textContent = wochenende ? 'Märkte – Rückblick' : abend ? 'Märkte heute' : 'Märkte über Tag und Nacht';
   absaetze($('maerkte'), d.maerkte); $('maerkte-box').hidden = !(d.maerkte||[]).length;
 
   const nb = $('nachrichten'); nb.replaceChildren();
@@ -352,7 +359,7 @@ async function zeige(datum){
   }
   $('nachrichten-box').hidden = !(d.nachrichten||[]).length;
 
-  $('termine-titel').textContent = wochenende ? 'Termine der kommenden Woche' : 'Termine heute';
+  $('termine-titel').textContent = wochenende ? 'Termine der kommenden Woche' : abend ? 'Heute Abend und in der Nacht' : 'Termine heute';
   $('termine-box').hidden = !terminListe($('termine'), d.termine);
   $('ausblick-titel').textContent = 'Ausblick morgen';
   $('ausblick-box').hidden = !terminListe($('ausblick'), d.ausblick);
@@ -363,15 +370,15 @@ async function zeige(datum){
 
   const ar = $('archiv'); ar.replaceChildren();
   for (const a of index.slice(0,7)){
-    const li = el('li', a.datum===datum ? {class:'aktiv'} : null,
-      el('a',{href:'?tag='+a.datum}, el('span',{class:'d'},datumText(a.datum)), el('b',null,a.schlagzeile||'Ausgabe')));
-    li.firstChild.addEventListener('click', ev=>{ ev.preventDefault(); zeige(a.datum); scrollTo({top:0,behavior:'smooth'}); });
+    const li = el('li', schl(a)===datum ? {class:'aktiv'} : null,
+      el('a',{href:'?tag='+schl(a)}, el('span',{class:'d'},ausgabeText(a)), el('b',null,a.schlagzeile||'Ausgabe')));
+    li.firstChild.addEventListener('click', ev=>{ ev.preventDefault(); zeige(schl(a)); scrollTo({top:0,behavior:'smooth'}); });
     ar.append(li);
   }
   $('archiv-mehr').hidden = index.length <= 7;
   $('inhalt').hidden = false;
   const url = new URL(location.href);
-  if (datum === index[0]?.datum) url.searchParams.delete('tag'); else url.searchParams.set('tag', datum);
+  if (datum === schl(index[0])) url.searchParams.delete('tag'); else url.searchParams.set('tag', datum);
   history.replaceState(null,'',url);
 }
 
@@ -379,8 +386,8 @@ const MONATE=['Januar','Februar','März','April','Mai','Juni','Juli','August','S
 let aktuell = null, kalMonat = null, aktuellDaten = null;
 function teilText(){
   const d = aktuellDaten; if (!d) return {titel:'',text:'',url:location.href};
-  const url = location.origin + location.pathname + '?tag=' + d.datum;
-  const titel = 'Meine Nachrichten – ' + datumText(d.datum);
+  const url = location.origin + location.pathname + '?tag=' + (aktuell || d.datum);
+  const titel = 'Meine Nachrichten – ' + datumText(d.datum) + (d.typ === 'abend' ? ' (Abend)' : '');
   let text = '📰 ' + titel + '\n\n' + (d.schlagzeile||'') + '\n';
   for (const k of (d.kurz||[])) text += '\n• ' + k;
   return {titel, text, url};
@@ -420,8 +427,8 @@ function kalZeichnen(){
   for (let t=1;t<=tage;t++){
     const iso = `${j}-${String(m+1).padStart(2,'0')}-${String(t).padStart(2,'0')}`;
     if (vorhanden.has(iso)){
-      const b = el('button',{type:'button',class:(iso===aktuell?'gewaehlt':'')+(iso===heute?' heute':''),'aria-label':datumText(iso)},t);
-      b.addEventListener('click',()=>{ zeige(iso); scrollTo({top:0,behavior:'smooth'}); });
+      const b = el('button',{type:'button',class:(iso===aktuellDaten?.datum?'gewaehlt':'')+(iso===heute?' heute':''),'aria-label':datumText(iso)},t);
+      b.addEventListener('click',()=>{ zeige(schl(index.find(a=>a.datum===iso))); scrollTo({top:0,behavior:'smooth'}); });
       g.append(b);
     } else g.append(el('span',{class:'leer'+(iso===heute?' heute':'')},t));
   }
@@ -430,18 +437,18 @@ function kalZeichnen(){
   $('kalvor').disabled = !ersteA || mk(j,m) <= mk(+ersteA.slice(0,4), +ersteA.slice(5,7)-1);
   $('kalnach').disabled = !letzteA || mk(j,m) >= mk(+letzteA.slice(0,4), +letzteA.slice(5,7)-1);
 }
-function kalAuf(){ const d = aktuell || index[0].datum; kalMonat = [+d.slice(0,4), +d.slice(5,7)-1]; kalZeichnen(); $('kal').hidden = false; $('kalknopf').setAttribute('aria-expanded','true'); }
+function kalAuf(){ const d = aktuellDaten?.datum || index[0].datum; kalMonat = [+d.slice(0,4), +d.slice(5,7)-1]; kalZeichnen(); $('kal').hidden = false; $('kalknopf').setAttribute('aria-expanded','true'); }
 function kalZu(){ $('kal').hidden = true; $('kalknopf').setAttribute('aria-expanded','false'); }
 function kalSchritt(n){ let [j,m] = kalMonat; m += n; if (m<0){m=11;j--;} if (m>11){m=0;j++;} kalMonat=[j,m]; kalZeichnen(); }
 $('kalknopf').addEventListener('click', e=>{ e.stopPropagation(); $('kal').hidden ? kalAuf() : kalZu(); });
 $('kalvor').addEventListener('click', ()=> kalSchritt(-1));
 $('kalnach').addEventListener('click', ()=> kalSchritt(1));
-$('kalneu').addEventListener('click', ()=> zeige(index[0].datum));
+$('kalneu').addEventListener('click', ()=> zeige(schl(index[0])));
 $('kal').addEventListener('click', e=> e.stopPropagation());
 document.addEventListener('click', kalZu);
 document.addEventListener('keydown', e=>{ if (e.key==='Escape') kalZu(); });
-$('aelter').addEventListener('click', ()=>{ const p = index.findIndex(a=>a.datum===aktuell); if (p < index.length-1) zeige(index[p+1].datum); });
-$('neuer').addEventListener('click', ()=>{ const p = index.findIndex(a=>a.datum===aktuell); if (p > 0) zeige(index[p-1].datum); });
+$('aelter').addEventListener('click', ()=>{ const p = index.findIndex(a=>schl(a)===aktuell); if (p < index.length-1) zeige(schl(index[p+1])); });
+$('neuer').addEventListener('click', ()=>{ const p = index.findIndex(a=>schl(a)===aktuell); if (p > 0) zeige(schl(index[p-1])); });
 
 /* ===== Vorlesen ===== */
 const VL = { teile:[], pos:0, laeuft:false, pause:false, token:0, stimme:null, tempo:1, sperre:null };
@@ -480,7 +487,7 @@ function datumLang(iso){
 function vorleseTeile(){
   const d = aktuellDaten, teile = [];
   const add = (box, name, texte)=>{ for (const t of texte) for (const z of zerlegen(t)) teile.push({box, name, text:z}); };
-  add('held-box','Schlagzeile',['Meine Nachrichten vom ' + datumLang(d.datum) + '.', (d.schlagzeile||'') + '.']);
+  add('held-box','Schlagzeile',[(d.typ === 'abend' ? 'Meine Abend-Nachrichten vom ' : 'Meine Nachrichten vom ') + datumLang(d.datum) + '.', (d.schlagzeile||'') + '.']);
   if ((d.kurz||[]).length) add('kurz-box','Kurz gesagt',['Kurz gesagt.', ...d.kurz]);
   if ((d.kennzahlen||[]).length){
     const t = ['Die wichtigsten Zahlen.'];
