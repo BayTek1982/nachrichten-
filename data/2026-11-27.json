@@ -1,0 +1,448 @@
+{
+  "datum": "2026-11-27",
+  "typ": "werktag",
+  "erstellt": "2026-11-27T06:41:00+01:00",
+  "schlagzeile": "DAX zurück über 25.000 und heute weiter fester erwartet – Wall Street öffnet nach Thanksgiving nur kurz, Bitcoin-ETFs mit Rekord-Abflüssen im November",
+  "kurz": [
+    "Der DAX hat sich am Donnerstag kräftig erholt: plus 2,08 % auf 25.215 Punkte. 39 von 40 DAX-Werten stiegen.",
+    "Grund: Die US-Regierung sagte, die geplanten neuen Zölle sollen alte Zölle ersetzen und nicht oben drauf kommen – und frühestens im Januar gelten. Dazu wirkte die Aufholjagd an der Wall Street vom Mittwoch nach.",
+    "Heute früh steht der DAX-Future bei rund 25.426 Punkten (etwa +0,6 %). Ein weiter freundlicher Start ist also möglich.",
+    "In Asien geht es aufwärts: Nikkei +0,7 %, Kospi bis zu +2,2 %, Hang Seng +0,4 %. Chipwerte erholen sich weiter.",
+    "Die US-Börsen waren am Donnerstag wegen Thanksgiving zu. Heute (Black Friday) öffnen sie nur bis 19:00 Uhr deutscher Zeit. Die US-Futures liegen rund 0,5 % im Plus.",
+    "Bitcoin liegt bei rund 60.000 bis 61.000 Dollar. Aus den Bitcoin-ETFs flossen im November schon 5,39 Mrd. Dollar ab – so viel wie noch nie in einem Monat.",
+    "Wichtig heute: Arbeitsmarktdaten aus Deutschland um 9:55 Uhr, Inflation aus Frankreich und Spanien sowie der Rheinmetall-Kapitalmarkttag."
+  ],
+  "kennzahlen": [
+    {
+      "gruppe": "US-Börsen (Schluss Mittwoch – Donnerstag Feiertag)",
+      "werte": [
+        {
+          "name": "Dow Jones",
+          "wert": "50.182,95",
+          "veraenderung": 0.33,
+          "hinweis": "Do. geschlossen (Thanksgiving)"
+        },
+        {
+          "name": "S&P 500",
+          "wert": "7.182,78",
+          "veraenderung": -0.25,
+          "hinweis": "Future heute früh ca. +0,6 %"
+        },
+        {
+          "name": "Nasdaq",
+          "wert": "23.585,80",
+          "veraenderung": -0.62
+        },
+        {
+          "name": "Nasdaq-100",
+          "wert": "26.046,90",
+          "veraenderung": -0.64,
+          "hinweis": "Future heute früh ca. +0,6 %"
+        },
+        {
+          "name": "Nvidia",
+          "wert": "149,30 $",
+          "veraenderung": -3.91,
+          "hinweis": "Stand Mittwoch; rund 35 % unter Rekordhoch"
+        }
+      ]
+    },
+    {
+      "gruppe": "Deutschland & Asien",
+      "werte": [
+        {
+          "name": "DAX (Schluss Do.)",
+          "wert": "25.215,52",
+          "veraenderung": 2.08,
+          "hinweis": "39 von 40 Werten im Plus"
+        },
+        {
+          "name": "DAX-Future heute früh",
+          "wert": "25.426",
+          "veraenderung": 0.6,
+          "hinweis": "Stand 6:05 Uhr"
+        },
+        {
+          "name": "MDAX",
+          "wert": "29.263,97",
+          "veraenderung": 2.34
+        },
+        {
+          "name": "Euro Stoxx 50",
+          "wert": "6.015",
+          "veraenderung": 2.0
+        },
+        {
+          "name": "Nikkei 225",
+          "wert": "57.919",
+          "veraenderung": 0.7,
+          "hinweis": "heute früh"
+        },
+        {
+          "name": "Kospi",
+          "wert": "4.813",
+          "veraenderung": 2.2,
+          "hinweis": "heute früh; im November trotzdem rund −16 %"
+        },
+        {
+          "name": "Hang Seng",
+          "wert": "22.310",
+          "veraenderung": 0.4,
+          "hinweis": "heute früh"
+        },
+        {
+          "name": "ASX 200 (Australien)",
+          "wert": "8.800",
+          "veraenderung": 0.4
+        }
+      ]
+    },
+    {
+      "gruppe": "Rohstoffe & Krypto",
+      "werte": [
+        {
+          "name": "Öl Brent",
+          "wert": "ca. 93,65 $",
+          "veraenderung": -1.01,
+          "hinweis": "Quellen uneinig (92–96 $), dünner Feiertagshandel"
+        },
+        {
+          "name": "Öl WTI",
+          "wert": "ca. 83,25 $",
+          "veraenderung": -0.51,
+          "hinweis": "OPEC+-Treffen am Sonntag"
+        },
+        {
+          "name": "Gold",
+          "wert": "3.575 $",
+          "veraenderung": 0.26,
+          "hinweis": "Do. −0,6 %; heute früh leicht erholt"
+        },
+        {
+          "name": "Silber",
+          "wert": "41,42 $",
+          "veraenderung": 0.33
+        },
+        {
+          "name": "Euro/Dollar",
+          "wert": "1,0968",
+          "veraenderung": 0.07
+        },
+        {
+          "name": "Bitcoin",
+          "wert": "ca. 60.400 $",
+          "veraenderung": -0.8,
+          "hinweis": "im November rund −22 %"
+        },
+        {
+          "name": "Ethereum",
+          "wert": "ca. 1.686 $",
+          "veraenderung": -0.8
+        }
+      ]
+    },
+    {
+      "gruppe": "Zinsen & VIX",
+      "werte": [
+        {
+          "name": "Rendite US-Anleihen 10 J.",
+          "wert": "4,85 %",
+          "veraenderung": -0.1,
+          "hinweis": "kaum verändert",
+          "umgekehrt": true
+        },
+        {
+          "name": "Rendite US-Anleihen 2 J.",
+          "wert": "4,63 %",
+          "veraenderung": 0.4,
+          "umgekehrt": true
+        },
+        {
+          "name": "VIX (Angstbarometer)",
+          "wert": "28,29",
+          "veraenderung": 7.32,
+          "hinweis": "Stand Mittwoch, Do. kein Handel",
+          "umgekehrt": true
+        }
+      ]
+    }
+  ],
+  "maerkte": [
+    {
+      "titel": "Deutschland",
+      "text": [
+        "Der DAX hat am Donnerstag 2,08 % auf 25.215,52 Punkte gewonnen und ist damit wieder klar über 25.000 Punkte gestiegen. Am Mittwoch war er noch auf den tiefsten Stand seit Juli gefallen.",
+        "Stärkste Werte: Schaeffler +5,7 % (Verkauf eines Anteils an Schaeffler India), Volkswagen +4,6 %, BMW +4,5 %, Rheinmetall +4,1 % (Kapitalmarkttag), Siemens Energy +4,0 %, Infineon +3,6 %. Einziger DAX-Verlierer war die Commerzbank mit −2,6 %. Im SDAX fiel Energiekontor um 7,2 %, weil die Finanzaufsicht BaFin die Bilanzen prüft.",
+        "Heute früh zeigt der DAX-Future rund 25.426 Punkte, also etwa +0,6 %."
+      ]
+    },
+    {
+      "titel": "USA",
+      "text": [
+        "Die Wall Street war am Donnerstag wegen Thanksgiving geschlossen. Am Mittwoch hatte der Dow nach über 1.100 Punkten Minus noch 0,33 % im Plus geschlossen, S&P 500 und Nasdaq machten fast alle Verluste wett.",
+        "Heute ist Black Friday: Die Börse handelt nur verkürzt bis 13:00 Uhr New Yorker Zeit (19:00 Uhr bei uns). Die Futures liegen rund 0,5–0,6 % im Plus. An solchen Tagen sind die Umsätze gering, die Kurse können stärker springen.",
+        "Die Inflation in den USA bleibt hoch (Kern-PCE 3,3 %). An den Märkten wird für den 9. Dezember fest mit einer Zinserhöhung der US-Notenbank gerechnet."
+      ]
+    },
+    {
+      "titel": "Asien",
+      "text": [
+        "Die Börsen in Asien steigen: Nikkei +0,7 % auf 57.919, Kospi bis zu +2,2 %, Hang Seng +0,4 %, Australien +0,4 %. Chip- und KI-Werte erholen sich nach dem Ausverkauf Anfang der Woche.",
+        "Japan Tobacco stieg um mehr als 4 % nach Berichten über eine mögliche Übernahme von Imperial Brands zusammen mit Altria. Der Hang-Seng-Tech-Index liegt seit Jahresanfang aber rund 38 % im Minus."
+      ]
+    },
+    {
+      "titel": "Rohstoffe, Devisen & Krypto",
+      "text": [
+        "Öl bleibt wegen der Angriffe auf saudische Ölanlagen teuer, die Preisangaben schwanken im dünnen Feiertagshandel stark (Brent etwa 92–96 Dollar). Am Sonntag trifft sich die OPEC+.",
+        "Gold liegt bei rund 3.575 Dollar, Silber bei gut 41 Dollar. Der Euro kostet rund 1,097 Dollar.",
+        "Bitcoin hält sich knapp über 60.000 Dollar, hat im November aber rund 22 % verloren. Ethereum liegt bei rund 1.690 Dollar."
+      ]
+    }
+  ],
+  "nachrichten": [
+    {
+      "titel": "Zölle: US-Regierung beruhigt etwas",
+      "text": [
+        "Die geplanten neuen US-Zölle von bis zu 20 % auf China, die EU und weitere Länder sollen bestehende Zölle ersetzen und nicht zusätzlich gelten. Sie sollen frühestens im Januar kommen.",
+        "Das hat die Börsen in Europa am Donnerstag stark entlastet. Japan protestiert aber gegen einen Zoll von 15 % auf seine Exporte."
+      ],
+      "quellen": [
+        {
+          "name": "finanzen.ch – Xetra-Schluss",
+          "url": "https://www.finanzen.ch/nachrichten/aktien/xetra-schluss-deutliche-erholung-schiebt-dax-wieder-klar-ueber-25-000-punkte-1036803592"
+        },
+        {
+          "name": "Saxo – Asia Market Quick Take",
+          "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--27-november-2026-27112026"
+        }
+      ]
+    },
+    {
+      "titel": "Bitcoin-ETFs: Rekord-Abflüsse im November",
+      "text": [
+        "Aus den US-Bitcoin-ETFs sind im November bis zum 25. schon 5,39 Mrd. Dollar abgeflossen – der größte Monatsabfluss seit dem Start im Januar 2024. Allein am 25. November waren es 453 Mio. Dollar, davon 330 Mio. bei BlackRock (IBIT).",
+        "Auch aus Ethereum-ETFs flossen im November rund 1,3 Mrd. Dollar ab."
+      ],
+      "quellen": [
+        {
+          "name": "Forex Crunch – Bitcoin-ETFs",
+          "url": "https://www.forexcrunch.com/blog/2026/11/27/bitcoin-etf-record-outflows-november-2026/"
+        }
+      ]
+    },
+    {
+      "titel": "Strategy fliegt am Montag aus dem MSCI World",
+      "text": [
+        "MSCI nimmt Strategy (früher MicroStrategy) nach Börsenschluss am Montag, 30. November, aus seinen Indizes, also auch aus dem MSCI World. Grund: Firmen, die vor allem Bitcoin halten, gelten nach neuen Regeln nicht mehr als normale Unternehmen. Auch Metaplanet ist betroffen.",
+        "Schätzungen zu möglichen Verkäufen durch Indexfonds reichen von 2,8 bis über 11 Mrd. Dollar. Strategy sagt, Indexfonds halten nur rund 3 % der Aktien. Strategy besitzt 851.305 Bitcoin zu einem Durchschnittspreis von rund 75.400 Dollar – liegt damit rund 20 % im Minus."
+      ],
+      "quellen": [
+        {
+          "name": "aktiencheck – Strategy & MSCI",
+          "url": "https://aktiencheck.de/artikel/strategy-aktie-msci-rauswurf-in-vier-tagen-851305-bitcoin-im-minus-wer-verkauft"
+        }
+      ]
+    },
+    {
+      "titel": "Rheinmetall und UniCredit/Commerzbank",
+      "text": [
+        "Rheinmetall hält heute den zweiten Tag seines Kapitalmarkttags ab. Anleger warten auf neue Ziele bis 2030; die Aktie stieg am Donnerstag schon um 4,1 %.",
+        "UniCredit hat laut Bericht die letzte Genehmigung für die Übernahme der Commerzbank und will den Aufsichtsrat der Commerzbank weitgehend austauschen."
+      ],
+      "quellen": [
+        {
+          "name": "finanzen.ch – Xetra-Schluss",
+          "url": "https://www.finanzen.ch/nachrichten/aktien/xetra-schluss-deutliche-erholung-schiebt-dax-wieder-klar-ueber-25-000-punkte-1036803592"
+        },
+        {
+          "name": "aktiencheck – Börse am Freitag",
+          "url": "https://aktiencheck.de/artikel/boerse-am-freitag-haushalt-2027-eu-sondergipfel-arbeitsmarkt-und-rheinmetall"
+        }
+      ]
+    },
+    {
+      "titel": "Neuer EZB-Chef nominiert",
+      "text": [
+        "Pablo Hernández de Cos (Spanien) wurde als Nachfolger von Christine Lagarde nominiert, die im Februar geht. Die Märkte reagierten kaum darauf."
+      ],
+      "quellen": [
+        {
+          "name": "finanzen.ch – Xetra-Schluss",
+          "url": "https://www.finanzen.ch/nachrichten/aktien/xetra-schluss-deutliche-erholung-schiebt-dax-wieder-klar-ueber-25-000-punkte-1036803592"
+        }
+      ]
+    }
+  ],
+  "termine": [
+    {
+      "tag": "",
+      "zeit": "ganztägig",
+      "titel": "USA: Black Friday – verkürzter Handel bis 19:00 Uhr",
+      "art": "Börse",
+      "wichtig": true,
+      "warum": "Wenig Umsatz – Kurse können stärker schwanken. Erster Handelstag nach Thanksgiving."
+    },
+    {
+      "tag": "",
+      "zeit": "08:45",
+      "titel": "Frankreich: Inflation November (vorläufig)",
+      "art": "Wirtschaftsdaten",
+      "wichtig": false,
+      "warum": "Erwartet: 3,2 % (vorher 3,4 %). Hinweis auf die Inflation in der Eurozone."
+    },
+    {
+      "tag": "",
+      "zeit": "09:00",
+      "titel": "Spanien: Inflation November (vorläufig)",
+      "art": "Wirtschaftsdaten",
+      "wichtig": false,
+      "warum": "Erwartet: 4,8 % (vorher 4,9 %)."
+    },
+    {
+      "tag": "",
+      "zeit": "09:55",
+      "titel": "Deutschland: Arbeitsmarkt November",
+      "art": "Wirtschaftsdaten",
+      "wichtig": true,
+      "warum": "Zeigt, wie es der deutschen Wirtschaft geht. Erwartet: 6.000 Arbeitslose mehr, Quote 6,4 %."
+    },
+    {
+      "tag": "",
+      "zeit": "10:00",
+      "titel": "Rheinmetall: Kapitalmarkttag, Tag 2",
+      "art": "Unternehmen",
+      "wichtig": true,
+      "warum": "Neue Ziele bis 2030 könnten die Aktie und andere Rüstungswerte bewegen."
+    },
+    {
+      "tag": "",
+      "zeit": "11:00",
+      "titel": "Eurozone: Wirtschaftsstimmung November",
+      "art": "Wirtschaftsdaten",
+      "wichtig": false,
+      "warum": "Erwartet: 97,2 (vorher 96,9). Stimmung bei Firmen und Verbrauchern."
+    },
+    {
+      "tag": "",
+      "zeit": "ganztägig",
+      "titel": "EU-Sondergipfel in Brüssel (letzter Tag) und Bundestag schließt Haushalt 2027 ab",
+      "art": "Politik",
+      "wichtig": false,
+      "warum": "Themen: EU-Finanzplanung und Hilfe für die Ukraine."
+    },
+    {
+      "tag": "",
+      "zeit": "13:50 / 15:15",
+      "titel": "EZB: Reden von Nagel und Vujčić",
+      "art": "Notenbank",
+      "wichtig": false,
+      "warum": "Hinweise auf den Zinskurs der EZB."
+    }
+  ],
+  "ausblick": [
+    {
+      "tag": "So.",
+      "zeit": "",
+      "titel": "OPEC+-Treffen",
+      "art": "Rohstoffe",
+      "warum": "Entscheidung über die Fördermenge – wichtig für den Ölpreis."
+    },
+    {
+      "tag": "Mo.",
+      "zeit": "02:30",
+      "titel": "China: Einkaufsmanager-Indizes November",
+      "art": "Wirtschaftsdaten",
+      "warum": "Zeigt, wie es der chinesischen Wirtschaft geht."
+    },
+    {
+      "tag": "Mo.",
+      "zeit": "14:00",
+      "titel": "Deutschland: Inflation November (vorläufig)",
+      "art": "Wirtschaftsdaten",
+      "warum": "Wichtig für die Zinsentscheidung der EZB."
+    },
+    {
+      "tag": "Mo.",
+      "zeit": "15:30",
+      "titel": "EZB-Präsidentin Lagarde im EU-Parlament",
+      "art": "Notenbank",
+      "warum": "Mögliche Hinweise zur Zinspolitik."
+    },
+    {
+      "tag": "Mo.",
+      "zeit": "15:45",
+      "titel": "USA: Einkaufsmanagerindex Chicago",
+      "art": "Wirtschaftsdaten",
+      "warum": "Stimmung in der US-Industrie."
+    },
+    {
+      "tag": "Mo.",
+      "zeit": "nach US-Schluss",
+      "titel": "MSCI-Umstellung: Strategy fliegt aus dem MSCI World",
+      "art": "Index",
+      "warum": "Indexfonds müssen am Schlusskurs verkaufen – kann Strategy und Bitcoin bewegen."
+    },
+    {
+      "tag": "Mo.",
+      "zeit": "11:00",
+      "titel": "MTU Aero Engines: Kapitalmarkttag",
+      "art": "Unternehmen",
+      "warum": "Neue Ziele des Triebwerksbauers."
+    }
+  ],
+  "quellen": [
+    {
+      "name": "finanzen.ch – Xetra-Schluss",
+      "url": "https://www.finanzen.ch/nachrichten/aktien/xetra-schluss-deutliche-erholung-schiebt-dax-wieder-klar-ueber-25-000-punkte-1036803592"
+    },
+    {
+      "name": "ARIVA / dpa-AFX",
+      "url": "https://www.ariva.de/news/aktien-frankfurt-schluss-dax-erholt-zeit-zum-durchatmen-12221888"
+    },
+    {
+      "name": "finanzen.net – DAX-Future früh",
+      "url": "https://www.finanzen.net/nachricht/aktien/eurex-dax-futures-im-fruehhandel-freundlich-16089408"
+    },
+    {
+      "name": "Al Jazeera / AFP",
+      "url": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout"
+    },
+    {
+      "name": "Saxo – Asia Market Quick Take",
+      "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--27-november-2026-27112026"
+    },
+    {
+      "name": "Mitrade – Market News 27.11.",
+      "url": "https://www.mitrade.com/au/insights/daily-market-outlook/news-today/market-news-today-australia-27-nov-2026"
+    },
+    {
+      "name": "Mitrade – Gold",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-dips-holiday-trading-recession-fears"
+    },
+    {
+      "name": "Forex Crunch – Bitcoin-ETFs",
+      "url": "https://www.forexcrunch.com/blog/2026/11/27/bitcoin-etf-record-outflows-november-2026/"
+    },
+    {
+      "name": "aktiencheck – Strategy & MSCI",
+      "url": "https://aktiencheck.de/artikel/strategy-aktie-msci-rauswurf-in-vier-tagen-851305-bitcoin-im-minus-wer-verkauft"
+    },
+    {
+      "name": "finanzen.net – Tagesvorschau 27.11.",
+      "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-freitag-27-november-vorlaeufige-fassung-16088476"
+    },
+    {
+      "name": "aktiencheck – Börse am Freitag",
+      "url": "https://aktiencheck.de/artikel/boerse-am-freitag-haushalt-2027-eu-sondergipfel-arbeitsmarkt-und-rheinmetall"
+    },
+    {
+      "name": "finanzen.net – Wochenvorschau KW 49",
+      "url": "https://www.finanzen.net/nachricht/aktien/wochenvorschau-30-november-bis-6-dezember-49-kw-16078500"
+    },
+    {
+      "name": "AP / ABC News (Mittwoch)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11252026-138453529"
+    }
+  ]
+}
