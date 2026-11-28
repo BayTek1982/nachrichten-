@@ -1,0 +1,426 @@
+{
+ "datum": "2026-11-28",
+ "typ": "wochenende",
+ "erstellt": "2026-11-28T08:55:00+01:00",
+ "schlagzeile": "Beste Börsenwoche seit April 2025: S&P 500 +5,6 %, Nasdaq +6,7 %, DAX +2,6 % – Bitcoin bleibt unter 60.000 Dollar",
+ "kurz": [
+  "Die Wall Street hatte ihre beste Woche seit April 2025. Der S&P 500 stieg in der Woche um 5,6 %, der Nasdaq um 6,7 % und der Dow Jones um 5,5 % – beim Dow die beste Woche seit Oktober 2022.",
+  "Der wichtigste Grund war der Montag: Jensen Huang kam als Nvidia-Chef zurück, die Nvidia-Aktie stieg an einem Tag um 31,5 %. Am Freitag zogen vor allem Speicher- und Chipwerte an, der Halbleiter-Index stieg um 4,7 % (Woche +9,3 %).",
+  "Der DAX schloss am Freitag bei 25.441 Punkten (+0,9 %). Auf die Woche gerechnet sind das rund +2,6 %. Er liegt wieder über der 200-Tage-Linie.",
+  "Die US-Zinsen bleiben hoch (10 Jahre: rund 4,9 %). Fast alle rechnen mit einer Zinserhöhung der US-Notenbank am 9. Dezember.",
+  "Gold (+2,5 %) und Silber (+5,3 %) stiegen am Freitag kräftig. Öl Brent hat die Woche mit rund +3 % beendet.",
+  "Bitcoin liegt am Samstagmorgen bei knapp 60.000 Dollar, Ethereum bei rund 1.660 Dollar. Aus US-Bitcoin-ETFs flossen im November 5,78 Mrd. Dollar ab – ein Rekord. Die Stimmung am Kryptomarkt ist sehr ängstlich (Angst-Index 10).",
+  "Am Montag fliegt Strategy (früher MicroStrategy) zum Handelsschluss aus den MSCI-Indizes. Am Sonntag trifft sich die OPEC+.",
+  "Nächste Woche wichtig: deutsche Inflation (Mo.), Eurozone-Inflation (Di.) und der US-Arbeitsmarktbericht am Freitag."
+ ],
+ "kennzahlen": [
+  {
+   "gruppe": "Schluss Freitag (27.11.)",
+   "werte": [
+    {
+     "name": "Dow Jones",
+     "wert": "50.774,94",
+     "veraenderung": 1.18,
+     "hinweis": "Woche: +5,46 %, beste Woche seit Oktober 2022"
+    },
+    {
+     "name": "S&P 500",
+     "wert": "7.297,49",
+     "veraenderung": 1.6,
+     "hinweis": "Woche: +5,60 %, beste Woche seit April 2025"
+    },
+    {
+     "name": "Nasdaq Composite",
+     "wert": "24.129,50",
+     "veraenderung": 2.31,
+     "hinweis": "Woche: +6,68 %"
+    },
+    {
+     "name": "DAX",
+     "wert": "25.441,24",
+     "veraenderung": 0.9,
+     "hinweis": "Woche: ca. +2,6 %"
+    },
+    {
+     "name": "Halbleiter-Index (SOX)",
+     "wert": "9.186,71",
+     "veraenderung": 4.69,
+     "hinweis": "Woche: +9,25 %"
+    },
+    {
+     "name": "Nvidia",
+     "wert": "150,49 $",
+     "veraenderung": 0.8,
+     "hinweis": "Woche: ca. +19,9 %"
+    },
+    {
+     "name": "Micron",
+     "wert": "Aktie",
+     "veraenderung": 7.6
+    },
+    {
+     "name": "Anthropic (ANT)",
+     "wert": "91,88 $",
+     "veraenderung": 10.98,
+     "hinweis": "Ausgabepreis 83 $"
+    }
+   ]
+  },
+  {
+   "gruppe": "Rohstoffe & Devisen (Freitag)",
+   "werte": [
+    {
+     "name": "Öl Brent",
+     "wert": "95,44 $",
+     "veraenderung": -1.2,
+     "hinweis": "Woche: ca. +3,1 %"
+    },
+    {
+     "name": "Öl WTI",
+     "wert": "83,08 $",
+     "veraenderung": -0.7,
+     "hinweis": "Woche: ca. −0,4 %"
+    },
+    {
+     "name": "Gold",
+     "wert": "ca. 3.653 $",
+     "veraenderung": 2.45,
+     "hinweis": "Anfang der Woche noch 14-Monats-Tief"
+    },
+    {
+     "name": "Silber",
+     "wert": "ca. 43,62 $",
+     "veraenderung": 5.32
+    },
+    {
+     "name": "Euro/Dollar",
+     "wert": "ca. 1,095",
+     "veraenderung": -0.31,
+     "hinweis": "Stand Freitagnachmittag"
+    }
+   ]
+  },
+  {
+   "gruppe": "Krypto (Samstagmorgen)",
+   "werte": [
+    {
+     "name": "Bitcoin",
+     "wert": "ca. 59.800 $",
+     "veraenderung": -3.0,
+     "hinweis": "24 Std.; Monat: ca. −26 %"
+    },
+    {
+     "name": "Ethereum",
+     "wert": "ca. 1.659 $",
+     "veraenderung": -4.2,
+     "hinweis": "24 Std."
+    }
+   ]
+  },
+  {
+   "gruppe": "Zinsen & Angst-Index (US)",
+   "werte": [
+    {
+     "name": "Rendite 10 J. USA",
+     "wert": "ca. 4,93 %",
+     "veraenderung": 1.8,
+     "umgekehrt": true,
+     "hinweis": "Quellen leicht uneinheitlich"
+    },
+    {
+     "name": "VIX",
+     "wert": "23,81",
+     "veraenderung": -11.16,
+     "umgekehrt": true,
+     "hinweis": "vor einer Woche noch 35,89"
+    }
+   ]
+  }
+ ],
+ "maerkte": [
+  {
+   "titel": "USA: Erholung nach dem Absturz",
+   "text": [
+    "Eine Woche nach dem schweren Einbruch (S&P 500 −8,6 %) kam die große Erholung. Der S&P 500 schloss bei 7.297 Punkten, der Nasdaq bei 24.130 und der Dow bei 50.775 Punkten. Bis zum Rekord (7.819 Punkte im Oktober) fehlen dem S&P 500 aber noch rund 6,7 %.",
+    "Der größte Teil des Plus kam am Montag: Nvidia setzte Jensen Huang wieder als Chef ein, die Aktie stieg um 31,5 %, der S&P 500 um 4,7 %. Dienstag und Mittwoch fielen Chipwerte wieder, am Freitag ging es erneut stark nach oben.",
+    "Am Freitag (kurzer Handel bis 19 Uhr) stiegen alle 11 Branchen. Vorne lagen Speicher-Firmen: Sandisk +16 %, Seagate +7,9 %, Micron +7,6 %, Western Digital +7,2 %. Dazu Marvell +7,3 %, Tesla +5,2 %, AMD +4,6 %, Amazon +4,0 % (gute Black-Friday-Zahlen), Broadcom +3,8 %.",
+    "Nvidia stieg nur um 0,8 %. Grund war ein Bericht, dass in China verbotene Nvidia-Chips in einem Rechenzentrum in Shanghai stehen sollen. Nächste Woche muss Jensen Huang vor Ausschüssen des US-Kongresses aussagen."
+   ]
+  },
+  {
+   "titel": "Deutschland und Europa",
+   "text": [
+    "Der DAX schloss bei 25.441 Punkten und gewann in der Woche rund 2,6 %. Gestützt haben Chip-, Rüstungs-, Technik- und Autowerte. Bis zum Rekord nahe 27.000 Punkten ist es noch ein Stück.",
+    "Belastend waren der Streit um die Rentenreform, neue US-Zollpläne (EU: 15 %) und der gescheiterte EU-Haushaltsgipfel. Der Euro Stoxx 50 stieg am Freitag um 1,2 %."
+   ]
+  },
+  {
+   "titel": "Zinsen, Rohstoffe und Krypto",
+   "text": [
+    "Die 10-jährige US-Rendite liegt bei rund 4,9 %. Grund: Die Inflation (Kern-PCE 3,3 %) war höher als erwartet. Eine Zinserhöhung der Fed am 9. Dezember gilt als fast sicher.",
+    "Gold stieg am Freitag auf rund 3.653 Dollar, nachdem es Anfang der Woche auf den tiefsten Stand seit 14 Monaten gefallen war. Silber stieg um über 5 %. Öl stieg zuerst wegen Angriffen auf saudische Anlagen, fiel dann aber wieder. Brent hat die Woche mit Plus beendet, WTI leicht im Minus.",
+    "Bitcoin hatte am Montag noch rund 64.500 Dollar erreicht, fiel dann aber wieder unter 60.000 Dollar. Im November hat Bitcoin rund 26 % verloren. Ethereum fiel auf rund 1.660 Dollar."
+   ]
+  }
+ ],
+ "nachrichten": [
+  {
+   "titel": "Strategy fliegt am Montag aus den MSCI-Indizes",
+   "text": [
+    "Strategy (früher MicroStrategy) wird am Montag, 30.11., zum Handelsschluss aus den MSCI-Indizes genommen, auch aus dem MSCI World. Indexfonds müssen die Aktie dann verkaufen. Strategy selbst schätzt das auf rund 2,8 Mrd. Dollar.",
+    "Strategy hält 851.305 Bitcoin, im Schnitt für 75.446 Dollar gekauft. Beim heutigen Preis von rund 60.000 Dollar liegt das etwa 20 % unter dem Kaufpreis. Auch Metaplanet aus Japan ist von den MSCI-Regeln betroffen. Die Herausnahme bedeutet keinen Zwangsverkauf von Bitcoin."
+   ],
+   "quellen": [
+    {
+     "name": "FinanceFeeds",
+     "url": "https://financefeeds.com/msci-to-remove-strategy-from-global-indexes-on-november-30-as-bitcoin-trades-20-below-companys-cost-basis/"
+    },
+    {
+     "name": "stock3",
+     "url": "https://stock3.com/news/metaplanet-rutscht-tief-ins-minus-17395337"
+    }
+   ]
+  },
+  {
+   "titel": "Bitcoin-ETFs: Rekord-Abflüsse im November",
+   "text": [
+    "Aus den US-Bitcoin-ETFs sind im November 5,78 Mrd. Dollar abgeflossen – so viel wie noch nie in einem Monat. Am Freitag waren es 389 Mio. Dollar, davon 327 Mio. bei BlackRock (IBIT).",
+    "Der Krypto-Angst-Index steht bei 10 – das heißt extreme Angst. Am Montag endet der Monat, dann steht die endgültige November-Bilanz fest."
+   ],
+   "quellen": [
+    {
+     "name": "crypto.news",
+     "url": "https://crypto.news/bitcoin-monthly-price-etf-outflows-november-2026/"
+    },
+    {
+     "name": "CryptoTicker",
+     "url": "https://cryptoticker.io/en/crypto-news-ether-4-percent-fear-greed-10/"
+    }
+   ]
+  },
+  {
+   "titel": "Nvidia: Huang zurück – aber neue Fragen",
+   "text": [
+    "Die Rückkehr von Jensen Huang als Nvidia-Chef hat am Montag die ganze Börse nach oben gezogen. Nvidia hat in der Woche rund 20 % gewonnen.",
+    "Neue Schlagzeilen gibt es aber auch: Ein Bericht über verbotene Nvidia-Chips in China, und die Ratingagentur S&P prüft eine Herabstufung. Huang spricht nächste Woche vor dem US-Kongress (Di. und Do.)."
+   ],
+   "quellen": [
+    {
+     "name": "MB Edge",
+     "url": "https://miltonbergedge.com/daily/2026-11-27?via=x#sp500-best-week-since-april-2025"
+    },
+    {
+     "name": "Admirals",
+     "url": "https://admiralmarkets.com/de/analysen/traders-blog/boerse-wochenausblick-kw-49-2026"
+    }
+   ]
+  },
+  {
+   "titel": "Fed vor Zinserhöhung – US-Arbeitsmarkt entscheidet",
+   "text": [
+    "Weil die Inflation zu hoch ist, rechnet der Markt fest mit einer Zinserhöhung der US-Notenbank am 9. Dezember (auf 4,00–4,25 %).",
+    "Der Arbeitsmarktbericht am Freitag (14:30 Uhr) ist der letzte große Test davor. Erwartet werden rund 90.000 bis 95.000 neue Stellen."
+   ],
+   "quellen": [
+    {
+     "name": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-11-27/gold-climbs-above-3650-silver-surges-wall-street-rebounds-sharply-kitco-pm"
+    },
+    {
+     "name": "TokenPost",
+     "url": "https://www.tokenpost.com/news/investing/63938"
+    }
+   ]
+  },
+  {
+   "titel": "OPEC+ trifft sich am Sonntag",
+   "text": [
+    "Die Ölländer der OPEC+ beraten am Sonntag. Am Freitag gab es Angriffe auf saudische Ölanlagen, das hat den Ölpreis kurz steigen lassen.",
+    "Eine Entscheidung zur Fördermenge kann den Ölpreis am Montag bewegen."
+   ],
+   "quellen": [
+    {
+     "name": "MB Edge",
+     "url": "https://miltonbergedge.com/daily/2026-11-27?via=x#sp500-best-week-since-april-2025"
+    },
+    {
+     "name": "Kitco",
+     "url": "https://www.kitco.com/news/article/2026-11-27/gold-climbs-above-3650-silver-surges-wall-street-rebounds-sharply-kitco-pm"
+    }
+   ]
+  }
+ ],
+ "termine": [
+  {
+   "tag": "So.",
+   "zeit": "",
+   "titel": "Treffen der OPEC+",
+   "art": "Rohstoffe",
+   "warum": "Entscheidung zur Ölförderung kann den Ölpreis am Montag bewegen."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "11:00",
+   "titel": "Kapitalmarkttag MTU Aero Engines",
+   "art": "Unternehmen",
+   "warum": "Neue Ziele könnten die Aktie bewegen."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "14:00",
+   "titel": "Deutschland: Inflation November (vorläufig)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Im Oktober 2,8 %. Wichtig für die EZB-Entscheidung am 17. Dezember."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "15:30",
+   "titel": "EZB-Chefin Lagarde im Europäischen Parlament",
+   "art": "Notenbank",
+   "warum": "Mögliche Hinweise auf eine Zinserhöhung im Dezember."
+  },
+  {
+   "tag": "Mo.",
+   "zeit": "22:00",
+   "titel": "Strategy fliegt aus den MSCI-Indizes (Handelsschluss)",
+   "art": "Index-Änderung",
+   "wichtig": true,
+   "warum": "Indexfonds müssen verkaufen – kann Strategy und Krypto-Aktien bewegen."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "11:00",
+   "titel": "Eurozone: Inflation November (Schnellschätzung)",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Im Oktober 4,0 %. Zeigt, wie stark die EZB unter Druck ist."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "16:00",
+   "titel": "USA: ISM-Industrie-Index und offene Stellen (JOLTS)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt, wie stark die US-Industrie und der Arbeitsmarkt sind."
+  },
+  {
+   "tag": "Di.",
+   "zeit": "22:00",
+   "titel": "Quartalszahlen Marvell und CrowdStrike (nach US-Börsenschluss)",
+   "art": "Quartalszahlen",
+   "warum": "Marvell ist ein wichtiger KI-Chipwert – nach der starken Chip-Woche besonders beachtet."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "14:15",
+   "titel": "USA: ADP-Arbeitsmarktbericht",
+   "art": "Wirtschaftsdaten",
+   "warum": "Erster Hinweis auf den großen Arbeitsmarktbericht am Freitag."
+  },
+  {
+   "tag": "Mi.",
+   "zeit": "22:00",
+   "titel": "Quartalszahlen Salesforce und Snowflake",
+   "art": "Quartalszahlen",
+   "warum": "Zeigen, ob Software-Firmen mit KI Geld verdienen."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "14:30",
+   "titel": "USA: Erstanträge auf Arbeitslosenhilfe",
+   "art": "Wirtschaftsdaten",
+   "warum": "Wöchentlicher Blick auf den US-Arbeitsmarkt."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "16:00",
+   "titel": "USA: ISM-Dienstleistungs-Index",
+   "art": "Wirtschaftsdaten",
+   "warum": "Dienstleister sind der größte Teil der US-Wirtschaft."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "22:00",
+   "titel": "Tesla-Hauptversammlung",
+   "art": "Unternehmen",
+   "warum": "Die Aktie ist vorher schon stark gestiegen."
+  },
+  {
+   "tag": "Do.",
+   "zeit": "22:05",
+   "titel": "Überprüfung der DAX-Indizes",
+   "art": "Index-Änderung",
+   "wichtig": true,
+   "warum": "Mögliche Auf- und Absteiger in DAX, MDAX und SDAX."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "14:30",
+   "titel": "USA: Arbeitsmarktbericht November",
+   "art": "Wirtschaftsdaten",
+   "wichtig": true,
+   "warum": "Erwartet: rund 90.000–95.000 neue Stellen, Arbeitslosenquote 4,1 %. Letzter großer Test vor der Fed-Entscheidung am 9. Dezember."
+  },
+  {
+   "tag": "Fr.",
+   "zeit": "16:00",
+   "titel": "USA: Verbraucherstimmung Uni Michigan (vorläufig)",
+   "art": "Wirtschaftsdaten",
+   "warum": "Zeigt Kauflaune und Inflationserwartungen der US-Bürger."
+  }
+ ],
+ "quellen": [
+  {
+   "name": "Yahoo Finance / Motley Fool",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-27-215016732.html"
+  },
+  {
+   "name": "Stock Titan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026"
+  },
+  {
+   "name": "MB Edge",
+   "url": "https://miltonbergedge.com/daily/2026-11-27?via=x#sp500-best-week-since-april-2025"
+  },
+  {
+   "name": "Kitco",
+   "url": "https://www.kitco.com/news/article/2026-11-27/gold-climbs-above-3650-silver-surges-wall-street-rebounds-sharply-kitco-pm"
+  },
+  {
+   "name": "crypto.news (Monatsbilanz)",
+   "url": "https://crypto.news/bitcoin-monthly-price-etf-outflows-november-2026/"
+  },
+  {
+   "name": "crypto.news (Wochenrückblick)",
+   "url": "https://crypto.news/bitcoin-60k-binance-sec-tokenized-stocks-weekly-recap/"
+  },
+  {
+   "name": "CryptoTicker",
+   "url": "https://cryptoticker.io/en/crypto-news-ether-4-percent-fear-greed-10/"
+  },
+  {
+   "name": "aktiencheck (DAX-Wochenbilanz)",
+   "url": "https://aktiencheck.de/artikel/dax-wochenbilanz-25441-punkte-plus-26-prozent-rente-zoelle-eu-gipfel-und-fed"
+  },
+  {
+   "name": "aktiencheck (Termine)",
+   "url": "https://aktiencheck.de/artikel/anleihen-termine-bis-8-dezember-inflationsdaten-am-30-november-und-1-dezember-us"
+  },
+  {
+   "name": "Admirals Wochenausblick KW 49",
+   "url": "https://admiralmarkets.com/de/analysen/traders-blog/boerse-wochenausblick-kw-49-2026"
+  },
+  {
+   "name": "FinanceFeeds",
+   "url": "https://financefeeds.com/msci-to-remove-strategy-from-global-indexes-on-november-30-as-bitcoin-trades-20-below-companys-cost-basis/"
+  },
+  {
+   "name": "TokenPost",
+   "url": "https://www.tokenpost.com/news/investing/63938"
+  },
+  {
+   "name": "JournalArta",
+   "url": "https://journalarta.com/en/2026/11/28/nasdaq-jumps-2-31-and-sp-500-gains-1-61-as-chipmakers-lead-black-friday-rally/"
+  }
+ ]
+}
